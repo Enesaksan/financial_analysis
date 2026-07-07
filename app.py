@@ -113,3 +113,40 @@ else:
         "Yukarıdaki butona basarak hemen üretebilir, ya da otomatik zamanlanmış "
         "raporun (hafta içi 20:00) oluşmasını bekleyebilirsin."
     )
+
+# =====================================================================
+# GEÇMİŞ TAKİBİ
+# =====================================================================
+st.divider()
+st.subheader("📜 Geçmiş")
+
+gecmis_yolu = os.path.join(
+    RAPOR_KLASORU, "gecmis", f"{secim}_{period_transformer(period_secim)}_gecmis.csv"
+)
+
+if not os.path.exists(gecmis_yolu):
+    st.caption(
+        "Bu kombinasyon için henüz geçmiş kaydı yok. Otomatik rapor birkaç kez "
+        "çalıştıktan sonra burada geçmiş sinyalleri görebileceksin."
+    )
+else:
+    df_gecmis = pd.read_csv(gecmis_yolu)
+
+    varliklar = sorted(df_gecmis["Varlık"].dropna().unique().tolist())
+    secili_varlik = st.selectbox("Bir varlık seç", varliklar)
+
+    df_varlik_gecmis = df_gecmis[df_gecmis["Varlık"] == secili_varlik].sort_values("Tarih")
+
+    st.caption(f"{secili_varlik} için kayıtlı geçmiş ({len(df_varlik_gecmis)} kayıt)")
+    st.dataframe(
+        df_varlik_gecmis.set_index("Tarih"),
+        use_container_width=True,
+    )
+
+    # Fiyat ve RSI'ın zaman içindeki değişimi (varsa)
+    grafik_sutunlari = [c for c in ["Fiyat", "RSI"] if c in df_varlik_gecmis.columns]
+    if len(df_varlik_gecmis) > 1 and grafik_sutunlari:
+        st.line_chart(
+            df_varlik_gecmis.set_index("Tarih")[grafik_sutunlari],
+            use_container_width=True,
+        )
