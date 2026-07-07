@@ -1,0 +1,31 @@
+name: Otomatik Analiz Raporu
+
+on:
+  schedule:
+    # Hafta içi (Pazartesi-Cuma) her gün UTC 17:00 = Türkiye saati 20:00
+    - cron: '0 17 * * 1-5'
+  workflow_dispatch: {}  # GitHub arayüzünden "Run workflow" ile manuel tetikleme için
+
+jobs:
+  rapor-uret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo'yu indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Gereksinimleri kur
+        run: pip install -r requirements.txt
+
+      - name: Raporu üret
+        run: python scheduled_run.py
+
+      - name: Değişiklikleri commit'le
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Otomatik rapor güncellendi"
+          file_pattern: "raporlar/*.csv"
