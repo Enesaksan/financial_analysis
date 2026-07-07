@@ -1,6 +1,6 @@
 import yfinance as yf
 import pandas as pd
-import pandas_ta as ta
+import pandas_ta_classic as ta
 import warnings
 import numpy as np
 
