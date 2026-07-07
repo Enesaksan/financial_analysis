@@ -58,12 +58,51 @@ else:
 
 if df_goster is not None:
     st.caption(f"Gösterilen veri kaynağı: {kaynak}")
-    st.dataframe(df_goster, use_container_width=True)
+
+    with st.expander("🔍 Filtrele", expanded=False):
+        df_filtreli = df_goster.copy()
+
+        # Varlık adında arama
+        arama = st.text_input("Varlık ara (örn: THYAO)", "")
+        if arama:
+            df_filtreli = df_filtreli[df_filtreli.index.str.contains(arama, case=False, na=False)]
+
+        # Sinyal sütunları için çoklu seçim filtreleri
+        sinyal_sutunlari = [
+            "Supertrend_Sinyal", "Tilson_Sinyal", "Hacim_SMI",
+            "Kombine_Dip", "SSL&EMA_Sinyal", "EMA_Sikisma",
+        ]
+        secili_sutunlar = st.multiselect(
+            "Filtrelemek istediğin sinyal sütunları",
+            [s for s in sinyal_sutunlari if s in df_filtreli.columns],
+        )
+        for sutun in secili_sutunlar:
+            secenekler = sorted(df_filtreli[sutun].dropna().unique().tolist())
+            secim_degerleri = st.multiselect(f"→ {sutun}", secenekler, key=f"filtre_{sutun}")
+            if secim_degerleri:
+                df_filtreli = df_filtreli[df_filtreli[sutun].isin(secim_degerleri)]
+
+        # Sayısal sütunlar için aralık filtresi (RSI, StochRSI, TSI)
+        sayisal_sutunlar = [c for c in ["RSI", "StochRSI", "TSI"] if c in df_filtreli.columns]
+        secili_sayisal = st.multiselect("Aralık ile filtrelemek istediğin sayısal sütunlar", sayisal_sutunlar)
+        for sutun in secili_sayisal:
+            min_deger = float(df_goster[sutun].min())
+            max_deger = float(df_goster[sutun].max())
+            secili_aralik = st.slider(
+                f"→ {sutun} aralığı", min_value=min_deger, max_value=max_deger,
+                value=(min_deger, max_deger), key=f"slider_{sutun}",
+            )
+            df_filtreli = df_filtreli[
+                (df_filtreli[sutun] >= secili_aralik[0]) & (df_filtreli[sutun] <= secili_aralik[1])
+            ]
+
+    st.caption(f"Gösterilen satır sayısı: {len(df_filtreli)} / {len(df_goster)}")
+    st.dataframe(df_filtreli, use_container_width=True)
 
     buffer = io.BytesIO()
-    df_goster.to_excel(buffer)
+    df_filtreli.to_excel(buffer)
     st.download_button(
-        "⬇️ Excel Olarak İndir",
+        "⬇️ Filtrelenmiş Tabloyu Excel Olarak İndir",
         data=buffer.getvalue(),
         file_name=f"{secim}_{period_transformer(period_secim)}_rapor.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
