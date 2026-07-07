@@ -4,7 +4,29 @@ on:
   schedule:
     # Hafta içi (Pazartesi-Cuma) her gün UTC 17:00 = Türkiye saati 20:00
     - cron: '0 17 * * 1-5'
-  workflow_dispatch: {}  # GitHub arayüzünden "Run workflow" ile manuel tetikleme için
+  workflow_dispatch:
+    inputs:
+      secim:
+        description: "Analiz Türü"
+        required: true
+        default: "HER IKISI"
+        type: choice
+        options:
+          - "HER IKISI"
+          - "BIST"
+          - "FON"
+      periyot:
+        description: "Periyot"
+        required: true
+        default: "1d"
+        type: choice
+        options:
+          - "1d"
+          - "1wk"
+          - "1mo"
+          - "1h"
+          - "2h"
+          - "4h"
 
 jobs:
   rapor-uret:
@@ -22,6 +44,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Raporu üret
+        env:
+          SECIM: ${{ github.event.inputs.secim }}
+          PERIYOT: ${{ github.event.inputs.periyot }}
         run: python scheduled_run.py
 
       - name: Değişiklikleri commit'le
