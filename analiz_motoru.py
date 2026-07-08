@@ -115,14 +115,6 @@ def period_transformer(period_selection):
             return "Daily"
         case "1wk":
             return "Weekly"
-        case "1mo":
-            return "Montly"
-        case "1h":
-            return "1_hour"
-        case "2h":
-            return "2_hour"
-        case "4h":
-            return "4_hour"
         case _:
             return "Special_selection"
 
@@ -252,9 +244,10 @@ def _indikatorler_ekle(df):
     df['EMA_100'] = ta.ema(df['Close'], length=100)
     df['EMA_150'] = ta.ema(df['Close'], length=150)
 
-    if bbands is not None and not bbands.empty:
+if bbands is not None and not bbands.empty:
         df['BB_ALT'] = bbands.iloc[:, 0]
         df['BB_UST'] = bbands.iloc[:, 2]
+        df['BB_GENISLIK'] = bbands.iloc[:, 3]  # pandas_ta'nın hazır hesapladığı Bandwidth
 
     stoch = ta.stochrsi(df['Close'], length=14)
     if stoch is not None and not stoch.empty:
@@ -298,7 +291,7 @@ def _period_hesapla(interval):
     elif interval =="1wk":
         return "3y"        
     else:
-        return "max"      # 1mo, 1h, 2h, 4h
+        return "max"
 
 
 def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayisi=2, bekleme_sn=2):
@@ -312,7 +305,7 @@ def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayi
         try:
             df = yf.download(
                 ticker_symbol, period=_period_hesapla(interval), interval=interval,
-                progress=False, auto_adjust=auto_adjust, timeout=15,
+                progress=False, auto_adjust=auto_adjust, timeout=10,
             )
         except Exception:
             df = None
@@ -554,30 +547,33 @@ def analiz_ema_ssl_kombine(df):
     return "⚪ Karışık / Testere Piyasası"
 
 
-def analiz_ema_sikisma(df, esik_orani=1.5):
-    if len(df) < 150:
+def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=20):
+    """
+    Bollinger Bant genişliğini (Bandwidth), kendi son 'geriye_bakis' periyotluk
+    tarihiyle kıyaslayarak gerçek bir sıkışma (squeeze) durumu tespit eder.
+    Bant genişliği kendi tarihindeki en dar seviyelerdeyse (ör. son 120 günün en
+    dar %20'lik dilimi), bu genelde yaklaşan bir volatilite patlamasının/kırılımın
+    habercisidir — klasik Bollinger Squeeze mantığı.
+    """
+    if len(df) < geriye_bakis or 'BB_GENISLIK' not in df.columns:
         return "-"
 
-    bugun = df.iloc[-1]
-    fiyat = bugun.get('Close')
-    ema50 = bugun.get('EMA_50')
-    ema100 = bugun.get('EMA_100')
-    ema150 = bugun.get('EMA_150')
-    if pd.isna(ema150) or pd.isna(fiyat) or fiyat == 0:
+    bugun_genislik = df['BB_GENISLIK'].iloc[-1]
+    if pd.isna(bugun_genislik):
         return "-"
 
-    en_yuksek_ema = max(ema50, ema100, ema150)
-    en_dusuk_ema = min(ema50, ema100, ema150)
+    gecmis_pencere = df['BB_GENISLIK'].iloc[-geriye_bakis:].dropna()
+    if len(gecmis_pencere) < geriye_bakis * 0.5:
+        return "-"
 
-    ema_farki = en_yuksek_ema - en_dusuk_ema
-    daralma_orani = (ema_farki / fiyat) * 100
+    persentil = (gecmis_pencere < bugun_genislik).mean() * 100
 
-    if daralma_orani < esik_orani:
-        return f"🚨 SERT SIKIŞMA (Bant: %{daralma_orani:.2f})"
-    elif daralma_orani < (esik_orani * 2):
-        return f"🟡 Daralıyor (Bant: %{daralma_orani:.2f})"
+    if persentil <= esik_persentil:
+        return f"🚨 BB SIKIŞMA (persentil: %{persentil:.2f} — son {geriye_bakis} günün en darları arasında)"
+    elif persentil <= esik_persentil * 2:
+        return f"🟡 Daralıyor (persentil: %{persentil:.2f})"
     else:
-        return f"⚪ Yelpaze Açık (Bant: %{daralma_orani:.2f})"
+        return f"⚪ Yelpaze Açık (persentil: %{persentil:.2f})"
 
 
 # =====================================================================
@@ -598,7 +594,7 @@ def _satir_olustur(isim, df):
         "Hacim_SMI": analiz_hacim_smi(df),
         "Kombine_Dip": analiz_kombine_dip(df),
         "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
-        "EMA_Sikisma": analiz_ema_sikisma(df),
+        "BB_Sikisma": analiz_bb_sikisma(df),
 
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
