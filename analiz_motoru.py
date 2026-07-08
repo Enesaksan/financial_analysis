@@ -254,30 +254,10 @@ def hesapla_ssl_hybrid(df, base_len=60, exit_len=15):
 
 
 # =====================================================================
-# 2. TEKİL VERİ MOTORU
+# 2. VERİ İNDİRME VE İNDİKATÖR MOTORU
 # =====================================================================
-def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayisi=2, bekleme_sn=2):
-    """
-    Yahoo Finance'den veri çeker. Geçici ağ hatalarında (timeout, bağlantı kopması vb.)
-    otomatik olarak birkaç kez daha dener. Hisse gerçekten delisted/bulunamıyorsa
-    (boş veri dönerse) None döner, çağıran taraf bunu atlar.
-    """
-    df = None
-    for deneme in range(1, deneme_sayisi + 1):
-        try:
-            df = yf.download(
-                ticker_symbol, period="max", interval=interval,
-                progress=False, auto_adjust=auto_adjust, timeout=15,
-            )
-        except Exception:
-            df = None
-
-        if df is not None and not df.empty:
-            break
-
-        if deneme < deneme_sayisi:
-            time.sleep(bekleme_sn)
-
+def _indikatorler_ekle(df):
+    """Ham OHLCV verisine tüm teknik indikatörleri ekler (indirme işleminden bağımsız)."""
     if df is None or df.empty:
         return None
 
@@ -321,6 +301,107 @@ def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayi
     df['Vol_SMA_20'] = df['Volume'].rolling(window=20).mean()
 
     return df
+
+
+def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayisi=2, bekleme_sn=2):
+    """
+    Tek bir sembolü indirir ve indikatörleri ekler. Toplu indirmede eksik kalan
+    ya da tekil kullanım gereken durumlar için (fallback) kullanılır.
+    Hisse gerçekten delisted/bulunamıyorsa None döner.
+    """
+    df = None
+    for deneme in range(1, deneme_sayisi + 1):
+        try:
+            df = yf.download(
+                ticker_symbol, period="max", interval=interval,
+                progress=False, auto_adjust=auto_adjust, timeout=15,
+            )
+        except Exception:
+            df = None
+
+        if df is not None and not df.empty:
+            break
+
+        if deneme < deneme_sayisi:
+            time.sleep(bekleme_sn)
+
+    return _indikatorler_ekle(df)
+
+
+def _ticker_ayikla(ham, sembol, tek_sembol_mu):
+    """Toplu (çoklu ticker) indirilen veriden tek bir sembolün OHLCV verisini çıkarır."""
+    if ham is None or ham.empty:
+        return None
+    try:
+        if tek_sembol_mu:
+            df = ham.copy()
+        elif isinstance(ham.columns, pd.MultiIndex):
+            ust_seviye = ham.columns.get_level_values(0)
+            if sembol not in ust_seviye:
+                return None
+            df = ham[sembol].copy()
+        else:
+            df = ham.copy()
+
+        df = df.dropna(how="all")
+        return df if not df.empty else None
+    except Exception:
+        return None
+
+
+def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=50, max_worker=10):
+    """
+    Hisseleri gruplar halinde TEK istekte indirir (yfinance'in kendi paralel
+    indirme mekanizmasını kullanarak — tekil tekil indirmekten çok daha hızlı).
+    Toplu indirmede eksik/boş kalan semboller için tekil (fallback) indirme dener.
+    """
+    sonuc = {}
+    isim_sembol_liste = list(tickers.items())
+    toplam_parca = (len(isim_sembol_liste) + parca_boyutu - 1) // parca_boyutu
+
+    for parca_no in range(toplam_parca):
+        parca = isim_sembol_liste[parca_no * parca_boyutu: (parca_no + 1) * parca_boyutu]
+        semboller = [sembol for _, sembol in parca]
+        tek_sembol_mu = len(semboller) == 1
+
+        print(f"Grup {parca_no + 1}/{toplam_parca} indiriliyor ({len(semboller)} varlık)...", flush=True)
+
+        ham = None
+        for deneme in range(1, 3):
+            try:
+                ham = yf.download(
+                    semboller, period="max", interval=interval, group_by="ticker",
+                    auto_adjust=auto_adjust, threads=True, progress=False, timeout=30,
+                )
+            except Exception:
+                ham = None
+            if ham is not None and not ham.empty:
+                break
+            if deneme < 2:
+                time.sleep(3)
+
+        for isim, sembol in parca:
+            df_ham = _ticker_ayikla(ham, sembol, tek_sembol_mu)
+            df = _indikatorler_ekle(df_ham) if df_ham is not None else None
+            if df is not None:
+                sonuc[isim] = df
+
+    # Toplu indirmede eksik kalanlar için tekil (paralel) fallback dene
+    eksikler = [(isim, sembol) for isim, sembol in tickers.items() if isim not in sonuc]
+    if eksikler:
+        print(f"Toplu indirmede {len(eksikler)} varlık eksik kaldı, tekil olarak tekrar deneniyor...", flush=True)
+        with ThreadPoolExecutor(max_workers=max_worker) as havuz:
+            gelecekler = {
+                havuz.submit(verileri_hazirla, sembol, interval, auto_adjust): isim
+                for isim, sembol in eksikler
+            }
+            for gelecek in as_completed(gelecekler):
+                isim = gelecekler[gelecek]
+                df = gelecek.result()
+                if df is not None:
+                    sonuc[isim] = df
+
+    return sonuc
 
 
 # =====================================================================
@@ -504,66 +585,57 @@ def analiz_ema_sikisma(df, esik_orani=1.5):
 # =====================================================================
 # 4. ANA BİRLEŞTİRİCİ MOTOR
 # =====================================================================
-def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = "data/hisse_senetleri.xlsx", max_worker: int = 10):
+def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = "data/hisse_senetleri.xlsx",
+                   parca_boyutu: int = 50, max_worker: int = 10):
     """
     secim: "BIST" ya da "FON"
     period_selection: "1d", "1wk", "1mo", "1h", "2h", "4h" vb.
-    max_worker: Aynı anda kaç hissenin paralel indirileceği (Yahoo Finance'i
-                aşırı yormamak için 8-15 arası makul bir değer).
+    parca_boyutu: Her toplu indirme isteğinde kaç varlığın birlikte indirileceği.
+    max_worker: Toplu indirmede eksik kalan varlıklar için tekil fallback denerken
+                aynı anda kaç tanesinin paralel indirileceği.
     """
     tickers, auto_adjust = get_tickers(secim, hisse_dosyasi)
     if not tickers:
         return None
 
     toplam = len(tickers)
-    print(f"Modüler Analiz Motoru Çalışıyor... {toplam} varlık paralel olarak indiriliyor.\n", flush=True)
-    satirlar = []
-    basarisiz_tickerlar = []
-    counter = 0
+    print(f"Modüler Analiz Motoru Çalışıyor... {toplam} varlık gruplar halinde indiriliyor.\n", flush=True)
+
+    veri_sozlugu = _toplu_indir_ve_hazirla(tickers, period_selection, auto_adjust, parca_boyutu, max_worker)
 
     def sr(val):
         return round(val, 2) if pd.notna(val) else None
 
-    def _tek_hisseyi_isle(isim, sembol):
-        df = verileri_hazirla(sembol, interval=period_selection, auto_adjust=auto_adjust)
-        return isim, sembol, df
+    satirlar = []
+    basarisiz_tickerlar = []
 
-    with ThreadPoolExecutor(max_workers=max_worker) as havuz:
-        gelecekler = {
-            havuz.submit(_tek_hisseyi_isle, isim, sembol): isim
-            for isim, sembol in tickers.items()
-        }
+    for isim, sembol in tickers.items():
+        df = veri_sozlugu.get(isim)
 
-        for gelecek in as_completed(gelecekler):
-            isim, sembol, df = gelecek.result()
-            counter += 1
-            if counter % 10 == 0:
-                print(f"{counter}/{toplam} varlık işlendi...", flush=True)
+        if df is not None and not df.empty:
+            son = df.iloc[-1]
 
-            if df is not None and not df.empty:
-                son = df.iloc[-1]
+            satir_verisi = {
+                "Varlık": isim,
+                "Fiyat": sr(son.get('Close')),
 
-                satir_verisi = {
-                    "Varlık": isim,
-                    "Fiyat": sr(son.get('Close')),
+                "Supertrend_Sinyal": analiz_supertrend(df),
+                "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
+                "Hacim_SMI": analiz_hacim_smi(df),
+                "Kombine_Dip": analiz_kombine_dip(df),
+                "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
+                "EMA_Sikisma": analiz_ema_sikisma(df),
 
-                    "Supertrend_Sinyal": analiz_supertrend(df),
-                    "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
-                    "Hacim_SMI": analiz_hacim_smi(df),
-                    "Kombine_Dip": analiz_kombine_dip(df),
-                    "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
-                    "EMA_Sikisma": analiz_ema_sikisma(df),
-
-                    "RSI": sr(son.get('RSI')),
-                    "StochRSI": sr(son.get('STOCH_RSI')),
-                    "TSI": sr(son.get('TSI')),
-                    "ema50": sr(son.get('EMA_50')),
-                    "ema100": sr(son.get('EMA_100')),
-                    "ema150": sr(son.get('EMA_150')),
-                }
-                satirlar.append(satir_verisi)
-            else:
-                basarisiz_tickerlar.append(f"{isim} ({sembol})")
+                "RSI": sr(son.get('RSI')),
+                "StochRSI": sr(son.get('STOCH_RSI')),
+                "TSI": sr(son.get('TSI')),
+                "ema50": sr(son.get('EMA_50')),
+                "ema100": sr(son.get('EMA_100')),
+                "ema150": sr(son.get('EMA_150')),
+            }
+            satirlar.append(satir_verisi)
+        else:
+            basarisiz_tickerlar.append(f"{isim} ({sembol})")
 
     if basarisiz_tickerlar:
         print(f"\n⚠️  {len(basarisiz_tickerlar)} varlık için veri alınamadı (delisted/hatalı kod/geçici bağlantı sorunu):", flush=True)
@@ -571,10 +643,6 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
 
     if not satirlar:
         return None
-
-    # Sıralamayı ticker sözlüğündeki orijinal sırayla eşleştir (paralel çalışma sırası karışık olabilir)
-    sira = {isim: i for i, isim in enumerate(tickers.keys())}
-    satirlar.sort(key=lambda satir: sira.get(satir["Varlık"], 10**9))
 
     sonuc_df = pd.DataFrame(satirlar).set_index("Varlık")
     return sonuc_df
