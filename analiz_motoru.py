@@ -577,19 +577,20 @@ def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=20):
         return f"⚪ Yelpaze Açık"
 
 def bb_price_state(df):
-    bb_alt = df['BB_ALT'].iloc[-1]
-    bb_orta = df['BB_ORTA'].iloc[-1]
-    bb_üst = df['BB_UST'].iloc[-1]
-    fiyat = df["Close"].iloc[-1]
-
-    if fiyat > bb_üst:
-        return "🚨Fiyat Bandın Üzerinde!"
-    elif fiyat > bb_orta:
-        return "🟡Fiyat Orta-Üst Bant Aralığında"
-    elif fiyat > bb_alt:
-        return "⚪Fiyat Alt_Orta Bant Aralığında"
-    else:
-        return "🚨Fiyat Bandın Altında!"
+    if bbands is not None and not bbands.empty:
+        bb_alt = df['BB_ALT'].iloc[-1]
+        bb_orta = df['BB_ORTA'].iloc[-1]
+        bb_üst = df['BB_UST'].iloc[-1]
+        fiyat = df["Close"].iloc[-1]
+    
+        if fiyat > bb_üst:
+            return "🚨Fiyat Bandın Üzerinde!"
+        elif fiyat > bb_orta:
+            return "🟡Fiyat Orta-Üst Bant Aralığında"
+        elif fiyat > bb_alt:
+            return "⚪Fiyat Alt_Orta Bant Aralığında"
+        else:
+            return "🚨Fiyat Bandın Altında!"
 
 
 # =====================================================================
