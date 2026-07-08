@@ -244,10 +244,10 @@ def _indikatorler_ekle(df):
     df['EMA_100'] = ta.ema(df['Close'], length=100)
     df['EMA_150'] = ta.ema(df['Close'], length=150)
 
-if bbands is not None and not bbands.empty:
-        df['BB_ALT'] = bbands.iloc[:, 0]
-        df['BB_UST'] = bbands.iloc[:, 2]
-        df['BB_GENISLIK'] = bbands.iloc[:, 3]  # pandas_ta'nın hazır hesapladığı Bandwidth
+    if bbands is not None and not bbands.empty:
+            df['BB_ALT'] = bbands.iloc[:, 0]
+            df['BB_UST'] = bbands.iloc[:, 2]
+            df['BB_GENISLIK'] = bbands.iloc[:, 3]  # pandas_ta'nın hazır hesapladığı Bandwidth
 
     stoch = ta.stochrsi(df['Close'], length=14)
     if stoch is not None and not stoch.empty:
