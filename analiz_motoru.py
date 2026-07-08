@@ -580,7 +580,7 @@ def bb_price_state(df):
     bb_alt = df['BB_ALT'].iloc[-1]
     bb_orta = df['BB_ORTA'].iloc[-1]
     bb_üst = df['BB_UST'].iloc[-1]
-    return bb_alt
+    return df["Close"].iloc[-1]
 
 
 # =====================================================================
