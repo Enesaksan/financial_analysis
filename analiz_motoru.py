@@ -265,7 +265,10 @@ def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayi
     df = None
     for deneme in range(1, deneme_sayisi + 1):
         try:
-            df = yf.download(ticker_symbol, period="max", interval=interval, progress=False, auto_adjust=auto_adjust)
+            df = yf.download(
+                ticker_symbol, period="max", interval=interval,
+                progress=False, auto_adjust=auto_adjust, timeout=15,
+            )
         except Exception:
             df = None
 
@@ -513,7 +516,7 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
         return None
 
     toplam = len(tickers)
-    print(f"Modüler Analiz Motoru Çalışıyor... {toplam} varlık paralel olarak indiriliyor.\n")
+    print(f"Modüler Analiz Motoru Çalışıyor... {toplam} varlık paralel olarak indiriliyor.\n", flush=True)
     satirlar = []
     basarisiz_tickerlar = []
     counter = 0
@@ -534,8 +537,8 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
         for gelecek in as_completed(gelecekler):
             isim, sembol, df = gelecek.result()
             counter += 1
-            if counter % 20 == 0:
-                print(f"{counter}/{toplam} varlık işlendi...")
+            if counter % 10 == 0:
+                print(f"{counter}/{toplam} varlık işlendi...", flush=True)
 
             if df is not None and not df.empty:
                 son = df.iloc[-1]
@@ -563,8 +566,8 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
                 basarisiz_tickerlar.append(f"{isim} ({sembol})")
 
     if basarisiz_tickerlar:
-        print(f"\n⚠️  {len(basarisiz_tickerlar)} varlık için veri alınamadı (delisted/hatalı kod/geçici bağlantı sorunu):")
-        print("   " + ", ".join(basarisiz_tickerlar))
+        print(f"\n⚠️  {len(basarisiz_tickerlar)} varlık için veri alınamadı (delisted/hatalı kod/geçici bağlantı sorunu):", flush=True)
+        print("   " + ", ".join(basarisiz_tickerlar), flush=True)
 
     if not satirlar:
         return None

@@ -69,15 +69,15 @@ def kaydet_ve_gecmis(df, secim, period_secim):
 
 if __name__ == "__main__":
     for secim, period_secim in gorevleri_belirle():
-        print(f"[{datetime.now(TR_TZ).strftime('%Y-%m-%d %H:%M:%S')}] {secim} / {period_secim} raporu üretiliyor...")
+        print(f"[{datetime.now(TR_TZ).strftime('%Y-%m-%d %H:%M:%S')}] {secim} / {period_secim} raporu üretiliyor...", flush=True)
         try:
             df = rapor_olustur(secim, period_secim)
         except Exception as e:
-            print(f"HATA ({secim}/{period_secim}): {e}")
+            print(f"HATA ({secim}/{period_secim}): {e}", flush=True)
             continue
 
         if df is not None and not df.empty:
             kaydet_ve_gecmis(df, secim, period_secim)
-            print(f"Kaydedildi ({len(df)} satır)")
+            print(f"Kaydedildi ({len(df)} satır)", flush=True)
         else:
-            print(f"UYARI: {secim}/{period_secim} için veri üretilemedi, dosya güncellenmedi.")
+            print(f"UYARI: {secim}/{period_secim} için veri üretilemedi, dosya güncellenmedi.", flush=True)
