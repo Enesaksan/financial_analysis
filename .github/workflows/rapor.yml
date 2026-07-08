@@ -32,6 +32,7 @@ on:
 jobs:
   rapor-uret:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Repo'yu indir
         uses: actions/checkout@v4
@@ -48,6 +49,7 @@ jobs:
         env:
           SECIM: ${{ github.event.inputs.secim }}
           PERIYOT: ${{ github.event.inputs.periyot }}
+          PYTHONUNBUFFERED: "1"
         run: python scheduled_run.py
 
       - name: Değişiklikleri commit'le
