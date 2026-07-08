@@ -308,15 +308,15 @@ def _period_hesapla(interval):
     'max' yerine, indikatörler için yeterli ama gereksiz büyük olmayan bir
     period değeri döndürür. En uzun indikatör (EMA_150) için 150 periyot
     yeterliyken, kat kat fazla veri (bazı BIST hisselerinde 20-30 yıl) indirmek
-    hem yavaşlatıyor hem gereksiz. Saatlik/gün içi verilerde Yahoo zaten kendi
-    üst sınırını uyguladığı için 'max' bırakılıyor.
+    hem yavaşlatıyor hem gereksiz.
+    Not: Aylık (1mo) periyotta 5 yıl sadece ~60 bar eder — 150 periyotluk EMA
+    için yetersiz kalır, o yüzden 1mo ve saatlik periyotlarda 'max' korunuyor
+    (saatlik veride zaten Yahoo kendi üst sınırını uyguluyor, veri miktarı az).
     """
-    if interval == "1d":
-        return "5y"       # ~1250 günlük bar — 150 periyotluk EMA için fazlasıyla yeterli
-    elif interval == "1wk":
-        return "10y"      # ~520 haftalık bar
+    if interval in ("1d", "1wk"):
+        return "5y"       # Günlük: ~1250 bar, Haftalık: ~260 bar — ikisi de 150 periyotluk EMA için yeterli
     else:
-        return "max"      # 1mo, 1h, 2h, 4h: Yahoo zaten doğal olarak sınırlıyor
+        return "max"      # 1mo, 1h, 2h, 4h
 
 
 def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayisi=2, bekleme_sn=2):
