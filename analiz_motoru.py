@@ -13,85 +13,18 @@ warnings.filterwarnings('ignore')
 logging.getLogger('yfinance').setLevel(logging.CRITICAL)
 
 # =====================================================================
-# 0. HİSSE / FON LİSTELERİ
+# 0. HİSSE / FON / ABD LİSTELERİ
 # =====================================================================
-
-FON_TICKERS = {
-    # ── Teknoloji / Yarı İletken ──────────────────────
-    "Nasdaq 100": "QQQ",
-    "Yarı İletken (SOX)": "SOXX",
-    "Yapay Zeka (AIQ)": "AIQ",
-
-    # ── Sağlık / Biyoteknoloji ────────────────────────
-    "Sağlık Genel (XLV)": "XLV",
-    "Biyoteknoloji (XBI)": "XBI",
-    "Biyoteknoloji Büyük (IBB)": "IBB",
-
-    # ── Nükleer / Enerji ──────────────────────────────
-    "Uranyum ETF (URA)": "URA",
-    "Cameco": "CCJ",
-    "Uranyum Spot (vadeli yok — CCJ proxy)": "CCJ",
-    "Temiz Enerji (ICLN)": "ICLN",
-
-    # ── Su ───────────────────────────────────────────
-    "Su (PHO)": "PHO",
-    "Su (CGW)": "CGW",
-
-    # ── Emtia Genel ───────────────────────────────────
-    "Emtia Sepeti (DJP)": "DJP",
-    "Emtia Sepeti (PDBC)": "PDBC",
-
-    # ── Kıymetli Madenler ─────────────────────────────
-    "Altın Spot": "GC=F",
-    "Altın ETF (GLD)": "GLD",
-    "Gümüş Spot": "SI=F",
-    "Gümüş ETF (SLV)": "SLV",
-    "Platin": "PL=F",
-    "Paladyum": "PA=F",
-
-    # ── Endüstriyel Metaller ──────────────────────────
-    "Bakır Spot": "HG=F",
-    "Bakır ETF (COPA)": "COPA",
-    "Alüminyum (ALUM — London)": "ALUM.L",
-    "Nikel Vadeli": "NI=F",
-
-    # ── Tarım / Gıda ──────────────────────────────────
-    "Tarım Sepeti (DBA)": "DBA",
-    "Agribusiness (MOO)": "MOO",
-    "Buğday Vadeli": "ZW=F",
-    "Mısır Vadeli": "ZC=F",
-    "Soya Vadeli": "ZS=F",
-    "Kakao Vadeli": "CC=F",
-    "Kahve Vadeli": "KC=F",
-    "Şeker Vadeli": "SB=F",
-
-    # ── Petrol / Doğal Gaz ────────────────────────────
-    "Brent Ham Petrol": "BZ=F",
-    "WTI Ham Petrol": "CL=F",
-    "Doğal Gaz": "NG=F",
-
-    # ── Geniş Pazar / GEP ─────────────────────────────
-    "S&P 500": "SPY",
-    "Russell 2000": "IWM",
-    "Gelişmekte Olan Ülkeler (EEM)": "EEM",
-    "Hindistan (INDA)": "INDA",
-
-    # ── BIST ──────────────────────────────────────────
-    "BIST 100": "XU100.IS",
-    "BIST 30": "XU030.IS",
-
-    # ── Döviz ─────────────────────────────────────────
-    "USD/TRY": "USDTRY=X",
-    "EUR/TRY": "EURTRY=X",
-}
+# Not: FON ve ABD listeleri artık hardcoded değil, Excel dosyalarından okunuyor.
+# Aşağıdaki fonksiyonlara bakınız: bist_hisseleri_excel, fon_hisseleri_excel, abd_hisseleri_excel
 
 
-def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx"):
+def _kod_listesi_excel(dosya_adi, ek="", sutun_adi_varsayilan="Sirket"):
     """
-    BIST hisse kodlarını içeren Excel dosyasını okur.
-    Bu dosyanın repo içinde 'data/hisse_senetleri.xlsx' yolunda bulunması gerekir.
+    Tek sütunlu (kod listesi) bir Excel dosyasını okuyup, her koda bir ek
+    (.IS gibi) ekleyerek Yahoo Finance sembolüne çevirir.
     """
-    print(f"'{dosya_adi}' dosyasından hisseler okunuyor...\n")
+    print(f"'{dosya_adi}' dosyasından kodlar okunuyor...\n")
     gecici_liste = []
 
     try:
@@ -100,7 +33,7 @@ def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx"):
         print(f"HATA: Dosya bulunamadı. Yolu kontrol edin: {dosya_adi}")
         return {}
 
-    kod_sutunu = 'Sirket' if 'Sirket' in df.columns else df.columns[0]
+    kod_sutunu = sutun_adi_varsayilan if sutun_adi_varsayilan in df.columns else df.columns[0]
 
     for kod in df[kod_sutunu]:
         if pd.notna(kod):
@@ -109,24 +42,73 @@ def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx"):
 
     unique_keys = set(gecici_liste)
     sirali_kodlar = sorted(unique_keys)
-    bist_tickers = {kod: f"{kod}.IS" for kod in sirali_kodlar}
+    sonuc = {kod: f"{kod}{ek}" for kod in sirali_kodlar}
 
-    print(f"İşlem Başarılı! Toplam {len(bist_tickers)} adet benzersiz hisse analize hazır.\n")
-    return bist_tickers
+    print(f"İşlem Başarılı! Toplam {len(sonuc)} adet benzersiz kod analize hazır.\n")
+    return sonuc
 
 
-def get_tickers(secim: str, hisse_dosyasi: str = "data/hisse_senetleri.xlsx"):
+def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx"):
+    """BIST hisseleri: Yahoo Finance'te '.IS' eki gerekiyor (örn: ASELS -> ASELS.IS)."""
+    return _kod_listesi_excel(dosya_adi, ek=".IS")
+
+
+def abd_hisseleri_excel(dosya_adi="data/abd_hisseleri.xlsx"):
+    """ABD hisseleri: Yahoo Finance'te ek gerekmiyor (örn: AAPL -> AAPL)."""
+    return _kod_listesi_excel(dosya_adi, ek="")
+
+
+def fon_hisseleri_excel(dosya_adi="data/fon_listesi.xlsx"):
     """
-    secim: "BIST" ya da "FON"
+    Fon/emtia/döviz listesi İKİ sütunlu olmalı: 'Isim' (görünen ad, ör. 'Altın Spot')
+    ve 'Ticker' (Yahoo Finance'teki TAM sembol, ör. GC=F, QQQ, USDTRY=X, XU100.IS).
+    Bu varlıklarda tek bir sabit ek (.IS gibi) işe yaramıyor — hisse, emtia, döviz ve
+    endekslerin her birinin kendi sembol kuralı var — o yüzden kullanıcı tam sembolü
+    kendisi yazmalı.
+    """
+    print(f"'{dosya_adi}' dosyasından fon/emtia listesi okunuyor...\n")
+
+    try:
+        df = pd.read_excel(dosya_adi)
+    except FileNotFoundError:
+        print(f"HATA: Dosya bulunamadı. Yolu kontrol edin: {dosya_adi}")
+        return {}
+
+    if df.empty or len(df.columns) < 2:
+        print("HATA: Fon listesi en az 'Isim' ve 'Ticker' adında iki sütun içermeli.")
+        return {}
+
+    isim_sutunu = "Isim" if "Isim" in df.columns else df.columns[0]
+    ticker_sutunu = "Ticker" if "Ticker" in df.columns else df.columns[1]
+
+    sonuc = {}
+    for _, satir in df.iterrows():
+        isim, ticker = satir.get(isim_sutunu), satir.get(ticker_sutunu)
+        if pd.notna(isim) and pd.notna(ticker):
+            sonuc[str(isim).strip()] = str(ticker).strip().upper()
+
+    print(f"İşlem Başarılı! Toplam {len(sonuc)} adet fon/emtia/döviz analize hazır.\n")
+    return sonuc
+
+
+def get_tickers(secim: str, hisse_dosyasi: str = None):
+    """
+    secim: "BIST", "FON" ya da "ABD"
+    hisse_dosyasi: Verilmezse her seçim için varsayılan yol kullanılır:
+        BIST -> data/hisse_senetleri.xlsx
+        FON  -> data/fon_listesi.xlsx
+        ABD  -> data/abd_hisseleri.xlsx
     return: (tickers_dict, auto_adjust_bool)
     """
     secim = secim.upper().strip()
     if secim == "BIST":
-        return bist_hisseleri_excel(hisse_dosyasi), True
+        return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx"), True
     elif secim == "FON":
-        return FON_TICKERS, False
+        return fon_hisseleri_excel(hisse_dosyasi or "data/fon_listesi.xlsx"), False
+    elif secim == "ABD":
+        return abd_hisseleri_excel(hisse_dosyasi or "data/abd_hisseleri.xlsx"), True
     else:
-        raise ValueError("Seçim 'BIST' ya da 'FON' olmalı.")
+        raise ValueError("Seçim 'BIST', 'FON' ya da 'ABD' olmalı.")
 
 
 def period_transformer(period_selection):
@@ -313,10 +295,8 @@ def _period_hesapla(interval):
     için yetersiz kalır, o yüzden 1mo ve saatlik periyotlarda 'max' korunuyor
     (saatlik veride zaten Yahoo kendi üst sınırını uyguluyor, veri miktarı az).
     """
-    if interval == "1d":
-        return "1y"       # Günlük: ~1250 bar, Haftalık: ~260 bar — ikisi de 150 periyotluk EMA için yeterli
-    elif interval == "1wk":
-        return "3y"
+    if interval in ("1d", "1wk"):
+        return "5y"       # Günlük: ~1250 bar, Haftalık: ~260 bar — ikisi de 150 periyotluk EMA için yeterli
     else:
         return "max"      # 1mo, 1h, 2h, 4h
 
@@ -601,13 +581,65 @@ def analiz_ema_sikisma(df, esik_orani=1.5):
 
 
 # =====================================================================
-# 4. ANA BİRLEŞTİRİCİ MOTOR
+# 4. ORTAK SATIR OLUŞTURMA + ANA BİRLEŞTİRİCİ MOTOR
 # =====================================================================
-def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = "data/hisse_senetleri.xlsx",
+def _satir_olustur(isim, df):
+    """Bir varlığın son durumuna göre rapor satırını oluşturur (toplu rapor ve tekil analizde ortak kullanılır)."""
+    def sr(val):
+        return round(val, 2) if pd.notna(val) else None
+
+    son = df.iloc[-1]
+    return {
+        "Varlık": isim,
+        "Fiyat": sr(son.get('Close')),
+
+        "Supertrend_Sinyal": analiz_supertrend(df),
+        "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
+        "Hacim_SMI": analiz_hacim_smi(df),
+        "Kombine_Dip": analiz_kombine_dip(df),
+        "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
+        "EMA_Sikisma": analiz_ema_sikisma(df),
+
+        "RSI": sr(son.get('RSI')),
+        "StochRSI": sr(son.get('STOCH_RSI')),
+        "TSI": sr(son.get('TSI')),
+        "ema50": sr(son.get('EMA_50')),
+        "ema100": sr(son.get('EMA_100')),
+        "ema150": sr(son.get('EMA_150')),
+    }
+
+
+def tekil_analiz(kod: str, market_tipi: str = "BIST", period_selection: str = "1d"):
+    """
+    Kullanıcının anlık olarak girdiği tek bir sembol için analiz üretir.
+    market_tipi:
+        "BIST" -> sembolün sonuna otomatik '.IS' eklenir (örn: ASELS -> ASELS.IS)
+        "ABD"  -> sembol olduğu gibi kullanılır, ek eklenmez (örn: AAPL)
+        "HAM"  -> kullanıcının yazdığı sembol hiç değiştirilmeden kullanılır
+                  (fon/emtia/döviz sembolleri için, örn: GC=F, QQQ, USDTRY=X)
+    """
+    kod = kod.strip().upper()
+    market_tipi = market_tipi.upper().strip()
+
+    if market_tipi == "BIST":
+        sembol = f"{kod}.IS"
+    else:  # "ABD" ya da "HAM"
+        sembol = kod
+
+    df = verileri_hazirla(sembol, interval=period_selection, auto_adjust=True)
+    if df is None or df.empty:
+        return None
+
+    satir = _satir_olustur(kod, df)
+    return pd.DataFrame([satir]).set_index("Varlık")
+
+
+def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = None,
                    parca_boyutu: int = 50, max_worker: int = 20):
     """
-    secim: "BIST" ya da "FON"
-    period_selection: "1d", "1wk", "1mo", "1h", "2h", "4h" vb.
+    secim: "BIST", "FON" ya da "ABD"
+    period_selection: "1d" ya da "1wk"
+    hisse_dosyasi: Verilmezse get_tickers()'ın varsayılan yolları kullanılır.
     parca_boyutu: Her toplu indirme isteğinde kaç varlığın birlikte indirileceği.
     max_worker: Hem toplu indirmede hem de eksik kalan varlıkların tekil fallback'inde
                 kaç tanesinin aynı anda (paralel) indirileceği.
@@ -621,9 +653,6 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
 
     veri_sozlugu = _toplu_indir_ve_hazirla(tickers, period_selection, auto_adjust, parca_boyutu, max_worker)
 
-    def sr(val):
-        return round(val, 2) if pd.notna(val) else None
-
     satirlar = []
     basarisiz_tickerlar = []
 
@@ -631,27 +660,7 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
         df = veri_sozlugu.get(isim)
 
         if df is not None and not df.empty:
-            son = df.iloc[-1]
-
-            satir_verisi = {
-                "Varlık": isim,
-                "Fiyat": sr(son.get('Close')),
-
-                "Supertrend_Sinyal": analiz_supertrend(df),
-                "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
-                "Hacim_SMI": analiz_hacim_smi(df),
-                "Kombine_Dip": analiz_kombine_dip(df),
-                "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
-                "EMA_Sikisma": analiz_ema_sikisma(df),
-
-                "RSI": sr(son.get('RSI')),
-                "StochRSI": sr(son.get('STOCH_RSI')),
-                "TSI": sr(son.get('TSI')),
-                "ema50": sr(son.get('EMA_50')),
-                "ema100": sr(son.get('EMA_100')),
-                "ema150": sr(son.get('EMA_150')),
-            }
-            satirlar.append(satir_verisi)
+            satirlar.append(_satir_olustur(isim, df))
         else:
             basarisiz_tickerlar.append(f"{isim} ({sembol})")
 

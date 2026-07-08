@@ -1,7 +1,11 @@
 """
-Bu script GitHub Actions tarafından çalıştırılır:
-- Zamanlanmış (cron) çalışmada: aşağıdaki GOREVLER listesindeki tüm kombinasyonları üretir.
-- Manuel tetiklemede ("Run workflow" ile SECIM/PERIYOT seçildiğinde): sadece o tek kombinasyonu üretir.
+Bu script GitHub Actions tarafından çalıştırılır. İki farklı zamanlanmış (cron)
+tetikleyici var, GITHUB_SCHEDULE ortam değişkeninden hangisinin tetiklediği anlaşılır:
+  - Hafta içi 10:00, 12:00, 14:00, 16:00, 17:00, 20:00 (TR saati) -> GÜNLÜK (1d) analiz
+  - Sadece Cuma 20:10 (TR saati, günlükten 10 dk sonra)          -> HAFTALIK (1wk) analiz
+
+Manuel tetiklemede ("Run workflow" ile SECIM/PERIYOT seçildiğinde) sadece o
+tek kombinasyon üretilir.
 
 Sonuçlar 'raporlar/' klasörüne CSV olarak kaydedilir (en güncel hali) ve
 ayrıca 'raporlar/gecmis/' klasörüne tarihli olarak eklenir (geçmiş takibi için).
@@ -22,10 +26,19 @@ GECMIS_KLASORU = os.path.join(RAPOR_KLASORU, "gecmis")
 os.makedirs(RAPOR_KLASORU, exist_ok=True)
 os.makedirs(GECMIS_KLASORU, exist_ok=True)
 
-# Zamanlanmış (otomatik) çalışmada üretilecek raporlar
-GOREVLER_VARSAYILAN = [
+# Haftalık analizi tetikleyen cron ifadesi (workflow dosyasındaki ile birebir aynı olmalı)
+HAFTALIK_CRON = "10 17 * * 5"
+
+# Zamanlanmış (otomatik) çalışmalarda üretilecek raporlar
+GOREVLER_GUNLUK = [
     ("BIST", "1d"),
     ("FON", "1d"),
+    ("ABD", "1d"),
+]
+GOREVLER_HAFTALIK = [
+    ("BIST", "1wk"),
+    ("FON", "1wk"),
+    ("ABD", "1wk"),
 ]
 
 
@@ -33,26 +46,24 @@ def gorevleri_belirle():
     secim = os.environ.get("SECIM", "").strip().upper()
     periyot = os.environ.get("PERIYOT", "").strip()
 
-    # Manuel tetikleme ile bir seçim geldiyse (workflow_dispatch)
     if secim and periyot:
-        if secim == "HER IKISI":
-            return [("BIST", periyot), ("FON", periyot)]
+        if secim == "HEPSI":
+            return [("BIST", periyot), ("FON", periyot), ("ABD", periyot)]
         return [(secim, periyot)]
 
-    # Aksi halde (cron ile otomatik çalışma) sabit listeyi kullan
-    return GOREVLER_VARSAYILAN
+    cron_ifadesi = os.environ.get("GITHUB_SCHEDULE", "").strip()
+    if cron_ifadesi == HAFTALIK_CRON:
+        return GOREVLER_HAFTALIK
+    return GOREVLER_GUNLUK
 
 
 def kaydet_ve_gecmis(df, secim, period_secim):
-    """Güncel raporu kaydeder ve ayrıca tarihli 'geçmiş' dosyasına ekler."""
     isim_koku = f"{secim}_{period_transformer(period_secim)}"
     tarih = datetime.now(TR_TZ).strftime("%Y-%m-%d %H:%M")
 
-    # 1) En güncel hali (Streamlit varsayılan olarak bunu gösterir)
     latest_yol = os.path.join(RAPOR_KLASORU, f"{isim_koku}_latest.csv")
     df.to_csv(latest_yol)
 
-    # 2) Geçmiş dosyasına ekle (Tarih sütunuyla birlikte)
     df_yeni = df.reset_index().copy()
     df_yeni.insert(0, "Tarih", tarih)
 
@@ -64,12 +75,12 @@ def kaydet_ve_gecmis(df, secim, period_secim):
         df_birlesik = df_yeni
 
     df_birlesik.to_csv(gecmis_yol, index=False)
-    print(f"Geçmişe eklendi: {gecmis_yol} (toplam {len(df_birlesik)} satır)")
+    print(f"Gecmise eklendi: {gecmis_yol} (toplam {len(df_birlesik)} satir)", flush=True)
 
 
 if __name__ == "__main__":
     for secim, period_secim in gorevleri_belirle():
-        print(f"[{datetime.now(TR_TZ).strftime('%Y-%m-%d %H:%M:%S')}] {secim} / {period_secim} raporu üretiliyor...", flush=True)
+        print(f"[{datetime.now(TR_TZ).strftime('%Y-%m-%d %H:%M:%S')}] {secim} / {period_secim} raporu uretiliyor...", flush=True)
         try:
             df = rapor_olustur(secim, period_secim)
         except Exception as e:
@@ -78,6 +89,6 @@ if __name__ == "__main__":
 
         if df is not None and not df.empty:
             kaydet_ve_gecmis(df, secim, period_secim)
-            print(f"Kaydedildi ({len(df)} satır)", flush=True)
+            print(f"Kaydedildi ({len(df)} satir)", flush=True)
         else:
-            print(f"UYARI: {secim}/{period_secim} için veri üretilemedi, dosya güncellenmedi.", flush=True)
+            print(f"UYARI: {secim}/{period_secim} icin veri uretilemedi, dosya guncellenmedi.", flush=True)
