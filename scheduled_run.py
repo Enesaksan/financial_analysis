@@ -9,10 +9,13 @@ Streamlit uygulaması (app.py) bu dosyaları okuyup gösterir.
 """
 import os
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 import pandas as pd
 
 from analiz_motoru import rapor_olustur, period_transformer
+
+TR_TZ = ZoneInfo("Europe/Istanbul")
 
 RAPOR_KLASORU = "raporlar"
 GECMIS_KLASORU = os.path.join(RAPOR_KLASORU, "gecmis")
@@ -43,7 +46,7 @@ def gorevleri_belirle():
 def kaydet_ve_gecmis(df, secim, period_secim):
     """Güncel raporu kaydeder ve ayrıca tarihli 'geçmiş' dosyasına ekler."""
     isim_koku = f"{secim}_{period_transformer(period_secim)}"
-    tarih = datetime.now().strftime("%Y-%m-%d %H:%M")
+    tarih = datetime.now(TR_TZ).strftime("%Y-%m-%d %H:%M")
 
     # 1) En güncel hali (Streamlit varsayılan olarak bunu gösterir)
     latest_yol = os.path.join(RAPOR_KLASORU, f"{isim_koku}_latest.csv")
@@ -66,7 +69,7 @@ def kaydet_ve_gecmis(df, secim, period_secim):
 
 if __name__ == "__main__":
     for secim, period_secim in gorevleri_belirle():
-        print(f"[{datetime.now()}] {secim} / {period_secim} raporu üretiliyor...")
+        print(f"[{datetime.now(TR_TZ).strftime('%Y-%m-%d %H:%M:%S')}] {secim} / {period_secim} raporu üretiliyor...")
         try:
             df = rapor_olustur(secim, period_secim)
         except Exception as e:

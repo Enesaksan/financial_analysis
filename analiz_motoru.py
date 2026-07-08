@@ -3,8 +3,14 @@ import pandas as pd
 import pandas_ta_classic as ta
 import warnings
 import numpy as np
+import logging
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 warnings.filterwarnings('ignore')
+# yfinance'in "possibly delisted" / "no timezone found" gibi gürültülü konsol
+# çıktılarını sustur — bu hatalar zaten aşağıda kontrollü şekilde ele alınıyor.
+logging.getLogger('yfinance').setLevel(logging.CRITICAL)
 
 # =====================================================================
 # 0. HİSSE / FON LİSTELERİ
@@ -250,10 +256,28 @@ def hesapla_ssl_hybrid(df, base_len=60, exit_len=15):
 # =====================================================================
 # 2. TEKİL VERİ MOTORU
 # =====================================================================
-def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True):
-    df = yf.download(ticker_symbol, period="max", interval=interval, progress=False, auto_adjust=auto_adjust)
-    if df.empty:
+def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayisi=2, bekleme_sn=2):
+    """
+    Yahoo Finance'den veri çeker. Geçici ağ hatalarında (timeout, bağlantı kopması vb.)
+    otomatik olarak birkaç kez daha dener. Hisse gerçekten delisted/bulunamıyorsa
+    (boş veri dönerse) None döner, çağıran taraf bunu atlar.
+    """
+    df = None
+    for deneme in range(1, deneme_sayisi + 1):
+        try:
+            df = yf.download(ticker_symbol, period="max", interval=interval, progress=False, auto_adjust=auto_adjust)
+        except Exception:
+            df = None
+
+        if df is not None and not df.empty:
+            break
+
+        if deneme < deneme_sayisi:
+            time.sleep(bekleme_sn)
+
+    if df is None or df.empty:
         return None
+
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.droplevel(1)
 
@@ -477,54 +501,77 @@ def analiz_ema_sikisma(df, esik_orani=1.5):
 # =====================================================================
 # 4. ANA BİRLEŞTİRİCİ MOTOR
 # =====================================================================
-def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = "data/hisse_senetleri.xlsx"):
+def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = "data/hisse_senetleri.xlsx", max_worker: int = 10):
     """
     secim: "BIST" ya da "FON"
     period_selection: "1d", "1wk", "1mo", "1h", "2h", "4h" vb.
+    max_worker: Aynı anda kaç hissenin paralel indirileceği (Yahoo Finance'i
+                aşırı yormamak için 8-15 arası makul bir değer).
     """
     tickers, auto_adjust = get_tickers(secim, hisse_dosyasi)
     if not tickers:
         return None
 
-    print("Modüler Analiz Motoru Çalışıyor... Veriler toplanıyor.\n")
+    toplam = len(tickers)
+    print(f"Modüler Analiz Motoru Çalışıyor... {toplam} varlık paralel olarak indiriliyor.\n")
     satirlar = []
+    basarisiz_tickerlar = []
     counter = 0
 
-    for isim, sembol in tickers.items():
+    def sr(val):
+        return round(val, 2) if pd.notna(val) else None
+
+    def _tek_hisseyi_isle(isim, sembol):
         df = verileri_hazirla(sembol, interval=period_selection, auto_adjust=auto_adjust)
+        return isim, sembol, df
 
-        counter += 1
-        if counter % 20 == 0:
-            print(f"{counter} hisse işlendi...")
+    with ThreadPoolExecutor(max_workers=max_worker) as havuz:
+        gelecekler = {
+            havuz.submit(_tek_hisseyi_isle, isim, sembol): isim
+            for isim, sembol in tickers.items()
+        }
 
-        if df is not None and not df.empty:
-            son = df.iloc[-1]
+        for gelecek in as_completed(gelecekler):
+            isim, sembol, df = gelecek.result()
+            counter += 1
+            if counter % 20 == 0:
+                print(f"{counter}/{toplam} varlık işlendi...")
 
-            def sr(val):
-                return round(val, 2) if pd.notna(val) else None
+            if df is not None and not df.empty:
+                son = df.iloc[-1]
 
-            satir_verisi = {
-                "Varlık": isim,
-                "Fiyat": sr(son.get('Close')),
+                satir_verisi = {
+                    "Varlık": isim,
+                    "Fiyat": sr(son.get('Close')),
 
-                "Supertrend_Sinyal": analiz_supertrend(df),
-                "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
-                "Hacim_SMI": analiz_hacim_smi(df),
-                "Kombine_Dip": analiz_kombine_dip(df),
-                "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
-                "EMA_Sikisma": analiz_ema_sikisma(df),
+                    "Supertrend_Sinyal": analiz_supertrend(df),
+                    "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
+                    "Hacim_SMI": analiz_hacim_smi(df),
+                    "Kombine_Dip": analiz_kombine_dip(df),
+                    "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
+                    "EMA_Sikisma": analiz_ema_sikisma(df),
 
-                "RSI": sr(son.get('RSI')),
-                "StochRSI": sr(son.get('STOCH_RSI')),
-                "TSI": sr(son.get('TSI')),
-                "ema50": sr(son.get('EMA_50')),
-                "ema100": sr(son.get('EMA_100')),
-                "ema150": sr(son.get('EMA_150')),
-            }
-            satirlar.append(satir_verisi)
+                    "RSI": sr(son.get('RSI')),
+                    "StochRSI": sr(son.get('STOCH_RSI')),
+                    "TSI": sr(son.get('TSI')),
+                    "ema50": sr(son.get('EMA_50')),
+                    "ema100": sr(son.get('EMA_100')),
+                    "ema150": sr(son.get('EMA_150')),
+                }
+                satirlar.append(satir_verisi)
+            else:
+                basarisiz_tickerlar.append(f"{isim} ({sembol})")
+
+    if basarisiz_tickerlar:
+        print(f"\n⚠️  {len(basarisiz_tickerlar)} varlık için veri alınamadı (delisted/hatalı kod/geçici bağlantı sorunu):")
+        print("   " + ", ".join(basarisiz_tickerlar))
 
     if not satirlar:
         return None
+
+    # Sıralamayı ticker sözlüğündeki orijinal sırayla eşleştir (paralel çalışma sırası karışık olabilir)
+    sira = {isim: i for i, isim in enumerate(tickers.keys())}
+    satirlar.sort(key=lambda satir: sira.get(satir["Varlık"], 10**9))
 
     sonuc_df = pd.DataFrame(satirlar).set_index("Varlık")
     return sonuc_df
