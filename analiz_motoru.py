@@ -569,11 +569,11 @@ def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=20):
     persentil = (gecmis_pencere < bugun_genislik).mean() * 100
 
     if persentil <= esik_persentil:
-        return f"🚨 BB SIKIŞMA (persentil: %{persentil:.2f} — son {geriye_bakis} günün en darları arasında)"
+        return f"🚨 BB SIKIŞMA"
     elif persentil <= esik_persentil * 2:
-        return f"🟡 Daralıyor (persentil: %{persentil:.2f})"
+        return f"🟡 Daralıyor"
     else:
-        return f"⚪ Yelpaze Açık (persentil: %{persentil:.2f})"
+        return f"⚪ Yelpaze Açık"
 
 
 # =====================================================================
