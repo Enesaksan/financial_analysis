@@ -2,8 +2,9 @@ name: Otomatik Analiz Raporu
 
 on:
   schedule:
-    # Hafta içi (Pazartesi-Cuma) her gün UTC 17:00 = Türkiye saati 20:00
-    - cron: '0 17 * * 1-5'
+    # Hafta içi (Pazartesi-Cuma), Türkiye saatiyle: 10:00, 11:00, 13:00, 15:00, 17:00, 20:00
+    # (Türkiye UTC+3, yaz-kış saati uygulaması yok, bu yüzden UTC karşılıkları sabit: 07,08,10,12,14,17)
+    - cron: '0 7,8,10,12,14,17 * * 1-5'
   workflow_dispatch:
     inputs:
       secim:
