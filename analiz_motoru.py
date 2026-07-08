@@ -8,8 +8,6 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 warnings.filterwarnings('ignore')
-# yfinance'in "possibly delisted" / "no timezone found" gibi gürültülü konsol
-# çıktılarını sustur — bu hatalar zaten aşağıda kontrollü şekilde ele alınıyor.
 logging.getLogger('yfinance').setLevel(logging.CRITICAL)
 
 # =====================================================================
