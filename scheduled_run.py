@@ -1,16 +1,3 @@
-"""
-Bu script GitHub Actions tarafından çalıştırılır. İki farklı zamanlanmış (cron)
-tetikleyici var, GITHUB_SCHEDULE ortam değişkeninden hangisinin tetiklediği anlaşılır:
-  - Hafta içi 10:00, 12:00, 14:00, 16:00, 17:00, 20:00 (TR saati) -> GÜNLÜK (1d) analiz
-  - Sadece Cuma 20:10 (TR saati, günlükten 10 dk sonra)          -> HAFTALIK (1wk) analiz
-
-Manuel tetiklemede ("Run workflow" ile SECIM/PERIYOT seçildiğinde) sadece o
-tek kombinasyon üretilir.
-
-Sonuçlar 'raporlar/' klasörüne CSV olarak kaydedilir (en güncel hali) ve
-ayrıca 'raporlar/gecmis/' klasörüne tarihli olarak eklenir (geçmiş takibi için).
-Streamlit uygulaması (app.py) bu dosyaları okuyup gösterir.
-"""
 import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -27,7 +14,7 @@ os.makedirs(RAPOR_KLASORU, exist_ok=True)
 os.makedirs(GECMIS_KLASORU, exist_ok=True)
 
 # Haftalık analizi tetikleyen cron ifadesi (workflow dosyasındaki ile birebir aynı olmalı)
-HAFTALIK_CRON = "10 17 * * 5"
+HAFTALIK_CRON = "0 18 * * 5"
 
 # Zamanlanmış (otomatik) çalışmalarda üretilecek raporlar
 GOREVLER_GUNLUK = [
