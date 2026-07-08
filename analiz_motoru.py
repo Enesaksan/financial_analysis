@@ -315,7 +315,7 @@ def _period_hesapla(interval):
     """
     if interval is "1d":
         return "2y"       # Günlük: ~1250 bar, Haftalık: ~260 bar — ikisi de 150 periyotluk EMA için yeterli
-    else if interval is "1wk":
+    elif interval is "1wk":
         return "5y"
     else:
         return "max"      # 1mo, 1h, 2h, 4h
