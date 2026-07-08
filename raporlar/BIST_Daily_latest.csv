@@ -1,615 +1,616 @@
 Varlık,Fiyat,Supertrend_Sinyal,Tilson_Sinyal,Hacim_SMI,Kombine_Dip,SSL&EMA_Sinyal,EMA_Sikisma,RSI,StochRSI,TSI,ema50,ema100,ema150
-A1CAP,11.01,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.52),53.47,48.17,0.32,11.24,12.06,12.18
-A1YEN,2.91,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.40),32.07,10.07,-0.94,3.22,3.16,3.09
-AAGYO,15.45,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,-,-,32.56,42.77,-0.85,17.5,,
-ACSEL,134.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.49),40.7,44.74,-0.68,141.53,133.0,127.44
-ADEL,30.94,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.53),35.67,38.14,-0.87,34.31,35.37,35.4
-ADESE,0.93,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %29.44),31.41,0.0,-0.96,1.02,1.15,1.29
-ADGYO,52.85,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.20),41.3,12.44,-0.88,55.65,55.78,54.62
-AEFES,20.52,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.80),50.01,6.89,-0.61,20.1,19.3,18.7
-AFYON,12.83,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.65),43.86,6.72,-0.89,13.19,13.27,13.19
-AGESA,245.2,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.98),46.81,13.58,-0.9,243.5,235.12,226.4
-AGHOL,33.36,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.10),49.71,33.28,-0.02,33.11,32.37,31.75
-AGROT,2.56,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.87),25.37,10.19,-0.97,2.84,2.98,3.12
-AGYO,8.1,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.94),43.82,40.13,-0.68,8.42,8.34,8.19
-AHGAZ,34.76,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.06),50.29,0.0,0.01,32.65,30.03,28.81
-AHSGY,21.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.37),61.4,98.5,0.76,20.0,19.54,18.61
-AKBNK,73.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.47),46.8,0.38,-0.92,73.76,73.07,71.95
-AKCNS,234.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.40),60.78,91.44,0.74,210.93,202.11,193.62
-AKENR,11.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.79),37.01,0.91,-0.87,12.18,11.73,11.53
-AKFGY,2.72,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.72),43.02,0.0,-0.73,2.81,2.82,2.8
-AKFIS,89.2,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.57),71.97,98.36,0.89,65.82,55.23,48.37
-AKFYE,25.86,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.64),60.81,82.06,0.3,23.35,22.24,21.38
-AKGRT,7.04,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🚨 SERT SIKIŞMA (Bant: %0.86),42.71,31.2,-0.73,7.24,7.3,7.28
-AKHAN,33.9,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,-,-,57.36,24.73,0.43,31.55,29.05,
-AKMGY,268.0,🔥 AL (Taze Kırılım),🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.19),60.05,62.06,-0.27,255.43,248.82,241.53
-AKSA,11.99,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.14),55.87,25.96,-0.01,11.28,10.89,10.67
-AKSEN,89.85,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.86),65.53,54.07,-0.19,81.38,77.74,73.42
-AKSGY,9.58,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.17),57.32,31.82,0.24,9.26,8.89,8.57
-AKSUE,45.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.97),72.22,88.18,0.89,37.19,33.67,30.9
-AKYHO,2.52,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.57),44.41,62.82,-0.03,2.62,2.68,2.76
-ALARK,102.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.02),48.39,23.98,0.39,101.06,99.25,97.98
-ALBRK,8.11,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.90),44.85,3.81,-0.91,8.31,8.31,8.24
-ALCAR,880.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.57),69.4,91.95,0.76,766.19,783.79,806.43
-ALCTL,146.3,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.65),42.6,0.79,-0.57,148.48,140.89,135.82
-ALFAS,46.38,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.63),37.01,4.61,-0.92,50.01,47.49,46.47
-ALGYO,3.63,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %5.65),22.93,0.0,-0.92,5.31,5.38,5.18
-ALKA,9.15,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.81),31.42,7.52,-0.94,10.13,10.59,10.66
-ALKIM,17.59,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.56),42.97,7.44,-0.95,18.15,18.24,18.22
-ALKLC,379.0,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.32),66.24,86.66,0.55,341.37,317.71,287.1
-ALTNY,17.03,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,🚨 SERT SIKIŞMA (Bant: %0.86),53.98,87.09,0.81,16.51,16.36,16.4
-ALVES,2.57,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.28),36.77,0.64,-0.7,2.88,3.02,3.07
-ANELE,92.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %36.51),41.86,0.0,-0.62,87.82,66.32,54.23
-ANGEN,10.64,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.83),46.79,25.88,-0.26,11.01,11.12,11.2
-ANHYT,101.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.80),43.72,8.66,-0.57,104.6,104.72,102.89
-ANSGR,27.1,🟢 Yükseliş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.46),41.32,12.77,-0.91,27.84,27.15,26.36
-ARASE,119.9,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.94),60.37,80.41,0.85,111.24,102.21,94.52
-ARCLK,98.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.60),37.56,31.44,-0.79,105.13,108.44,110.66
-ARDYZ,68.5,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.09),65.52,84.98,0.73,57.12,51.98,48.15
-ARENA,28.08,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.75),47.89,67.61,-0.15,28.96,29.16,29.45
-ARFYE,31.5,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,-,-,58.25,80.99,0.89,30.11,29.36,
-ARMGD,190.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.24),75.53,74.1,0.85,149.18,127.83,112.46
-ARSAN,3.26,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.39),44.93,76.43,0.12,3.44,3.51,3.48
-ARTMS,41.9,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.68),47.88,63.75,0.6,42.31,41.83,41.19
-ARZUM,1.95,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.96),34.78,52.47,-0.79,2.3,2.49,2.63
-ASELS,383.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %12.13),50.09,78.81,-0.21,381.11,360.27,334.68
-ASGYO,12.36,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.34),53.66,15.54,0.07,11.96,11.68,11.55
-ASTOR,325.25,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %18.61),58.85,98.68,0.3,289.44,255.98,228.92
-ASUZU,57.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.77),40.17,27.05,-0.92,60.93,61.37,60.95
-ATAGY,12.14,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.51),46.65,74.51,-0.06,12.47,12.75,12.89
-ATAKP,51.0,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.87),39.97,28.68,-0.59,53.65,53.66,53.22
-ATATP,219.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.80),53.04,26.96,0.08,204.15,186.02,173.92
-ATATR,16.2,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,-,-,46.56,41.31,-0.66,16.18,,
-ATEKS,136.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.99),63.17,24.26,0.03,110.98,105.24,102.83
-ATLAS,7.85,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %3.91),47.68,77.34,0.36,8.04,7.96,7.73
-ATSYH,118.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %12.01),76.23,63.7,0.9,86.28,76.4,72.11
-AVGYO,14.83,🟢 Yükseliş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.14),52.55,6.91,-0.85,14.04,13.37,12.99
-AVHOL,38.2,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.02),37.59,44.06,-0.85,41.16,40.52,40.38
-AVOD,4.19,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.59),44.59,76.22,-0.29,4.38,4.4,4.33
-AVPGY,56.7,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🔴 ZAYIFLAMA (Zaten Dipte),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.02),48.26,72.72,0.08,56.9,55.82,55.19
-AVTUR,15.54,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.65),33.62,0.0,-0.95,17.33,17.53,17.28
-AYCES,563.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %3.81),41.12,25.66,-0.34,647.79,660.13,638.68
-AYDEM,26.64,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.63),58.15,93.08,0.43,26.14,25.89,25.17
-AYEN,35.58,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.23),47.46,12.62,-0.87,35.73,33.64,32.08
-AYES,33.88,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.93),51.46,40.15,0.37,32.58,29.97,27.52
-AYGAZ,230.0,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %3.04),54.33,100.0,0.07,234.25,235.25,228.25
-AZTEK,4.74,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.46),42.17,16.23,-0.71,4.91,4.76,4.69
-BAGFS,25.24,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.96),35.29,39.4,-0.85,28.53,29.93,30.29
-BAHKM,111.8,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.32),43.08,27.85,-0.45,117.29,113.68,106.87
-BAKAB,52.55,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.69),54.15,60.1,0.18,48.82,46.02,44.25
-BALAT,72.85,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.50),60.88,78.21,-0.07,71.23,77.84,79.61
-BALSU,15.62,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.83),48.07,17.62,0.33,15.46,15.5,15.9
-BANVT,174.2,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.37),61.06,26.52,0.5,163.68,163.73,167.81
-BARMA,70.55,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %18.37),54.87,23.45,-0.52,64.86,57.68,51.9
-BASCM,14.18,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.62),41.8,27.68,-0.75,14.57,14.54,14.49
-BASGZ,47.3,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.31),45.02,18.91,-0.92,47.94,46.92,45.43
-BAYRK,4.68,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.72),41.92,36.41,-0.88,4.95,5.02,5.12
-BEGYO,4.08,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.77),40.53,1.62,-0.46,4.24,4.46,4.84
-BERA,15.31,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.54),33.8,2.38,-0.89,16.84,17.14,17.23
-BESLR,13.61,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.59),39.67,1.36,-0.88,14.24,14.2,14.15
-BESTE,33.8,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,-,-,46.47,27.58,-0.77,33.56,29.07,
-BETAE,64.35,-,-,-,-,-,-,,,,,,
-BEYAZ,25.4,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.52),36.63,40.92,-0.88,27.56,28.15,28.2
-BFREN,135.2,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.01),42.58,42.77,-0.8,140.15,145.65,157.74
-BIENY,21.82,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.27),34.82,10.58,-0.91,23.48,24.49,25.94
-BIGCH,6.82,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.31),45.88,17.19,-0.75,7.08,7.54,7.92
-BIGEN,87.05,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %27.81),69.01,28.92,0.69,56.31,39.97,32.1
-BIGTK,309.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),📈 TREND DEVAMI (0 Üstü + Hacim),🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.16),73.35,66.71,0.87,239.01,248.49,261.18
-BIMAS,374.25,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.25),50.3,39.78,-0.77,372.67,359.89,345.52
-BINBN,190.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %0.55),66.81,81.43,0.28,175.75,175.03,174.69
-BINHO,10.79,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %1.04),63.83,56.9,0.87,9.65,9.53,9.56
-BIOEN,17.54,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %2.38),43.29,45.72,0.26,18.18,18.32,18.6
-BIZIM,26.7,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.94),49.62,58.31,-0.19,27.16,27.56,27.67
-BJKAS,1.66,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.05),52.09,57.79,0.05,1.63,1.64,1.75
-BLCYT,22.62,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.40),33.33,76.52,-0.8,29.31,32.36,32.56
-BLUME,39.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.71),69.9,100.0,0.83,36.55,39.38,40.81
-BMSCH,14.19,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.27),33.73,47.25,-0.88,16.44,17.22,17.47
-BMSTL,42.34,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.86),39.41,0.24,-0.92,43.55,43.18,42.34
-BNTAS,6.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.32),35.24,17.45,-0.98,6.61,6.64,6.69
-BOBET,19.4,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.38),56.24,55.61,-0.15,19.2,19.45,19.66
-BORLS,6.64,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.90),51.39,20.67,0.02,6.19,6.23,7.18
-BORSK,6.05,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.20),42.39,56.8,-0.68,6.4,6.45,6.38
-BOSSA,6.49,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.89),52.4,26.93,-0.76,6.45,6.52,6.58
-BRISA,81.7,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.30),31.23,0.0,-0.89,88.89,88.56,87.82
-BRKO,14.03,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.61),52.92,30.95,-0.5,13.32,12.8,12.25
-BRKSN,7.95,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.59),45.15,100.0,-0.42,8.24,8.36,8.36
-BRKVY,86.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.42),37.73,11.38,-0.87,92.73,93.95,93.21
-BRLSM,17.53,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.35),39.98,4.16,-0.63,18.67,17.64,17.04
-BRMEN,17.59,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.76),57.0,11.84,0.27,13.8,12.31,11.9
-BRSAN,552.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.31),44.53,24.99,-0.77,567.47,561.04,549.21
-BRYAT,1874.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.12),40.3,49.46,-0.75,1976.73,2021.73,2035.15
-BSOKE,36.52,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.02),51.34,54.37,0.63,35.9,33.57,31.14
-BTCIM,5.68,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.43),35.96,13.84,-0.54,6.04,5.85,5.62
-BUCIM,5.56,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %5.96),29.1,8.51,-0.96,5.97,6.16,6.3
-BULGS,38.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.50),36.8,4.32,-0.91,41.74,42.32,41.76
-BURCE,40.86,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.43),38.69,52.57,-0.42,45.58,46.98,45.88
-BURVA,945.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.25),43.4,74.1,-0.33,1019.72,938.6,837.86
-BVSAN,121.2,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.71),49.79,33.33,-0.76,121.42,119.08,116.92
-BYDNR,38.24,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.65),48.09,58.35,-0.19,38.99,37.59,35.69
-CANTE,1.29,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.49),24.13,7.08,-0.97,1.5,1.62,1.69
-CASA,74.2,🩸 SAT (Trend Kırıldı),⏳ BEKLE,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %9.99),37.28,79.59,-0.38,84.64,89.66,92.06
-CATES,40.86,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.19),52.27,56.31,-0.0,40.7,40.52,39.8
-CCOLA,85.35,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.65),60.07,78.08,0.8,79.67,75.84,73.14
-CELHA,18.52,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.01),56.02,29.5,-0.08,15.86,14.11,13.45
-CEMAS,4.34,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.78),36.64,2.01,-0.94,4.76,4.9,5.06
-CEMTS,9.76,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.76),41.77,30.53,-0.86,10.14,10.38,10.51
-CEMZY,13.04,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.50),40.01,0.0,-0.87,13.67,12.59,11.51
-CEOEM,27.3,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,🟡 Daralıyor (Bant: %2.45),52.87,71.42,0.68,26.11,25.44,25.62
-CGCAM,48.4,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %7.31),61.24,42.35,-0.05,43.71,41.6,40.17
-CIMSA,48.54,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.13),44.48,70.27,-0.77,50.47,50.5,49.95
-CLEBI,1580.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.04),39.64,23.84,-0.89,1671.74,1707.43,1719.75
-CMBTN,1701.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.69),55.21,77.88,0.85,1647.08,1719.38,1794.85
-CMENT,299.75,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.60),51.81,75.15,0.54,302.04,313.36,321.82
-CONSE,2.55,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.97),28.05,11.84,-0.96,2.91,3.05,3.11
-COSMO,139.7,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.05),34.66,61.99,-0.56,167.88,182.41,184.71
-CRDFA,37.5,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %19.77),48.88,10.83,-0.83,36.12,32.17,28.7
-CRFSA,151.2,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.56),53.15,12.98,-0.75,145.64,139.84,134.21
-CUSAN,23.34,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.78),41.37,53.99,-0.7,24.59,24.75,24.77
-CVKMD,39.62,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.54),43.71,30.82,-0.78,40.47,37.66,34.71
-CWENE,40.9,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %11.45),57.48,84.75,-0.0,37.88,35.39,33.2
-DAGI,9.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.96),68.22,78.35,0.82,7.74,7.24,7.05
-DAPGM,9.36,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.80),36.75,7.27,-0.94,10.45,11.01,11.27
-DARDL,1.95,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.47),32.19,41.7,-0.85,2.12,2.17,2.25
-DCTTR,13.41,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.74),61.69,79.24,0.96,12.31,11.55,11.14
-DENGE,2.58,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.59),58.28,42.75,0.22,2.46,2.54,2.63
-DERHL,11.98,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.39),29.36,5.58,-0.89,13.75,14.45,15.72
-DERIM,39.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.39),53.74,42.9,-0.62,38.46,38.08,37.91
-DESA,10.6,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.94),36.03,64.72,-0.84,12.11,12.4,12.42
-DESPC,44.6,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.04),53.67,43.31,-0.54,43.84,44.33,45.2
-DEVA,70.65,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.28),53.32,15.95,0.31,68.41,67.31,66.79
-DGATE,107.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.63),40.82,3.43,-0.42,108.72,98.36,91.87
-DGGYO,39.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.31),54.71,8.46,-0.57,35.95,34.05,33.44
-DGNMO,8.35,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.06),39.76,0.0,-0.74,8.51,7.69,7.25
-DIRIT,20.94,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.00),28.34,0.0,-0.85,25.5,26.13,26.34
-DITAS,28.52,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.63),33.98,11.99,-0.91,37.33,38.08,37.61
-DMRGD,12.33,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %23.18),69.69,98.05,0.84,9.69,7.9,6.84
-DMSAS,8.43,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.24),37.45,1.31,-0.54,9.07,9.07,9.05
-DNISI,21.46,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.30),47.78,9.43,-0.29,21.28,21.0,21.03
-DOAS,184.2,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.85),44.93,37.01,-0.74,187.82,187.48,186.26
-DOCO,11507.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.29),57.26,6.19,0.29,10678.48,10272.57,10069.3
-DOFER,31.46,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.75),38.12,46.33,-0.9,33.47,35.25,36.85
-DOFRB,173.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.34),52.43,28.76,0.55,158.98,141.52,130.72
-DOGUB,83.05,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %20.61),37.32,19.52,-0.59,96.29,88.27,79.17
-DOHOL,20.6,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.54),40.09,23.06,-0.78,21.72,21.38,20.78
-DOKTA,24.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.66),40.24,14.37,-0.91,25.63,25.27,24.99
-DSTKF,3920.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %21.37),79.2,35.53,0.94,2804.56,2308.65,1966.73
-DUNYH,144.6,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,🔴 ZİRVEDE,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),🟡 Daralıyor (Bant: %2.71),100.0,33.33,0.45,110.48,109.09,106.57
-DURDO,5.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.85),46.59,0.0,-0.75,5.01,4.67,4.46
-DURKN,22.14,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.10),64.09,100.0,0.84,20.54,19.86,19.19
-DYOBY,13.85,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.07),33.35,4.79,-0.83,15.18,15.09,15.03
-DZGYO,8.54,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.97),52.8,56.46,0.47,8.35,8.22,8.1
-EBEBK,75.4,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.65),43.07,24.48,-0.68,76.83,72.43,68.81
-ECILC,76.2,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.19),39.85,29.09,-0.84,84.34,89.06,88.99
-ECOGR,43.2,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %16.88),62.97,38.67,0.32,38.7,35.24,31.41
-ECZYT,333.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.73),49.29,83.17,-0.56,339.46,334.15,323.71
-EDATA,18.71,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %18.06),51.74,26.86,-0.45,18.22,16.58,14.84
-EDIP,39.64,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.07),63.79,81.19,0.81,37.04,36.72,36.22
-EFOR,14.68,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.12),52.5,14.6,-0.4,13.76,14.64,15.69
-EGEEN,5590.0,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.23),46.73,68.16,0.29,5794.07,6109.48,6421.98
-EGEGY,30.02,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,🟡 Daralıyor (Bant: %2.16),59.32,98.97,0.88,29.09,29.04,28.44
-EGEPO,18.24,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.77),44.29,5.58,-0.81,18.2,16.47,14.95
-EGGUB,101.7,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.40),43.83,74.21,-0.54,107.26,108.13,106.7
-EGPRO,37.44,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.14),44.44,9.49,-0.44,38.23,35.51,33.31
-EGSER,3.03,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.97),35.91,5.09,-0.7,3.27,3.22,3.21
-EKDMR,55.7,🟢 Yükseliş Trendinde,🔴 SAT,-,-,-,-,47.1,12.9,0.17,,,
-EKGYO,20.94,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.82),54.01,7.2,-0.33,20.31,20.32,20.15
-EKIZ,76.05,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.10),34.92,5.38,-0.72,86.17,92.66,94.61
-EKOS,6.48,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.07),36.61,3.93,-0.82,7.15,6.86,6.69
-EKSUN,6.57,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.99),40.08,24.5,-0.49,6.78,6.48,6.32
-ELITE,32.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.07),26.08,0.0,-0.95,35.51,34.39,33.89
-EMKEL,20.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %37.42),47.39,86.21,-0.32,21.5,25.04,28.98
-EMNIS,155.3,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.16),42.5,33.16,-0.7,160.34,162.59,168.35
-EMPAE,90.35,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,-,-,50.1,45.49,-0.55,83.28,,
-ENDAE,16.34,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.19),39.53,0.0,-0.7,17.42,16.75,16.41
-ENERY,9.19,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.06),45.57,0.84,0.15,9.36,9.26,9.17
-ENJSA,104.5,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.55),44.92,45.98,-0.71,108.51,107.0,102.72
-ENKAI,91.05,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %4.77),43.17,72.81,-0.18,95.14,93.96,90.8
-ENPRA,68.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,-,-,42.71,88.45,-0.02,75.71,,
-ENSRI,5.59,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %97.41),26.58,7.71,-0.92,11.32,15.42,16.76
-ENTRA,4.56,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.13),41.98,4.87,-0.92,4.74,4.71,4.68
-EPLAS,5.9,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.39),51.17,72.34,0.06,5.94,6.01,6.02
-ERBOS,172.6,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.72),42.52,52.19,-0.39,185.54,188.49,188.5
-ERCB,49.0,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.15),36.09,51.09,-0.82,56.35,59.03,61.82
-EREGL,41.26,🟢 Yükseliş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %12.23),58.55,28.27,0.53,38.27,35.24,33.23
-ERSU,23.86,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.84),41.75,30.43,-0.78,25.18,24.12,23.07
-ESCAR,49.1,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.15),52.9,65.45,-0.32,47.53,43.63,41.07
-ESCOM,5.84,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.28),51.56,23.13,-0.28,5.55,5.15,4.83
-ESEN,3.65,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %26.65),41.27,23.08,-0.81,3.86,4.27,4.83
-ETILR,5.84,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.43),58.18,74.5,-0.26,5.38,5.1,5.06
-ETYAT,13.99,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.58),69.81,49.44,0.7,11.25,9.95,9.21
-EUHOL,10.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.96),35.81,3.67,-0.93,11.55,11.99,12.06
-EUKYO,12.4,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %16.56),83.06,81.16,0.98,9.77,8.48,7.71
-EUPWR,88.2,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %22.41),55.43,36.68,-0.26,76.44,64.1,56.68
-EUREN,4.4,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.40),34.16,9.41,-0.9,4.73,5.03,5.32
-EUYO,5.25,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.16),30.61,1.88,-0.91,5.92,5.8,5.6
-EYGYO,2.32,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %17.98),32.59,11.46,-0.91,2.62,2.88,3.03
-FADE,15.68,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.63),46.53,65.45,-0.68,15.93,15.62,15.37
-FENER,3.06,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %89.14),40.97,65.81,-0.73,3.32,4.02,6.04
-FLAP,10.93,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.38),32.79,21.05,-0.91,12.68,12.26,11.76
-FMIZP,304.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.01),52.76,67.78,0.53,299.68,300.88,302.76
-FONET,5.1,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.26),40.47,4.07,-0.86,5.29,4.89,4.51
-FORMT,2.08,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %22.27),30.01,18.69,-0.54,2.36,2.6,2.82
-FORTE,95.25,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,🟡 Daralıyor (Bant: %2.88),52.98,83.24,0.7,94.0,93.3,91.26
-FRIGO,1.97,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.15),37.36,98.36,-0.44,2.54,2.7,2.66
-FRMPL,34.62,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,-,-,38.51,11.97,-0.88,37.85,36.91,
-FROTO,83.0,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.69),36.92,6.57,-0.96,89.96,93.73,94.68
-FZLGY,13.44,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.54),38.79,24.93,-0.81,14.83,14.62,14.22
-GARAN,134.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.30),47.4,3.7,-0.92,134.72,134.78,134.38
-GARFA,27.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.62),34.3,0.0,-0.97,29.93,29.28,28.64
-GATEG,282.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.28),40.73,59.95,-0.64,298.59,302.41,295.98
-GEDIK,7.17,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.13),53.31,33.78,0.59,6.66,6.32,6.15
-GEDZA,30.22,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.06),38.19,23.78,-0.87,32.01,31.21,30.48
-GENIL,8.97,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.73),47.92,0.0,-0.73,9.11,9.38,9.63
-GENKM,13.28,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,36.1,1.25,-0.85,15.33,,
-GENTS,6.16,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %17.71),32.2,16.93,-0.93,7.12,7.84,8.21
-GEREL,36.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %18.77),39.52,0.0,-0.53,38.73,35.06,31.94
-GESAN,80.45,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.69),57.82,79.45,0.2,70.48,63.45,59.47
-GIPTA,67.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.94),41.85,30.66,-0.62,72.38,72.94,74.37
-GLBMD,13.46,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.52),51.92,31.92,0.63,12.96,12.72,12.62
-GLCVY,56.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.65),37.02,0.0,-0.87,59.78,61.91,62.94
-GLRMK,166.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.51),37.29,0.69,-0.97,178.23,180.75,179.8
-GLRYH,3.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.93),55.82,93.62,0.73,3.55,3.79,3.9
-GLYHO,17.97,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.40),57.55,17.43,-0.28,16.58,15.58,14.71
-GMTAS,46.94,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %19.04),54.21,53.05,-0.38,43.54,38.64,34.6
-GOKNR,23.84,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.01),46.26,35.03,-0.77,23.98,23.31,23.02
-GOLTS,325.0,🔴 Düşüş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.04),41.15,68.33,0.04,338.79,344.25,345.42
-GOODY,2.82,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.71),42.64,0.8,-0.78,2.98,2.9,2.87
-GOZDE,23.78,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %0.76),61.36,35.69,0.63,21.95,21.76,21.8
-GRNYO,17.14,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.87),35.23,0.0,-0.88,18.3,17.68,16.95
-GRSEL,304.75,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.28),45.8,29.07,-0.47,311.73,317.71,318.69
-GRTHO,241.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.81),52.13,25.04,-0.54,236.99,246.87,260.67
-GSDDE,15.17,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.53),64.92,96.97,0.49,12.81,12.04,11.52
-GSDHO,5.91,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.14),52.02,79.26,0.41,5.63,5.34,5.15
-GSRAY,1.01,🔴 Düşüş Trendinde,⏳ BEKLE,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.84),30.47,0.0,-0.95,1.07,1.12,1.2
-GUBRF,457.75,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.02),41.01,41.97,-0.79,499.97,491.08,467.85
-GUNDG,1965.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),📈 TREND DEVAMI (0 Üstü + Hacim),🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %22.48),84.75,92.37,0.98,1270.72,1003.29,829.04
-GWIND,24.5,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.34),32.18,1.06,-0.98,26.63,26.58,26.3
-GZNMI,57.8,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %30.74),32.74,8.22,-0.84,66.18,72.53,83.95
-HALKB,43.44,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.48),46.64,13.24,-0.67,43.51,42.0,40.26
-HATEK,16.37,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.08),51.07,68.99,0.73,16.21,16.17,16.35
-HATSN,54.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.08),45.49,2.93,-0.78,53.83,49.79,47.85
-HDFGS,2.75,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.91),50.26,85.28,0.53,2.85,2.99,3.01
-HEDEF,166.2,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %20.39),89.07,52.69,0.96,119.45,99.41,85.56
-HEKTS,3.12,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.65),33.73,4.5,-0.93,3.66,3.57,3.54
-HKTM,10.8,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.86),32.62,40.31,-0.85,13.02,13.03,12.94
-HLGYO,5.47,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.34),39.89,10.2,-0.86,5.55,5.19,4.87
-HOROZ,65.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %3.38),46.17,25.98,-0.63,67.9,66.92,65.69
-HRKET,96.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.37),41.59,0.0,-0.73,98.71,89.29,84.9
-HTTBT,39.62,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.05),44.93,38.28,-0.85,40.59,41.23,41.79
-HUBVC,3.08,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.29),48.8,89.67,-0.14,3.3,3.43,3.39
-HUNER,3.65,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.58),44.97,28.52,-0.09,3.71,3.58,3.54
-HURGZ,6.61,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.33),42.28,69.61,-0.76,7.01,6.82,6.66
-ICBCT,21.3,🔴 Düşüş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.60),50.69,51.18,0.5,20.21,18.49,17.52
-ICUGS,5.73,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %16.29),54.31,91.97,0.61,5.34,4.78,4.41
-IDGYO,4.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.96),47.07,3.5,0.07,4.51,4.26,4.1
-IEYHO,154.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %18.87),83.47,5.97,0.97,124.47,107.92,95.32
-IHAAS,61.0,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.88),38.45,85.41,-0.25,73.6,72.14,67.57
-IHEVA,2.07,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.25),42.43,29.64,-0.55,2.14,2.19,2.23
-IHGZT,1.33,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.11),42.95,32.64,-0.66,1.4,1.46,1.5
-IHLAS,1.14,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %41.18),27.6,73.91,-0.63,1.57,1.85,2.04
-IHLGM,1.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.48),34.24,8.14,-0.72,1.95,2.04,2.1
-IHYAY,1.41,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.57),26.91,0.0,-0.91,1.68,1.77,1.87
-IMASM,2.98,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.89),35.92,34.97,-0.9,3.29,3.59,3.74
-INDES,10.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.71),39.87,8.07,-0.61,10.83,10.12,9.59
-INFO,8.11,🟢 Yükseliş Trendinde,⏳ BEKLE,🟡 RİSKLİ AL (0 Üstü - Hacimsiz),-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %10.17),74.94,24.45,0.77,5.05,4.46,4.22
-INGRM,440.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %1.41),51.84,77.22,0.73,432.87,429.0,426.65
-INTEK,260.75,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.76),56.95,86.07,0.68,246.6,255.45,269.44
-INTEM,271.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.84),52.99,89.2,0.39,274.07,283.65,284.47
-INVEO,8.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.44),58.29,77.05,0.84,8.15,8.21,8.37
-INVES,600.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %21.81),40.0,1.09,-0.39,631.64,552.23,500.78
-ISATR,4950000.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.70),56.62,32.82,0.0,4950188.85,4960160.04,4985056.9
-ISBIR,69.5,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.25),34.24,24.84,-0.94,74.5,77.38,80.24
-ISBTR,542230.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %1.28),69.63,39.77,0.86,447890.86,440943.44,445656.14
-ISCTR,14.45,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.90),49.43,8.54,-0.87,14.33,14.2,14.06
-ISDMR,55.5,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.69),43.25,5.15,-0.92,54.88,49.93,46.73
-ISFIN,19.53,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.56),39.63,0.42,-0.95,19.96,19.82,19.46
-ISGSY,19.36,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.28),44.38,5.49,-0.59,20.09,19.12,17.9
-ISGYO,26.92,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.05),70.87,53.14,0.81,22.34,21.64,21.25
-ISKPL,6.8,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %17.49),32.05,64.07,-0.76,11.36,12.55,12.25
-ISKUR,4125000.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %5.56),70.94,100.0,0.81,3203468.26,3255741.77,3026194.98
-ISMEN,35.92,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.90),37.96,10.09,-0.95,38.16,39.35,39.56
-ISSEN,7.32,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.20),35.04,6.29,-0.89,7.94,7.94,7.93
-ISYAT,8.02,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.30),45.99,10.73,0.13,8.18,8.29,8.36
-IZENR,9.66,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.15),39.18,66.67,-0.24,10.34,10.19,9.94
-IZFAS,63.2,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.20),44.06,20.48,0.42,63.51,59.98,56.43
-IZINV,62.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.88),39.92,9.38,-0.86,66.42,66.65,66.11
-IZMDC,9.1,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.66),61.31,63.56,0.61,8.11,7.68,7.41
-JANTS,16.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.71),43.37,84.38,-0.45,16.87,17.5,18.1
-KAPLM,523.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.11),42.2,29.46,-0.88,564.5,531.45,495.91
-KAREL,10.63,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.83),43.3,70.24,0.67,11.19,10.79,10.47
-KARSN,12.53,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.22),46.01,3.49,-0.85,12.49,11.83,11.46
-KARTN,174.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.71),73.14,89.78,0.95,127.54,111.25,103.58
-KATMR,2.67,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.79),43.69,24.76,-0.21,2.77,2.81,2.82
-KAYSE,4.37,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.32),40.54,39.54,-0.74,4.56,4.64,4.66
-KBORU,26.86,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %11.37),60.74,63.32,0.82,24.98,23.1,21.92
-KCAER,14.99,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.62),58.34,16.16,-0.36,13.85,13.01,12.71
-KCHOL,189.2,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.61),44.51,4.21,-0.72,194.01,192.45,189.08
-KENT,364.0,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %28.68),36.68,36.37,-0.9,395.82,448.19,500.23
-KERVN,6.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %23.74),46.93,16.75,-0.78,5.79,4.88,4.32
-KFEIN,9.04,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.54),37.61,5.49,-0.95,9.75,9.57,9.52
-KGYO,9.9,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %23.14),28.21,13.87,-0.63,11.53,10.35,9.24
-KIMMR,15.42,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.02),33.18,4.19,-0.95,16.52,16.43,16.05
-KLGYO,5.1,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.34),50.88,22.87,-0.28,5.15,5.4,5.57
-KLKIM,28.22,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.53),26.02,0.0,-0.98,31.68,33.13,33.52
-KLMSN,33.02,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,🟡 Daralıyor (Bant: %1.82),50.54,73.09,0.66,32.85,32.57,32.25
-KLNMA,9.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.82),55.13,57.4,0.75,9.47,9.72,9.94
-KLRHO,89.1,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %57.37),41.92,72.67,-0.51,108.11,143.89,159.23
-KLSER,25.96,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.08),34.55,1.31,-0.97,27.72,27.74,28.0
-KLSYN,14.93,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %16.24),60.79,65.22,0.83,12.95,11.54,10.53
-KLYPV,58.85,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.38),42.64,5.23,-0.92,60.93,60.71,60.81
-KMPUR,17.94,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.65),31.8,6.73,-0.89,19.85,19.05,18.48
-KNFRT,12.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.28),38.59,0.73,-0.95,13.24,12.89,12.84
-KOCMT,4.94,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.56),91.35,100.0,0.93,3.08,2.87,2.81
-KONKA,14.56,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.37),47.89,58.28,-0.38,14.95,15.15,15.11
-KONTR,4.09,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %112.21),35.49,65.86,-0.75,6.5,8.75,11.09
-KONYA,4025.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.32),54.02,55.6,0.7,3951.12,4084.68,4245.79
-KOPOL,6.69,🟢 Yükseliş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.09),55.4,19.54,-0.35,6.35,6.22,6.15
-KORDS,76.35,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.58),53.13,52.06,-0.5,73.34,68.85,66.03
-KOTON,16.69,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.26),73.7,89.06,0.34,14.96,15.24,15.5
-KRDMA,39.14,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.48),47.51,9.83,-0.69,38.25,35.81,34.54
-KRDMB,135.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %25.48),68.51,67.3,0.87,109.87,88.92,75.47
-KRDMD,37.54,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.94),39.82,5.89,-0.84,38.82,36.53,34.71
-KRGYO,2.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.72),42.97,20.52,-0.32,2.73,2.84,3.09
-KRONT,26.92,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.78),77.31,89.44,0.93,21.4,19.88,18.77
-KRPLS,9.35,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.78),53.53,68.94,-0.31,9.16,8.97,8.8
-KRSTL,10.62,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.95),43.58,16.09,-0.4,10.8,10.57,10.38
-KRTEK,22.92,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.09),40.68,37.25,-0.77,24.13,24.92,25.53
-KRVGD,2.81,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.36),38.41,35.46,-0.88,2.96,2.93,2.86
-KSTUR,2880.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.74),47.78,80.03,0.04,2959.76,3047.55,3125.12
-KTLEV,180.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %28.85),63.7,16.37,0.01,147.26,115.72,95.32
-KTSKR,102.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %10.64),48.42,64.41,0.72,103.36,98.05,92.5
-KUTPO,87.05,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.78),39.8,21.86,-0.89,91.42,94.34,95.59
-KUVVA,134.0,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.63),40.86,63.12,-0.37,142.76,139.14,135.21
-KUYAS,75.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %6.62),53.9,94.53,0.6,75.59,73.93,70.57
-KZBGY,2.33,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.88),25.17,3.2,-0.97,3.01,3.22,3.33
-KZGYO,22.52,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.34),41.82,62.59,-0.5,23.44,23.69,23.74
-LIDER,103.6,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.21),51.7,99.09,-0.03,105.97,103.0,96.42
-LIDFA,2.85,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.14),40.11,4.02,-0.94,3.06,3.01,2.89
-LILAK,34.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.87),48.04,14.41,0.33,34.45,33.52,32.44
-LINK,7.15,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %4.11),50.42,37.34,0.31,6.87,6.68,6.97
-LKMNH,15.28,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.88),45.63,57.41,0.11,15.68,15.93,16.12
-LMKDC,26.14,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.45),23.42,36.52,-0.93,29.86,30.24,29.88
-LOGO,142.4,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.25),52.19,53.89,-0.56,141.93,142.98,143.71
-LRSHO,3.18,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.62),35.37,9.64,-0.94,3.5,3.72,3.9
-LUKSK,104.8,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.85),47.8,24.8,-0.74,105.56,105.07,104.67
-LXGYO,14.72,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,-,-,33.55,5.81,-0.97,16.81,,
-LYDHO,186.0,🔴 Düşüş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.61),50.18,70.55,0.63,187.41,185.99,180.69
-LYDYE,13350.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.50),33.08,75.83,-0.26,14660.4,14994.36,14923.74
-MAALT,1132.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.48),43.33,2.76,-0.02,1179.98,1148.48,1117.99
-MACKO,33.5,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.26),26.38,22.23,-0.91,37.02,36.28,35.6
-MAGEN,34.38,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %5.91),36.71,100.0,-0.63,44.71,46.68,44.65
-MAKIM,19.99,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.44),60.86,54.22,0.17,18.03,17.61,17.54
-MAKTK,12.33,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.93),42.13,56.94,-0.58,12.96,13.44,13.69
-MANAS,29.8,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %18.47),59.08,36.83,0.78,27.23,24.21,21.72
-MARBL,13.26,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.36),50.31,43.05,-0.6,13.24,13.22,13.27
-MARKA,85.15,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.29),61.5,1.34,-0.04,71.26,61.21,56.54
-MARMR,2.31,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.54),37.95,55.58,0.05,2.52,2.63,2.72
-MARTI,1.65,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %19.53),35.87,4.55,-0.86,1.85,2.01,2.18
-MAVI,39.9,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.72),45.62,69.39,-0.71,41.21,41.49,41.24
-MCARD,151.7,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,-,32.12,0.0,-0.92,171.91,,
-MEDTR,29.6,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.63),50.56,68.5,-0.62,29.66,29.64,29.83
-MEGAP,2.09,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %19.64),33.25,58.53,-0.88,2.37,2.59,2.78
-MEGMT,72.55,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.31),35.6,2.11,-0.93,78.88,75.03,69.94
-MEKAG,3.54,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.64),36.16,55.13,-0.83,4.06,4.45,4.55
-MEPET,22.6,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.37),44.03,42.02,-0.75,23.77,23.21,22.11
-MERCN,23.7,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.57),44.86,0.0,-0.7,23.47,22.18,21.91
-MERIT,18.11,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.38),57.47,40.45,-0.46,17.15,17.1,17.16
-MERKO,1.63,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %312.25),27.34,95.9,-0.64,3.97,7.22,9.06
-METRO,8.81,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.89),54.97,41.73,-0.04,8.01,7.18,6.61
-MEYSU,13.19,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,25.62,2.11,-0.95,15.83,15.13,
-MGROS,648.5,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.27),42.74,19.28,-0.87,663.09,643.38,622.4
-MHRGY,3.68,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.25),37.82,6.74,-0.77,3.96,3.86,3.8
-MIATK,35.52,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.99),28.57,6.46,-0.96,42.99,42.35,41.57
-MMCAS,59.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.90),41.48,28.29,-0.42,67.9,76.33,79.05
-MNDRS,11.11,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.29),39.85,21.17,-0.92,11.81,12.42,12.73
-MNDTR,5.66,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.03),39.24,0.0,-0.95,5.88,6.04,6.17
-MOBTL,14.76,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %12.86),57.79,100.0,0.36,13.98,13.01,12.09
-MOGAN,16.03,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.54),65.3,84.73,0.69,13.59,12.73,12.06
-MOPAS,32.62,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.44),35.22,75.93,-0.79,37.29,39.22,39.39
-MPARK,424.75,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.67),42.32,24.7,-0.84,442.64,437.51,427.06
-MRGYO,1.44,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.07),32.54,0.0,-0.89,1.61,1.75,1.87
-MRSHL,2165.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %5.13),64.39,55.96,0.92,1728.48,1640.45,1617.43
-MSGYO,6.31,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.06),48.16,16.54,-0.82,6.48,6.46,6.29
-MTRKS,30.68,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),📈 TREND DEVAMI (0 Üstü + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.05),60.36,27.43,-0.15,27.29,25.58,24.83
-MTRYO,10.81,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.25),53.97,36.46,0.18,10.35,10.04,9.78
-MZHLD,5.72,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.72),32.63,22.64,-0.92,6.05,6.19,6.26
-NATEN,6.62,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.79),45.71,69.04,-0.74,6.93,7.31,7.65
-NETAS,62.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.07),40.84,5.92,-0.9,65.41,64.53,64.12
-NETCD,152.7,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,-,-,45.48,74.83,-0.23,154.27,137.92,
-NIBAS,4.28,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.04),35.97,81.86,-0.62,5.12,5.46,5.37
-NTGAZ,11.47,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.89),40.69,70.93,-0.53,11.92,11.65,11.25
-NTHOL,48.3,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.53),69.0,60.63,0.0,42.35,42.53,43.09
-NUGYO,9.41,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.98),38.33,8.24,-0.87,9.91,9.87,9.82
-NUHCM,227.6,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.36),54.83,93.58,0.04,227.52,230.58,230.61
-OBAMS,5.59,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.15),20.1,14.4,-0.98,7.16,7.56,7.73
-OBASE,40.54,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.28),55.66,36.88,-0.55,38.84,38.07,37.5
-ODAS,8.22,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.50),51.61,3.45,-0.84,7.78,7.19,6.83
-ODINE,1874.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %26.70),65.57,6.64,0.74,1479.69,1177.3,979.31
-OFSYM,57.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.13),46.21,38.83,-0.68,59.01,60.55,60.8
-ONCSM,246.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.58),30.83,10.84,-0.91,271.36,270.7,260.1
-ONRYT,65.6,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),🔴 ZAYIFLAMA (Zaten Dipte),-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.58),47.58,70.56,0.56,67.28,67.11,67.49
-ORCAY,4.09,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.06),44.26,79.14,-0.34,4.23,4.25,4.52
-ORGE,109.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.91),46.94,11.88,-0.84,105.23,94.59,88.98
-ORMA,180.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.58),39.5,28.51,-0.93,191.78,185.02,181.74
-ORZAX,75.9,-,-,-,-,-,-,,,,,,
-OSMEN,8.81,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.89),61.6,65.14,0.74,7.9,7.91,8.33
-OSTIM,1.85,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.69),38.42,5.15,-0.7,2.03,2.09,2.15
-OTKAR,366.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.90),49.34,65.76,0.78,370.66,385.58,399.57
-OTTO,192.3,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %39.68),44.36,69.78,-0.7,228.45,273.99,304.76
-OYAKC,20.72,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.08),44.0,32.88,-0.07,21.73,22.52,22.78
-OYAYO,48.54,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.95),43.57,9.43,-0.83,51.35,52.12,51.18
-OYLUM,8.48,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.93),58.9,95.1,-0.07,8.32,8.44,8.57
-OYYAT,40.72,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.27),36.3,17.5,-0.92,46.24,47.58,46.98
-OZATD,1828.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %30.41),64.54,44.82,0.82,1307.45,944.96,751.55
-OZGYO,2.16,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.09),49.82,67.7,0.52,2.15,2.12,2.09
-OZKGY,14.13,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.14),47.68,1.79,-0.44,13.93,13.71,13.62
-OZRDN,29.3,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.40),46.78,50.8,-0.79,30.91,29.24,26.69
-OZSUB,30.12,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.46),49.86,0.0,-0.03,28.71,26.2,24.65
-OZYSR,13.24,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.46),65.6,93.95,0.89,12.16,11.77,11.31
-PAGYO,163.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.15),67.11,89.54,0.74,135.18,122.72,113.74
-PAHOL,1.46,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.03),33.22,0.71,-0.82,1.58,1.59,1.59
-PAMEL,86.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.84),48.28,7.62,-0.28,86.88,86.83,87.55
-PAPIL,14.83,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.20),43.99,16.74,-0.16,15.57,16.15,16.78
-PARSN,83.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.51),39.79,0.0,-0.92,86.62,87.14,87.88
-PASEU,92.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.36),37.36,30.0,-0.8,112.96,118.06,118.81
-PATEK,23.64,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %1.75),51.75,77.68,0.4,22.88,22.47,22.53
-PCILT,30.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.42),33.37,9.11,-0.93,32.43,30.43,28.7
-PEKGY,14.61,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.30),66.24,98.96,0.95,13.78,13.42,12.71
-PENGD,10.81,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.00),31.29,73.17,-0.84,12.14,11.63,11.06
-PENTA,13.34,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.44),33.76,9.6,-0.92,14.5,14.46,14.44
-PETKM,19.16,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),🟡 Daralıyor (Bant: %2.98),37.94,26.16,-0.91,20.73,20.59,20.16
-PETUN,11.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.40),35.98,25.93,-0.92,12.42,12.4,12.26
-PGSUS,174.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.64),46.17,2.67,-0.89,177.58,183.03,189.14
-PINSU,10.51,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.06),31.69,8.02,-0.89,11.36,11.47,11.38
-PKART,127.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.30),45.23,25.7,-0.7,129.0,116.07,106.96
-PKENT,142.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.05),35.05,10.96,-0.89,150.59,157.04,164.87
-PLTUR,23.36,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.66),51.36,81.0,0.1,23.49,23.59,23.64
-PNLSN,42.3,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.67),36.06,30.76,-0.89,45.34,45.23,44.64
-PNSUT,11.7,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %1.88),33.0,7.57,-0.96,12.63,12.59,12.41
-POLHO,21.02,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.59),55.37,50.42,0.29,20.54,19.84,18.73
-POLTK,5170.0,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.70),48.55,51.68,0.59,5252.07,5574.77,5908.92
-PRDGS,7.42,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.09),48.66,76.87,0.03,7.54,7.41,7.24
-PRKAB,35.2,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %1.76),33.98,12.41,-0.93,39.08,39.7,39.3
-PRKME,22.16,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %1.78),58.84,35.94,0.75,19.48,19.19,19.09
-PRZMA,73.95,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %22.28),71.06,81.86,0.92,47.83,37.23,31.36
-PSDTC,141.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.15),56.76,49.21,0.77,130.49,130.51,130.71
-PSGYO,3.5,🟢 Yükseliş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.07),52.0,11.59,-0.76,3.3,3.07,2.95
-QNBFK,53.45,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.31),77.12,82.34,0.81,41.12,43.78,46.09
-QNBTR,226.6,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.80),54.12,82.11,0.38,227.7,243.7,252.17
-QUAGR,3.59,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %4.89),39.15,5.84,-0.75,3.82,3.81,3.99
-RALYH,209.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %4.37),49.52,99.41,0.33,223.96,224.36,215.23
-RAYSG,183.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.04),38.76,1.92,-0.93,193.17,200.73,209.75
-REEDR,6.66,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.81),42.47,24.58,-0.87,7.08,7.29,7.67
-RGYAS,196.0,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.75),53.13,37.12,-0.7,190.98,181.56,173.83
-RNPOL,2.63,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.23),56.16,96.23,0.08,2.53,2.48,2.4
-RODRG,27.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.07),52.92,92.55,0.61,26.09,24.96,24.18
-RTALB,3.62,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.47),51.63,64.5,0.17,3.63,3.68,3.68
-RUBNS,22.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.87),27.36,26.39,-0.98,28.67,30.18,29.83
-RUZYE,9.62,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.58),32.13,65.63,-0.87,11.06,11.53,11.59
-RYGYO,31.46,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.98),52.03,62.72,-0.49,31.27,30.4,29.07
-RYSAS,20.68,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.47),36.1,2.67,-0.92,22.2,20.98,20.03
-SAFKR,21.72,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.27),41.63,17.35,-0.92,23.8,24.51,24.4
-SAHOL,92.8,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.20),40.64,0.0,-0.93,95.76,94.86,93.72
-SAMAT,6.38,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.63),44.78,10.13,-0.33,6.54,6.3,6.25
-SANEL,69.85,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.53),55.05,25.23,0.57,56.6,48.46,44.35
-SANFM,10.04,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.55),62.41,87.6,0.29,8.82,8.39,8.27
-SANKO,21.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.91),42.85,10.31,-0.68,22.07,21.92,21.87
-SARKY,26.8,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.52),42.38,47.55,-0.69,28.25,28.01,26.77
-SASA,2.31,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.76),31.31,0.0,-0.97,2.63,2.68,2.76
-SAYAS,48.2,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.58),39.64,24.84,-0.72,51.53,49.45,48.36
-SDTTR,255.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.70),50.2,56.78,0.61,249.05,237.65,229.42
-SEGMN,56.1,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.44),52.65,80.38,0.25,55.15,51.81,47.62
-SEGYO,4.61,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.66),41.15,5.56,-0.81,4.82,4.92,4.94
-SEKFK,10.24,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.31),45.55,75.61,0.0,10.44,10.28,10.0
-SEKUR,11.27,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.11),58.54,29.08,0.05,9.2,7.92,7.05
-SELEC,207.7,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %17.24),65.95,7.97,0.66,145.63,121.18,109.82
-SELVA,1.94,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.34),36.82,3.92,-0.81,2.15,2.27,2.33
-SERNT,9.77,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.59),47.55,16.33,-0.42,9.71,9.35,9.26
-SEYKM,5.1,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.78),57.15,55.7,0.26,4.92,4.98,5.01
-SILVR,2.58,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.32),43.58,7.5,-0.44,2.65,2.65,2.66
-SISE,43.16,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.79),40.21,3.08,-0.89,45.26,44.61,43.62
-SKBNK,19.1,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.18),77.65,80.46,0.76,14.63,13.05,11.92
-SKTAS,3.65,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.57),48.71,21.32,-0.57,3.64,3.64,3.73
-SKYLP,228.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.49),22.44,0.0,-0.98,292.54,289.8,275.48
-SKYMD,15.08,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.46),56.74,60.78,0.79,13.84,13.45,13.32
-SMART,26.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.78),29.35,0.0,-0.78,33.12,32.4,31.35
-SMRTG,11.0,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.83),41.84,11.7,-0.94,11.05,10.11,9.75
-SMRVA,14.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %40.63),40.02,3.44,-0.7,15.63,18.31,21.32
-SNGYO,3.79,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.56),50.92,30.24,-0.09,3.78,3.93,4.03
-SNICA,4.51,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %0.79),54.92,27.74,0.41,4.24,4.21,4.23
-SNPAM,21.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.51),43.5,43.07,-0.78,21.76,22.14,22.29
-SODSN,8.82,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.56),45.26,49.93,0.12,9.3,9.96,10.5
-SOHOE,14.85,-,-,-,-,-,-,,,,,,
-SOKE,16.35,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.31),47.81,43.76,-0.58,16.82,16.2,15.46
-SOKM,45.28,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.43),36.82,15.67,-0.95,49.04,50.6,50.5
-SONME,128.0,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.55),47.66,51.1,-0.58,132.47,137.25,138.29
-SRVGY,2.72,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.07),28.46,17.45,-0.95,2.95,3.04,3.09
-SUMAS,353.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.29),46.72,51.91,-0.47,356.39,334.9,323.53
-SUNTK,28.66,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.48),41.11,47.39,-0.83,31.69,34.16,35.55
-SURGY,69.6,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.66),46.4,54.98,-0.54,69.81,66.11,63.09
-SUWEN,6.78,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.80),32.88,7.82,-0.91,7.69,8.27,8.7
-SVGYO,18.99,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,-,-,40.16,33.33,0.03,19.11,,
-TABGD,224.9,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.25),36.18,74.85,-0.7,250.43,250.3,245.36
-TARKM,508.5,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.16),44.9,36.75,-0.61,507.17,472.15,450.4
-TATEN,12.09,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.42),31.71,0.0,-0.89,14.04,13.78,13.63
-TATGD,18.45,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.27),39.02,22.26,0.11,19.23,18.2,17.34
-TAVHL,272.25,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.26),44.28,0.0,-0.88,281.08,286.85,287.22
-TBORG,133.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.16),45.45,59.53,-0.14,137.95,144.45,148.8
-TCELL,108.2,🟢 Yükseliş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.80),46.87,12.3,-0.89,109.84,109.4,107.9
-TCKRC,133.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %21.65),41.52,5.92,-0.11,136.05,119.64,107.14
-TDGYO,15.73,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %21.71),49.56,58.88,0.66,16.28,18.38,19.69
-TEHOL,39.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %12.66),89.01,100.0,0.99,31.55,28.02,26.55
-TEKTU,9.3,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.37),38.26,14.31,-0.89,10.34,10.68,11.03
-TERA,147.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.24),30.62,23.36,-0.3,204.38,225.33,223.79
-TEZOL,15.88,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.64),36.32,48.65,-0.87,17.42,16.88,16.36
-TGSAS,178.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.67),52.55,52.22,0.17,174.24,172.34,169.47
-THYAO,348.25,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.79),74.72,94.37,0.76,316.01,309.64,306.3
-TKFEN,132.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.85),45.63,57.33,0.25,133.18,121.37,113.48
-TKNSA,19.37,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.09),38.79,44.75,-0.72,20.69,21.6,22.26
-TLMAN,90.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.32),34.02,0.0,-0.97,95.96,95.8,95.67
-TMPOL,424.75,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.56),47.04,0.0,-0.68,436.21,432.25,408.35
-TMSN,88.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.99),39.76,54.86,-0.83,94.94,98.85,101.09
-TNZTP,24.18,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.28),41.41,0.72,-0.77,25.14,24.86,24.59
-TOASO,299.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.21),42.01,0.0,-0.87,305.6,294.81,284.03
-TRALT,52.2,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.29),63.81,80.67,-0.09,47.02,46.0,44.26
-TRCAS,41.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.97),40.07,28.51,-0.37,43.32,43.08,42.08
-TRENJ,95.75,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.46),62.0,97.08,0.29,90.07,91.47,90.17
-TRGYO,101.3,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),📈 TREND DEVAMI (0 Üstü + Hacim),-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %9.06),61.69,56.2,0.54,95.35,90.3,86.17
-TRHOL,1516.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %24.71),43.6,14.3,-0.34,1503.64,1296.44,1129.11
-TRILC,1.2,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %46.80),27.91,94.09,-0.1,1.89,2.26,2.45
-TRMET,121.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.00),57.69,95.18,0.25,117.32,119.75,117.84
-TSGYO,6.66,🟢 Yükseliş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.14),45.57,17.43,-0.92,6.76,6.85,6.97
-TSKB,11.85,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.92),48.3,3.07,-0.82,11.91,11.97,12.02
-TSPOR,0.91,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.07),40.84,63.46,-0.67,0.95,0.98,1.01
-TTKOM,59.3,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.55),40.33,10.82,-0.81,62.11,61.92,61.19
-TTRAK,436.75,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.56),44.22,41.73,-0.19,449.75,468.7,487.14
-TUCLK,4.05,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %20.88),41.53,47.13,-0.73,4.24,4.58,5.08
-TUKAS,2.21,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.45),30.83,12.53,-0.97,2.39,2.46,2.55
-TUPRS,258.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.73),68.75,99.02,0.71,238.28,234.71,226.08
-TUREX,7.18,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.66),28.41,0.0,-0.96,7.96,8.08,8.44
-TURGG,28.0,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.33),42.07,39.08,-0.76,29.94,30.31,30.25
-TURSG,6.02,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.68),37.34,3.63,-0.97,6.41,6.4,6.25
-UCAYM,32.5,🩸 SAT (Trend Kırıldı),⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,-,-,41.92,20.01,-0.85,33.51,31.29,
-UFUK,1611.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.74),53.39,3.02,0.12,1545.55,1532.19,1501.44
-ULAS,25.04,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.29),38.05,69.36,-0.82,27.4,28.82,29.22
-ULKER,99.6,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.53),33.22,24.17,-0.92,108.35,110.66,110.87
-ULUFA,1.76,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.86),31.29,0.0,-0.99,1.93,1.94,1.9
-ULUSE,298.0,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.10),47.16,18.31,-0.86,293.28,262.08,242.31
-ULUUN,9.11,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.99),53.0,32.01,-0.09,8.79,8.42,8.16
-UMPAS,9.3,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.04),41.49,16.67,,9.3,9.3,9.3
-UNLU,12.76,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.67),43.36,15.04,0.04,13.37,13.78,14.09
-USAK,1.44,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %32.34),35.81,3.43,-0.65,1.59,1.8,2.05
-VAKBN,32.44,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.79),47.7,6.65,-0.81,32.76,32.69,32.18
-VAKFA,11.96,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.37),41.36,15.78,-0.88,12.45,12.7,12.85
-VAKFN,1.6,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.98),33.23,0.0,-0.95,1.71,1.78,1.81
-VAKKO,72.9,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.38),41.58,7.15,-0.87,76.51,74.34,71.86
-VANGD,89.95,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.98),46.35,5.84,-0.93,89.75,82.26,75.38
-VBTYZ,28.5,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.63),49.66,31.3,-0.34,27.24,24.92,23.64
-VERTU,38.36,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.49),42.12,2.4,-0.85,40.37,40.23,40.18
-VERUS,461.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %23.13),31.17,0.0,-0.57,568.56,505.84,461.76
-VESBE,6.16,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.32),42.39,28.32,-0.05,6.7,7.12,7.58
-VESTL,24.44,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.99),44.31,33.61,0.03,26.2,27.61,29.13
-VKFYO,31.38,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.23),64.18,70.87,0.0,29.82,31.45,31.46
-VKGYO,2.72,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,🟡 Daralıyor (Bant: %2.34),52.34,52.2,0.02,2.69,2.66,2.62
-VKING,23.8,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.26),36.72,37.35,-0.81,25.64,27.01,28.08
-VRGYO,2.04,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.21),38.3,22.18,-0.9,2.19,2.29,2.39
-VSNMD,85.95,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %20.33),45.04,3.66,-0.3,89.07,93.36,106.55
-YAPRK,11.78,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.44),32.62,25.57,-0.95,12.98,13.4,13.74
-YATAS,39.74,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.97),45.15,22.07,-0.57,41.4,41.61,40.83
-YAYLA,23.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.91),46.53,56.46,-0.48,25.08,25.89,26.49
-YBTAS,16.3,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.96),51.57,100.0,0.41,16.73,18.08,19.82
-YEOTK,94.95,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %25.13),41.43,7.52,-0.93,95.15,80.47,71.29
-YESIL,1.34,🔴 Düşüş Trendinde,⏳ BEKLE,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.27),33.01,74.23,-0.91,1.48,1.6,1.7
-YGGYO,228.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.32),46.12,7.14,-0.85,227.74,208.27,190.47
-YIGIT,23.22,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.17),38.29,0.0,-0.95,24.24,24.29,24.51
-YKBNK,37.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.58),43.87,0.74,-0.93,38.13,37.43,36.79
-YKSLN,3.24,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.58),47.5,72.68,0.07,3.31,3.43,3.65
-YONGA,52.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.48),40.19,36.68,-0.76,55.96,56.8,57.8
-YUNSA,9.06,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.10),29.75,0.0,-0.96,9.66,9.2,8.83
-YYAPI,0.87,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %37.25),34.38,74.72,-0.81,1.02,1.21,1.35
-YYLGD,10.99,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.73),41.17,61.34,-0.79,11.41,11.46,11.38
-ZEDUR,9.22,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.55),42.96,47.85,-0.45,9.69,9.39,9.18
-ZERGY,10.63,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,31.58,8.71,-0.9,14.82,15.49,
-ZGYO,37.8,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,-,-,49.14,39.57,-0.49,36.28,31.7,
-ZOREN,2.69,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.59),38.63,27.22,-0.77,2.94,3.02,3.09
-ZRGYO,17.42,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.80),44.87,40.09,0.25,18.44,19.67,20.32
+A1CAP,10.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.22),46.9,34.38,-0.03,11.21,12.03,12.18
+A1YEN,2.83,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.85),28.75,0.0,-0.94,3.2,3.16,3.09
+AAGYO,14.78,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,-,-,27.01,26.53,-0.85,17.39,,
+ACSEL,128.6,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.06),36.61,21.43,-0.69,141.02,133.02,128.08
+ADEL,30.06,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.79),31.23,21.71,-0.87,34.14,35.28,35.21
+ADESE,0.92,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %46.02),29.63,0.0,-0.96,1.02,1.16,1.44
+ADGYO,51.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.42),35.69,1.4,-0.89,55.47,55.71,54.47
+AEFES,20.14,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.39),45.2,6.89,-0.6,20.1,19.32,18.61
+AFYON,12.55,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.85),38.04,0.0,-0.9,13.16,13.27,13.2
+AGESA,238.4,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.42),39.27,7.94,-0.91,243.3,234.99,225.62
+AGHOL,32.34,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.72),43.51,20.97,-0.09,33.08,32.39,31.56
+AGROT,2.49,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.19),21.65,2.98,-0.96,2.83,2.97,3.11
+AGYO,7.82,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.45),37.3,33.7,-0.71,8.4,8.34,8.21
+AHGAZ,34.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.53),50.01,0.0,-0.19,32.73,30.2,29.42
+AHSGY,21.3,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %8.08),57.1,92.07,0.79,20.05,19.55,18.33
+AKBNK,70.65,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.74),39.76,0.38,-0.93,73.64,73.12,71.7
+AKCNS,234.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %8.31),61.13,87.95,0.86,211.87,202.73,192.35
+AKENR,10.89,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.65),34.09,0.0,-0.92,12.13,11.72,11.51
+AKFGY,2.64,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.74),36.84,0.0,-0.81,2.8,2.82,2.82
+AKFIS,90.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.53),73.17,99.37,0.91,66.81,55.95,49.06
+AKFYE,24.2,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.21),51.8,85.49,0.45,23.39,22.29,21.4
+AKGRT,7.06,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.92),43.85,21.41,-0.69,7.24,7.3,7.24
+AKHAN,35.6,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,-,-,65.74,41.55,0.57,31.7,29.18,
+AKMGY,246.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.97),45.69,55.05,-0.18,255.09,248.84,242.82
+AKSA,11.4,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.16),47.51,14.2,-0.09,11.29,10.89,10.7
+AKSEN,89.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %10.06),63.26,83.12,0.19,81.68,77.9,72.73
+AKSGY,9.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.29),48.94,19.59,0.01,9.26,8.9,8.58
+AKSUE,43.4,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %14.88),64.54,84.03,0.91,37.43,33.88,30.97
+AKYHO,2.5,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.66),42.68,53.16,0.03,2.61,2.69,2.78
+ALARK,98.35,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.73),41.68,8.9,0.04,100.96,99.26,97.29
+ALBRK,7.91,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🚨 SERT SIKIŞMA (Bant: %0.30),39.98,3.81,-0.91,8.3,8.32,8.3
+ALCAR,839.5,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.93),60.7,88.33,0.82,769.07,785.51,810.46
+ALCTL,138.0,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.80),36.44,0.79,-0.72,148.07,140.91,135.93
+ALFAS,44.68,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.51),33.68,3.68,-0.92,49.8,47.45,46.44
+ALGYO,3.45,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %7.13),21.2,0.0,-0.96,5.24,5.34,5.09
+ALKA,8.94,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.54),27.58,6.14,-0.94,10.08,10.55,10.58
+ALKIM,17.1,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.93),36.93,7.44,-0.95,18.1,18.24,18.26
+ALKLC,378.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %15.55),65.63,85.53,0.67,342.81,318.94,284.05
+ALTNY,16.31,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %0.69),47.42,67.28,0.71,16.5,16.39,16.44
+ALVES,2.45,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.45),31.24,0.0,-0.8,2.86,3.01,3.05
+ANELE,101.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %32.84),50.12,11.89,-0.56,88.34,67.07,55.11
+ANGEN,10.31,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.29),42.27,21.57,-0.36,10.98,11.11,11.22
+ANHYT,99.35,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.42),37.75,4.02,-0.77,104.4,104.53,102.13
+ANSGR,26.96,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.81),39.95,12.04,-0.93,27.81,27.15,26.24
+ARASE,118.3,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.56),56.44,59.88,0.87,111.51,102.54,94.29
+ARCLK,96.8,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.53),33.21,17.09,-0.8,104.8,108.43,111.12
+ARDYZ,63.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.93),56.39,86.47,0.81,57.38,52.22,47.85
+ARENA,26.04,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.56),38.26,45.8,-0.29,28.84,29.15,29.51
+ARFYE,30.04,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,47.77,61.54,0.68,30.11,29.37,
+ARMGD,187.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %20.76),70.54,56.69,0.84,150.66,128.97,111.84
+ARSAN,3.15,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.60),40.54,45.82,-0.09,3.43,3.51,3.44
+ARTMS,42.02,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.47),48.46,32.88,0.47,42.3,41.77,41.26
+ARZUM,1.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %21.05),32.4,46.2,-0.78,2.29,2.49,2.69
+ASELS,377.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %12.42),48.13,69.21,-0.04,380.95,360.84,334.11
+ASGYO,11.96,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.81),46.36,10.36,-0.3,11.96,11.7,11.63
+ASTOR,317.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.42),55.76,92.15,0.43,290.54,257.31,228.9
+ASUZU,53.85,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.19),32.47,14.67,-0.9,60.65,61.29,60.97
+ATAGY,11.93,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.32),42.83,61.28,-0.03,12.45,12.74,12.96
+ATAKP,50.75,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.88),39.14,13.45,-0.55,53.53,53.62,53.17
+ATATP,212.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.26),48.68,27.29,0.02,204.46,186.37,174.22
+ATATR,15.0,🩸 SAT (Trend Kırıldı),🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,-,-,37.75,32.65,-0.72,16.13,,
+ATEKS,129.3,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.91),57.58,29.97,0.38,111.7,105.65,101.47
+ATLAS,7.61,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.07),43.74,45.08,-0.01,8.02,7.95,7.71
+ATSYH,114.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %12.96),70.92,57.45,0.88,87.41,76.99,72.51
+AVGYO,15.94,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.50),61.46,22.28,-0.64,14.12,13.43,13.24
+AVHOL,38.2,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.26),37.59,38.7,-0.8,41.04,40.56,40.88
+AVOD,4.2,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.26),45.1,71.71,-0.09,4.37,4.4,4.34
+AVPGY,55.85,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.01),44.54,63.09,-0.17,56.86,55.92,55.74
+AVTUR,15.68,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.58),35.72,3.01,-0.97,17.27,17.52,17.3
+AYCES,539.0,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %3.72),37.54,14.3,-0.6,643.52,658.41,638.38
+AYDEM,26.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.38),51.44,85.68,0.37,26.13,25.9,24.99
+AYEN,34.02,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.13),43.7,16.47,-0.86,35.66,33.66,32.21
+AYES,32.94,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.81),48.13,35.27,0.39,32.6,30.07,27.72
+AYGAZ,227.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %3.32),51.96,97.25,0.37,234.0,234.95,227.38
+AZTEK,4.8,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.93),44.54,18.47,-0.62,4.9,4.76,4.71
+BAGFS,24.78,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.17),32.83,28.23,-0.91,28.38,29.94,30.9
+BAHKM,110.5,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.03),41.46,16.55,-0.39,117.02,113.69,105.94
+BAKAB,55.05,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.14),58.85,55.07,0.17,49.06,46.25,44.58
+BALAT,74.1,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.18),62.49,100.0,0.34,71.34,77.79,78.88
+BALSU,14.06,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.87),41.7,6.31,-0.1,15.4,15.54,16.37
+BANVT,173.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.14),58.88,6.22,0.4,164.05,164.04,167.74
+BARMA,69.75,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %19.41),52.84,28.07,-0.38,65.06,57.9,51.52
+BASCM,14.14,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.13),41.12,34.9,-0.75,14.56,14.57,14.72
+BASGZ,46.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.48),40.88,15.71,-0.92,47.89,46.9,45.34
+BAYRK,4.53,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.99),37.64,36.32,-0.87,4.93,5.02,5.25
+BEGYO,3.98,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.89),34.36,0.0,-0.72,4.23,4.49,4.98
+BERA,14.95,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.01),30.89,0.0,-0.93,16.76,17.1,17.21
+BESLR,13.13,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.06),33.36,0.0,-0.91,14.19,14.2,14.2
+BESTE,31.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,40.48,16.12,-0.78,33.47,29.11,
+BETAE,70.75,-,-,-,-,-,-,,,,,,
+BEYAZ,24.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %3.75),29.3,17.16,-0.87,27.42,28.09,28.33
+BFREN,132.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %6.98),37.69,20.62,-0.8,139.85,144.34,149.11
+BIENY,21.36,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.16),31.34,0.0,-0.91,23.39,24.56,26.85
+BIGCH,6.49,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.65),39.62,9.46,-0.94,7.05,7.52,8.0
+BIGEN,87.55,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %28.16),69.36,30.09,0.65,57.54,40.92,32.88
+BIGTK,318.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.31),74.9,83.07,0.92,242.11,251.42,271.71
+BIMAS,375.75,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.47),51.39,71.83,-0.56,372.79,360.17,344.71
+BINBN,181.1,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %0.41),54.17,80.78,0.36,175.96,175.22,175.25
+BINHO,10.15,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %1.17),53.58,36.68,0.75,9.67,9.55,9.63
+BIOEN,16.17,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.69),34.19,23.44,-0.21,18.1,18.3,18.86
+BIZIM,25.56,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %1.99),41.91,66.08,-0.17,27.09,27.54,27.6
+BJKAS,1.61,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.33),46.01,37.58,0.07,1.63,1.63,1.68
+BLCYT,21.24,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.69),29.36,63.26,-0.8,28.99,32.11,32.0
+BLUME,37.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.94),56.08,87.8,0.9,36.57,39.51,42.1
+BMSCH,13.7,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.36),30.72,42.51,-0.88,16.33,17.13,17.34
+BMSTL,42.56,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.52),40.92,1.95,-0.94,43.51,43.09,42.01
+BNTAS,6.06,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.54),31.31,7.93,-0.98,6.59,6.63,6.68
+BOBET,18.84,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %2.16),45.35,36.89,-0.45,19.19,19.45,19.59
+BORLS,6.15,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %28.38),45.32,12.0,-0.53,6.19,6.26,7.93
+BORSK,5.8,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.41),34.93,33.81,-0.74,6.38,6.44,6.36
+BOSSA,6.34,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.56),46.44,43.14,-0.73,6.45,6.52,6.61
+BRISA,82.55,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),🚀 KUSURSUZ DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.57),34.49,6.07,-0.93,88.64,88.37,87.35
+BRKO,13.05,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.13),46.46,24.84,-0.48,13.31,12.79,12.12
+BRKSN,7.97,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.97),46.2,100.0,-0.1,8.23,8.36,8.38
+BRKVY,82.85,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.78),32.21,0.0,-0.88,92.34,93.81,92.64
+BRLSM,16.95,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.94),37.25,0.0,-0.77,18.61,17.65,17.09
+BRMEN,17.46,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.57),56.43,6.44,-0.12,13.94,12.38,12.27
+BRSAN,529.5,🩸 SAT (Trend Kırıldı),🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.48),39.41,12.82,-0.76,565.98,560.02,542.27
+BRYAT,1819.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %3.89),34.43,26.62,-0.75,1970.53,2018.6,2041.22
+BSOKE,33.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.38),34.29,28.8,-0.16,35.79,33.53,30.69
+BTCIM,5.32,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.74),27.82,0.0,-0.72,6.01,5.84,5.6
+BUCIM,5.39,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.11),23.47,0.0,-0.94,5.95,6.15,6.28
+BULGS,37.48,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.63),32.86,0.0,-0.91,41.58,42.19,41.63
+BURCE,39.96,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %6.19),36.05,44.49,-0.41,45.36,46.72,44.25
+BURVA,950.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %20.50),43.96,75.4,-0.23,1016.99,937.68,822.27
+BVSAN,116.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.46),42.47,42.82,-0.74,121.2,118.97,117.19
+BYDNR,37.18,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.23),44.66,53.27,-0.11,38.92,37.61,35.49
+CANTE,1.25,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %17.06),21.05,2.74,-0.97,1.49,1.61,1.71
+CASA,72.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.51),34.4,55.31,-0.5,84.15,89.52,92.43
+CATES,40.58,🔴 Düşüş Trendinde,⏳ BEKLE,📈 TREND DEVAMI (0 Üstü + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.52),50.58,42.18,-0.03,40.69,40.54,39.67
+CCOLA,84.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.76),56.38,66.2,0.84,79.84,75.93,71.64
+CELHA,20.36,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🟡 RİSKLİ AL (0 Üstü - Hacimsiz),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.09),61.96,47.3,0.02,16.04,14.19,13.17
+CEMAS,4.17,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.43),32.2,2.01,-0.94,4.74,4.92,5.22
+CEMTS,9.56,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %4.00),36.55,11.46,-0.86,10.12,10.37,10.5
+CEMZY,12.75,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.55),37.81,0.0,-0.91,13.63,12.57,11.39
+CEOEM,26.68,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.21),49.73,52.41,0.64,26.13,25.54,26.11
+CGCAM,44.94,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.49),50.01,42.46,0.02,43.76,41.7,40.4
+CIMSA,46.58,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.12),37.01,52.75,-0.77,50.32,50.46,49.94
+CLEBI,1520.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %2.37),31.9,8.54,-0.87,1665.78,1701.86,1701.2
+CMBTN,1710.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.04),55.83,62.78,0.84,1649.54,1719.77,1804.07
+CMENT,286.25,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.79),45.71,54.76,0.47,301.42,313.25,323.73
+CONSE,2.53,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.39),27.0,7.23,-0.96,2.89,3.05,3.13
+COSMO,145.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.00),41.69,74.35,-0.25,167.0,181.56,180.63
+CRDFA,36.12,🩸 SAT (Trend Kırıldı),⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %21.38),42.93,10.11,-0.81,36.12,32.21,28.4
+CRFSA,144.1,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.70),45.34,6.36,-0.76,145.58,139.71,133.05
+CUSAN,22.82,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.44),37.8,21.4,-0.7,24.52,24.78,25.07
+CVKMD,37.78,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.34),37.92,19.22,-0.77,40.37,37.64,34.19
+CWENE,41.24,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %12.41),58.55,85.8,0.32,38.01,35.46,32.89
+DAGI,9.43,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %6.87),61.49,46.33,0.79,7.81,7.28,7.16
+DAPGM,9.02,🟢 Yükseliş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.69),32.86,2.24,-0.94,10.39,11.01,11.54
+DARDL,1.89,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %4.87),27.49,23.4,-0.85,2.11,2.16,2.21
+DCTTR,12.98,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %8.18),54.26,61.82,0.89,12.34,11.59,11.28
+DENGE,2.47,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.45),51.14,41.72,0.19,2.46,2.54,2.62
+DERHL,11.53,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.34),25.88,0.0,-0.89,13.67,14.3,15.21
+DERIM,38.42,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.87),49.05,45.39,-0.48,38.46,38.12,38.21
+DESA,10.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.98),35.11,59.12,-0.82,12.05,12.38,12.57
+DESPC,41.8,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %4.87),42.31,33.33,-0.66,43.76,44.34,45.79
+DEVA,68.65,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.18),46.82,0.0,-0.09,68.42,67.35,66.92
+DGATE,107.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.59),40.82,6.15,-0.55,108.69,98.67,92.96
+DGGYO,39.86,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.31),54.61,16.19,-0.73,36.11,34.19,33.59
+DGNMO,7.88,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.86),32.73,0.0,-0.89,8.48,7.71,7.31
+DIRIT,21.7,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.57),33.89,6.82,-0.89,25.36,26.09,26.56
+DITAS,28.2,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.48),33.53,10.87,-0.89,36.97,37.95,37.5
+DMRGD,12.59,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %22.50),71.64,98.05,0.86,9.81,8.01,6.98
+DMSAS,8.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.82),37.06,2.27,-0.7,9.04,9.04,8.97
+DNISI,20.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.19),42.47,0.0,-0.46,21.26,21.01,21.11
+DOAS,182.1,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.36),42.39,31.38,-0.68,187.6,187.43,185.12
+DOCO,11105.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.60),49.39,0.0,-0.05,10695.21,10308.45,10184.54
+DOFER,30.22,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %14.65),31.11,34.77,-0.9,33.34,35.17,37.77
+DOFRB,176.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.03),54.7,18.2,0.44,159.69,142.23,131.33
+DOGUB,78.7,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %21.49),34.12,15.05,-0.75,95.6,87.87,78.69
+DOHOL,20.32,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.43),37.62,24.27,-0.83,21.66,21.37,20.76
+DOKTA,23.7,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.77),38.09,5.18,-0.92,25.55,25.28,25.13
+DSTKF,3820.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %21.99),73.56,14.3,0.93,2844.38,2339.56,2004.28
+DUNYH,145.0,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🩸 SAT (Zirveden Dönüş),🔴 ZİRVEDE,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),🟡 Daralıyor (Bant: %2.47),100.0,100.0,0.45,110.5,109.1,106.91
+DURDO,5.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.49),42.39,0.0,-0.8,5.01,4.68,4.48
+DURKN,20.82,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %6.44),50.6,77.98,0.85,20.55,19.89,19.21
+DYOBY,13.65,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.96),31.3,0.0,-0.94,15.12,15.06,14.99
+DZGYO,8.1,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.38),40.41,23.13,0.07,8.34,8.22,8.07
+EBEBK,74.8,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.76),41.72,32.21,-0.58,76.75,72.47,68.71
+ECILC,72.85,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %6.39),34.33,18.87,-0.84,83.89,88.55,87.92
+ECOGR,40.96,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %17.71),52.81,34.1,0.02,38.79,35.35,31.53
+ECZYT,328.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.01),47.25,88.51,-0.4,339.03,333.4,322.56
+EDATA,18.66,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %18.37),51.34,31.28,-0.16,18.24,16.62,14.81
+EDIP,38.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %1.47),56.31,62.88,0.79,37.1,36.82,36.53
+EFOR,14.85,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.62),53.68,8.03,-0.7,13.8,14.67,15.83
+EGEEN,5472.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.18),42.78,51.89,0.28,5781.44,6094.76,6393.19
+EGEGY,29.88,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %1.46),57.95,92.94,0.92,29.12,29.1,28.68
+EGEPO,18.59,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.06),49.51,18.93,-0.73,18.21,16.53,15.04
+EGGUB,98.05,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🚨 SERT SIKIŞMA (Bant: %1.36),37.63,51.87,-0.55,106.9,108.14,108.24
+EGPRO,36.06,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.34),40.52,9.49,-0.61,38.15,35.5,33.34
+EGSER,2.99,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.33),34.35,0.0,-0.9,3.26,3.22,3.23
+EKDMR,55.55,🟢 Yükseliş Trendinde,🔴 SAT,-,-,-,-,46.89,1.63,0.07,,,
+EKGYO,20.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.54),49.16,7.2,-0.32,20.31,20.36,20.25
+EKIZ,72.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.17),29.2,5.38,-0.82,85.61,92.24,92.93
+EKOS,6.25,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.68),33.82,0.0,-0.89,7.11,6.84,6.7
+EKSUN,6.12,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.38),31.23,14.33,-0.5,6.75,6.48,6.36
+ELITE,30.8,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.60),22.49,0.0,-0.95,35.33,34.32,33.91
+EMKEL,19.54,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %56.26),44.56,83.68,-0.01,21.42,25.38,32.41
+EMNIS,151.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %4.57),36.73,19.92,-0.7,159.98,162.07,166.88
+EMPAE,81.65,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,-,-,45.48,50.89,-0.36,83.21,,
+ENDAE,16.92,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.67),44.41,10.29,-0.75,17.4,16.79,16.61
+ENERY,9.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.76),46.34,1.65,-0.09,9.35,9.28,9.32
+ENJSA,103.4,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.87),42.56,52.24,-0.62,108.31,106.93,102.25
+ENKAI,89.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.79),40.11,52.17,-0.13,94.92,93.88,90.64
+ENPRA,65.0,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,-,-,36.49,67.54,-0.01,75.29,,
+ENSRI,5.64,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %101.18),27.22,9.07,-0.9,11.09,15.2,16.8
+ENTRA,4.58,🟢 Yükseliş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.31),43.0,1.97,-0.93,4.73,4.71,4.72
+EPLAS,5.56,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %2.29),41.12,72.12,-0.02,5.92,6.01,6.05
+ERBOS,170.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.92),40.65,45.86,-0.35,184.93,188.15,188.19
+ERCB,47.72,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.05),33.91,45.95,-0.8,56.01,58.82,61.76
+EREGL,39.94,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.09),50.33,28.27,0.29,38.34,35.37,33.51
+ERSU,23.58,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.41),40.25,31.02,-0.77,25.11,24.11,23.13
+ESCAR,47.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %14.51),46.68,57.43,-0.3,47.53,43.69,40.63
+ESCOM,6.16,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %11.78),57.07,21.64,-0.32,5.57,5.17,4.85
+ESEN,3.53,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %41.77),35.56,9.54,-0.87,3.85,4.32,5.32
+ETILR,5.88,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.46),58.98,97.91,-0.05,5.4,5.12,5.08
+ETYAT,13.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.14),68.27,46.13,0.67,11.36,10.01,9.25
+EUHOL,10.19,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %4.94),33.03,0.0,-0.95,11.49,11.95,12.0
+EUKYO,12.2,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %17.08),76.84,53.16,0.95,9.86,8.55,7.78
+EUPWR,87.4,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %22.98),54.39,45.53,-0.27,76.87,64.59,56.79
+EUREN,4.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.84),25.54,9.41,-0.89,4.71,5.02,5.42
+EUYO,5.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.91),26.59,0.07,-0.91,5.89,5.78,5.59
+EYGYO,2.37,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %19.48),38.88,17.94,-0.87,2.61,2.87,3.07
+FADE,14.95,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.43),39.32,51.07,-0.68,15.9,15.61,15.38
+FENER,3.09,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %52.91),42.83,93.61,-0.55,3.31,3.82,4.94
+FLAP,10.69,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.40),31.04,13.51,-0.9,12.6,12.23,11.81
+FMIZP,295.25,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🚨 SERT SIKIŞMA (Bant: %1.20),46.78,42.04,0.5,299.51,300.77,303.05
+FONET,5.05,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.30),39.16,0.0,-0.94,5.28,4.89,4.51
+FORMT,2.04,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %22.57),27.32,6.63,-0.64,2.35,2.59,2.81
+FORTE,92.5,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.11),47.74,64.04,0.57,93.94,93.35,91.07
+FRIGO,1.97,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.29),37.36,98.36,-0.15,2.52,2.68,2.61
+FRMPL,33.04,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,-,-,34.66,5.46,-0.88,37.67,36.84,
+FROTO,80.8,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.01),32.25,6.21,-0.96,89.6,93.57,94.45
+FZLGY,13.05,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.56),36.27,15.77,-0.81,14.76,14.59,14.3
+GARAN,130.4,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.28),40.41,3.7,-0.92,134.55,134.92,134.81
+GARFA,27.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.23),30.72,0.0,-0.97,29.81,29.26,28.67
+GATEG,283.0,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.72),41.98,81.12,-0.53,297.98,302.8,297.94
+GEDIK,7.13,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.36),52.68,21.42,0.45,6.68,6.35,6.3
+GEDZA,29.36,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.83),34.29,6.26,-0.87,31.9,31.18,30.48
+GENIL,9.19,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.56),52.27,13.84,-0.63,9.11,9.39,9.81
+GENKM,12.98,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,-,-,34.69,0.0,-0.89,15.24,,
+GENTS,5.88,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %18.66),27.13,9.56,-0.93,7.07,7.8,8.17
+GEREL,32.58,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %18.75),32.68,0.0,-0.73,38.49,35.09,32.38
+GESAN,79.85,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.99),56.89,91.07,0.2,70.85,63.82,59.68
+GIPTA,63.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.84),36.03,15.09,-0.69,72.04,73.37,78.32
+GLBMD,13.18,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.96),48.78,9.62,0.41,12.97,12.74,12.71
+GLCVY,54.4,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.24),32.25,0.0,-0.91,59.57,61.81,62.96
+GLRMK,160.4,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.74),31.72,0.69,-0.97,177.53,180.32,179.77
+GLRYH,3.39,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.67),49.88,84.36,0.77,3.54,3.79,3.94
+GLYHO,17.66,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.05),53.9,0.73,-0.26,16.62,15.62,14.67
+GMTAS,45.12,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %20.15),49.02,35.59,-0.55,43.6,38.7,34.51
+GOKNR,22.84,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.62),40.38,26.69,-0.83,23.93,23.33,23.1
+GOLDA,10.12,-,-,-,-,-,-,,,,,,
+GOLTS,320.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.78),36.21,42.06,0.05,338.06,343.74,343.48
+GOODY,2.83,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.66),43.02,1.87,-0.84,2.97,2.9,2.9
+GOZDE,23.22,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.08),55.17,2.36,0.24,22.0,21.8,21.74
+GRNYO,16.01,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.48),27.43,0.0,-0.8,18.21,17.65,16.85
+GRSEL,297.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.95),39.54,13.02,-0.48,311.16,317.48,319.94
+GRTHO,235.3,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.16),48.23,12.52,-0.59,236.93,248.0,274.96
+GSDDE,14.18,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.97),56.36,82.16,0.59,12.87,12.09,11.59
+GSDHO,5.56,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.23),45.09,46.52,0.22,5.63,5.34,5.17
+GSRAY,0.99,🔴 Düşüş Trendinde,⏳ BEKLE,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.71),24.89,0.0,-0.94,1.07,1.11,1.16
+GUBRF,433.75,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.99),35.66,31.61,-0.79,497.37,489.65,462.74
+GUNDG,2000.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %22.98),85.46,97.75,0.99,1299.32,1022.96,839.74
+GWIND,23.94,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.21),28.86,0.0,-0.97,26.53,26.55,26.26
+GZNMI,55.25,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %54.36),29.31,0.64,-0.84,65.75,73.39,95.78
+HALKB,41.94,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.35),41.84,8.35,-0.64,43.45,42.03,39.95
+HATEK,16.43,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.86),51.77,54.83,0.74,16.22,16.14,16.28
+HATSN,51.05,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.49),40.69,2.93,-0.82,53.72,49.89,48.37
+HDFGS,2.61,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.11),45.39,66.8,0.45,2.84,2.98,3.03
+HEDEF,182.8,🟢 Yükseliş Trendinde,⏳ BEKLE,📈 TREND DEVAMI (0 Üstü + Hacim),🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.30),92.2,57.37,0.94,121.94,100.89,86.67
+HEKTS,3.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.35),31.26,0.07,-0.92,3.63,3.57,3.56
+HKTM,10.41,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.62),30.27,35.41,-0.83,12.92,12.98,12.92
+HLGYO,5.29,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.00),34.01,10.2,-0.9,5.54,5.2,4.9
+HOROZ,62.85,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.83),41.39,20.08,-0.84,67.7,66.92,65.92
+HRKET,93.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.82),39.97,0.0,-0.84,98.51,89.53,85.55
+HTTBT,38.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.01),40.05,31.01,-0.85,40.52,41.2,42.07
+HUBVC,2.9,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.75),42.8,89.43,-0.21,3.28,3.42,3.4
+HUNER,3.42,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.31),39.0,9.51,-0.39,3.7,3.59,3.59
+HURGZ,6.26,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.99),36.01,52.62,-0.75,6.98,6.83,6.79
+ICBCT,20.56,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.26),47.37,38.16,0.34,20.22,18.55,17.7
+ICUGS,5.4,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %16.56),47.47,69.38,0.5,5.35,4.8,4.45
+IDGYO,4.35,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.72),42.28,3.5,-0.19,4.51,4.27,4.13
+IEYHO,155.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),📈 TREND DEVAMI (0 Üstü + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %20.07),84.2,11.62,0.96,125.7,108.66,94.44
+IHAAS,55.15,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.56),33.19,79.11,-0.35,72.87,71.92,67.6
+IHEVA,2.07,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.51),42.43,23.84,-0.67,2.14,2.19,2.26
+IHGZT,1.32,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.03),41.48,27.9,-0.68,1.4,1.46,1.52
+IHLAS,1.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %49.71),25.6,60.93,-0.77,1.55,1.84,2.1
+IHLGM,1.7,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.06),30.78,1.37,-0.86,1.94,2.04,2.16
+IHYAY,1.39,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %15.52),25.77,0.0,-0.94,1.67,1.77,1.88
+IMASM,2.88,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.06),30.23,15.71,-0.91,3.28,3.57,3.74
+INDES,10.76,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.14),43.7,8.49,-0.6,10.83,10.13,9.63
+INFO,8.48,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %10.11),76.79,31.99,0.77,5.18,4.55,4.33
+INGRM,418.75,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚪ Karışık / Testere Piyasası,🚨 SERT SIKIŞMA (Bant: %1.12),46.07,51.48,0.59,432.32,429.12,427.63
+INTEK,239.0,🩸 SAT (Trend Kırıldı),⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.14),46.65,62.52,0.64,246.31,255.95,272.94
+INTEM,257.0,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.68),42.78,68.65,0.39,273.4,282.84,282.34
+INVEO,8.42,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.05),52.04,60.07,0.75,8.17,8.25,8.59
+INVES,595.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %19.65),39.44,2.27,-0.43,630.19,555.7,513.27
+ISATR,4950000.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.01),56.62,82.22,,4950181.45,4963556.02,5000162.56
+ISBIR,65.1,🔴 Düşüş Trendinde,⏳ BEKLE,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %11.42),23.99,19.11,-0.9,74.14,77.36,81.57
+ISBTR,530125.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %1.70),65.41,37.53,0.84,451115.21,442127.75,446785.89
+ISCTR,14.08,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.68),43.82,8.54,-0.88,14.32,14.23,14.09
+ISDMR,53.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.83),38.27,4.08,-0.94,54.83,50.03,46.87
+ISFIN,19.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.24),37.05,0.42,-0.97,19.94,19.82,19.5
+ISGSY,18.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.55),42.18,0.0,-0.79,20.04,19.12,18.05
+ISGYO,26.92,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %4.60),70.87,51.76,0.79,22.52,21.76,21.28
+ISKPL,6.59,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.88),31.05,80.7,-0.69,11.17,12.42,12.07
+ISKUR,4125000.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,-,-,71.71,100.0,0.81,,,
+ISMEN,35.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.49),32.87,10.09,-0.96,38.04,39.3,39.62
+ISSEN,7.19,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.77),32.27,0.79,-0.92,7.91,7.93,7.96
+ISYAT,7.85,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.83),40.65,5.51,-0.09,8.16,8.29,8.39
+IZENR,9.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.44),31.81,33.33,-0.42,10.29,10.17,9.98
+IZFAS,60.4,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.35),36.27,0.0,-0.0,63.39,60.13,56.54
+IZINV,61.2,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.91),37.95,0.0,-0.97,66.21,66.66,66.77
+IZMDC,9.64,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),📈 TREND DEVAMI (0 Üstü + Hacim),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.44),67.62,75.55,0.63,8.17,7.72,7.45
+JANTS,17.6,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.30),60.0,84.38,0.02,16.9,17.52,18.18
+KAPLM,488.0,🩸 SAT (Trend Kırıldı),⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.11),37.07,27.34,-0.89,561.49,529.74,497.49
+KAREL,10.02,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.69),37.75,42.76,0.43,11.15,10.77,10.48
+KARSN,11.92,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.26),38.87,2.03,-0.85,12.46,11.83,11.48
+KARTN,164.9,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %14.81),64.35,63.8,0.92,129.01,112.38,104.59
+KATMR,2.58,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %3.00),37.19,9.25,-0.49,2.76,2.81,2.84
+KAYSE,4.2,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.57),30.3,25.27,-0.73,4.55,4.64,4.65
+KBORU,26.14,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.25),52.96,40.79,0.63,25.02,23.14,21.56
+KCAER,14.08,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.99),43.81,0.0,-0.53,13.86,13.06,12.88
+KCHOL,184.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.56),38.93,4.21,-0.73,193.62,192.46,188.92
+KENT,368.0,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %29.14),40.93,61.29,-0.81,394.73,447.17,501.95
+KERVN,6.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %22.63),48.9,8.84,-0.81,5.81,4.91,4.38
+KFEIN,8.88,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.78),35.71,2.54,-0.95,9.72,9.57,9.56
+KGYO,8.91,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %24.40),23.03,0.0,-0.7,11.43,10.32,9.26
+KIMMR,14.92,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.17),27.68,0.0,-0.95,16.45,16.41,16.13
+KLGYO,5.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.01),46.03,11.23,-0.32,5.14,5.4,5.59
+KLKIM,27.02,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.81),20.79,0.0,-0.97,31.49,33.02,33.33
+KLMSN,31.2,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.69),43.04,60.0,0.45,32.79,32.57,32.59
+KLNMA,9.79,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.11),54.97,51.87,0.75,9.48,9.73,10.08
+KLRHO,87.3,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %45.40),39.83,42.9,-0.5,107.3,142.4,146.93
+KLSER,25.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.81),29.72,0.0,-0.97,27.61,27.71,28.07
+KLSYN,14.81,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %16.49),59.45,60.45,0.87,13.02,11.61,10.58
+KLYPV,57.45,🔴 Düşüş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.55),38.79,0.0,-0.92,60.8,60.76,61.08
+KMPUR,18.15,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.08),34.51,5.63,-0.87,19.78,19.04,18.5
+KNFRT,11.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.51),36.58,0.0,-0.95,13.19,12.94,13.24
+KOCMT,4.48,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %6.65),73.42,75.09,0.92,3.14,2.9,2.84
+KONKA,13.94,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %1.53),40.81,34.44,-0.39,14.91,15.13,15.12
+KONTR,4.49,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %112.40),41.56,86.27,-0.48,6.42,8.62,11.47
+KONYA,3917.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.69),49.58,40.25,0.65,3949.82,4083.18,4250.9
+KOPOL,6.18,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.56),43.79,19.19,-0.59,6.35,6.22,6.19
+KORDS,83.95,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %8.53),62.32,73.46,-0.02,73.75,69.23,66.59
+KOTON,15.2,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.71),53.15,80.19,0.43,14.97,15.25,15.53
+KRDMA,38.08,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.65),41.03,5.62,-0.7,38.24,35.93,34.95
+KRDMB,134.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %25.66),67.52,43.35,0.81,110.84,89.87,76.33
+KRDMD,36.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.90),35.31,5.89,-0.87,38.72,36.55,34.76
+KRGYO,2.51,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %6.72),38.12,12.5,-0.44,2.72,2.8,2.89
+KRONT,24.24,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %10.38),57.6,63.67,0.88,21.52,19.99,19.0
+KRPLS,9.13,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.59),47.39,54.9,-0.33,9.16,8.98,8.83
+KRSTL,10.23,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.20),37.91,0.0,-0.6,10.78,10.56,10.45
+KRTEK,22.68,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.86),38.37,41.35,-0.77,24.08,24.89,25.63
+KRVGD,2.8,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.68),37.66,33.18,-0.86,2.95,2.92,2.85
+KSTUR,2835.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.88),45.06,55.1,0.08,2954.86,3044.99,3121.57
+KTLEV,189.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %28.14),69.24,19.61,0.35,148.9,117.14,95.71
+KTSKR,98.8,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %10.74),44.93,40.59,0.53,103.18,98.09,92.57
+KUTPO,84.35,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %5.63),32.76,6.92,-0.89,91.15,94.18,95.89
+KUVVA,130.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.19),38.33,50.98,-0.35,142.29,138.72,135.5
+KUYAS,72.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.89),45.05,79.55,0.52,75.45,74.05,71.2
+KZBGY,2.23,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.25),22.97,0.78,-0.97,2.98,3.21,3.39
+KZGYO,21.44,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.92),32.63,29.26,-0.55,23.36,23.65,23.77
+LIDER,93.25,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.73),43.7,89.13,0.18,105.43,102.72,96.36
+LIDFA,2.78,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.18),37.15,0.0,-0.94,3.05,3.01,2.88
+LILAK,32.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.89),39.07,14.41,-0.28,34.38,33.52,32.46
+LINK,6.91,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %8.19),45.93,7.47,-0.13,6.87,6.76,7.33
+LKMNH,14.39,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %3.42),35.15,41.17,-0.22,15.63,15.91,16.12
+LMKDC,24.96,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %1.94),18.7,20.87,-0.93,29.67,30.15,29.77
+LOGO,138.2,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.47),45.72,55.45,-0.49,141.78,143.12,145.19
+LRSHO,3.05,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %16.67),30.2,0.0,-0.9,3.48,3.71,3.99
+LUKSK,101.2,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.40),42.48,8.81,-0.74,105.39,104.98,105.01
+LXGYO,13.51,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,-,26.16,0.0,-0.95,16.68,,
+LYDHO,185.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,⚪ Yelpaze Açık (Bant: %3.96),49.01,49.72,0.59,187.32,185.75,179.99
+LYDYE,13400.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.57),34.53,65.58,-0.17,14610.94,14954.97,14887.85
+MAALT,1112.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.75),41.16,0.0,-0.26,1177.31,1150.6,1135.6
+MACKO,32.62,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.26),23.08,24.0,-0.9,36.85,36.2,36.11
+MAGEN,34.3,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %6.92),36.56,99.55,-0.51,44.3,46.39,44.02
+MAKIM,19.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.13),53.63,70.7,0.17,18.07,17.66,17.68
+MAKTK,12.19,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.07),39.64,37.27,-0.52,12.93,13.49,14.04
+MANAS,29.8,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %19.16),59.08,26.28,0.72,27.33,24.32,21.62
+MARBL,12.82,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🚨 SERT SIKIŞMA (Bant: %1.41),44.19,32.66,-0.53,13.22,13.24,13.4
+MARKA,83.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.38),57.96,1.17,-0.41,71.74,61.68,57.22
+MARMR,2.26,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.91),34.79,43.1,-0.1,2.51,2.62,2.71
+MARTI,1.61,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %23.77),33.18,4.55,-0.91,1.84,2.01,2.23
+MAVI,37.84,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🚨 SERT SIKIŞMA (Bant: %1.07),36.06,64.26,-0.69,41.08,41.48,41.23
+MCARD,146.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,-,29.32,0.0,-0.94,170.89,,
+MEDTR,28.56,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.55),41.72,66.89,-0.61,29.61,29.64,29.77
+MEGAP,2.04,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %26.56),30.34,45.86,-0.87,2.36,2.6,2.9
+MEGMT,70.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.63),31.79,0.55,-0.94,78.53,74.89,68.99
+MEKAG,3.49,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %15.22),33.94,63.61,-0.8,4.04,4.43,4.57
+MEPET,21.92,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.66),40.75,40.78,-0.75,23.7,23.17,22.02
+MERCN,23.74,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.47),45.14,0.35,-0.78,23.48,22.42,23.26
+MERIT,18.02,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.02),56.41,39.08,-0.39,17.18,17.15,17.52
+MERKO,1.59,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %320.03),26.49,88.5,-0.59,3.88,7.12,8.97
+METRO,8.53,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.21),50.39,25.07,-0.16,8.03,7.2,6.65
+MEYSU,12.84,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,-,-,23.63,0.0,-0.95,15.72,15.08,
+MGROS,639.5,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.92),39.9,25.81,-0.87,662.17,643.3,617.9
+MHRGY,3.62,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.63),35.87,0.0,-0.85,3.94,3.86,3.85
+MIATK,31.98,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.14),23.1,3.32,-0.96,42.55,42.16,41.55
+MMCAS,57.45,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.13),39.04,14.49,-0.62,67.49,75.89,77.91
+MNDRS,10.89,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.77),35.61,7.23,-0.91,11.78,12.41,12.84
+MNDTR,5.6,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.66),36.35,0.0,-0.97,5.87,6.03,6.19
+MOBTL,14.65,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.01),56.06,97.38,0.57,14.01,13.05,12.1
+MOGAN,15.6,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.63),61.33,81.59,0.67,13.67,12.8,12.17
+MOPAS,31.3,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %7.18),30.87,45.58,-0.79,37.06,39.14,39.31
+MPARK,413.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.91),37.24,14.75,-0.88,441.48,437.44,425.32
+MRGYO,1.41,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %22.60),30.11,0.0,-0.95,1.61,1.75,1.92
+MRSHL,2021.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.16),56.75,27.28,0.84,1739.94,1649.04,1635.72
+MSGYO,6.11,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.63),43.61,19.65,-0.81,6.47,6.45,6.31
+MTRKS,29.46,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.76),53.11,10.21,-0.3,27.38,25.67,25.09
+MTRYO,10.57,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.70),49.75,23.06,-0.36,10.35,10.06,9.75
+MZHLD,5.6,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.30),27.43,13.9,-0.93,6.03,6.18,6.27
+NATEN,6.41,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.02),39.66,57.51,-0.74,6.91,7.29,7.62
+NETAS,60.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.22),37.43,0.0,-0.9,65.23,64.49,64.62
+NETCD,150.0,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,-,-,43.59,63.44,-0.15,154.1,138.16,
+NIBAS,4.22,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.68),34.31,69.62,-0.55,5.08,5.45,5.42
+NTGAZ,11.61,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.12),44.81,90.94,-0.23,11.91,11.66,11.32
+NTHOL,46.74,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.85),61.54,57.78,0.03,42.52,42.66,43.39
+NUGYO,9.11,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.40),33.6,3.15,-0.9,9.88,9.89,9.92
+NUHCM,222.7,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.34),47.75,72.09,0.07,227.33,230.32,230.02
+OBAMS,5.39,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.57),18.13,7.21,-0.98,7.09,7.53,7.66
+OBASE,39.7,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.78),52.24,58.27,-0.25,38.87,38.15,37.77
+ODAS,8.05,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.49),48.5,3.45,-0.86,7.79,7.22,6.86
+ODINE,1968.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),⚪ Yelpaze Açık (Bant: %26.01),69.97,20.37,0.71,1498.84,1192.4,986.87
+OFSYM,56.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %3.52),43.44,34.87,-0.63,58.89,60.51,60.86
+ONCSM,240.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.65),27.2,0.43,-0.89,270.13,269.41,254.16
+ONRYT,64.55,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.47),45.92,50.05,0.48,67.17,67.16,68.11
+ORCAY,3.97,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %12.79),40.35,59.67,-0.31,4.22,4.28,4.73
+ORGE,103.7,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.50),42.06,4.12,-0.87,105.17,94.77,89.09
+ORMA,174.3,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.86),36.17,28.18,-0.93,191.1,184.93,182.63
+ORZAX,80.0,-,-,-,-,-,-,,,,,,
+OSMEN,9.16,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.83),65.42,60.13,0.74,7.95,7.93,8.1
+OSTIM,1.81,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.69),36.02,1.07,-0.75,2.02,2.09,2.17
+OTKAR,350.0,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.70),41.56,34.24,0.43,369.85,385.92,403.8
+OTTO,173.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %47.65),35.23,80.16,-0.63,226.3,272.76,308.97
+OYAKC,19.94,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %4.78),36.3,16.83,-0.72,21.66,22.47,22.62
+OYAYO,47.72,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.53),41.14,7.3,-0.84,51.21,52.0,50.79
+OYLUM,8.4,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.70),55.23,96.06,0.29,8.32,8.44,8.64
+OYYAT,39.84,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.62),33.85,11.54,-0.92,45.99,47.43,47.15
+OZATD,1897.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %29.42),67.05,50.27,0.93,1330.58,964.53,772.42
+OZGYO,2.06,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.99),41.2,34.36,0.12,2.15,2.13,2.11
+OZKGY,14.15,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.03),47.97,4.08,-0.55,13.94,13.73,13.65
+OZRDN,31.04,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.08),53.17,78.19,-0.42,30.91,29.26,26.54
+OZSUB,30.04,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %13.16),49.37,0.0,-0.51,28.76,26.29,24.81
+OZYSR,13.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.15),60.49,81.5,0.89,12.2,11.78,11.27
+PAGYO,160.2,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %13.36),64.08,81.51,0.76,136.16,123.47,114.76
+PAHOL,1.42,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.25),29.0,0.0,-0.81,1.57,1.59,1.58
+PAMEL,84.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.47),45.66,3.38,-0.54,86.77,87.06,88.85
+PAPIL,14.71,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.10),42.74,5.03,-0.36,15.54,16.14,16.73
+PARSN,80.1,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.96),34.68,0.0,-0.94,86.37,87.09,87.93
+PASEU,89.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.20),35.79,29.12,-0.86,112.02,117.41,118.43
+PATEK,22.6,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.44),46.84,53.2,0.39,22.87,22.51,23.06
+PCILT,30.68,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.20),38.1,8.94,-0.95,32.36,30.45,28.92
+PEKGY,14.52,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.40),63.97,93.76,0.96,13.81,13.42,12.73
+PENGD,10.81,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.66),31.29,60.73,-0.8,12.09,11.63,11.16
+PENTA,13.19,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🚨 SERT SIKIŞMA (Bant: %0.81),32.16,1.75,-0.93,14.45,14.46,14.56
+PETKM,19.22,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %2.47),38.87,48.06,-0.83,20.67,20.58,20.2
+PETUN,11.35,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.56),30.5,8.49,-0.9,12.38,12.39,12.33
+PGSUS,166.0,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.98),36.28,2.67,-0.85,177.13,183.05,190.37
+PINSU,10.21,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.62),27.24,0.0,-0.92,11.31,11.44,11.48
+PKART,130.1,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.29),47.67,35.82,-0.57,129.04,116.41,107.85
+PKENT,138.8,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %12.47),30.14,0.69,-0.87,150.12,156.63,167.43
+PLTUR,22.2,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %1.71),41.51,47.67,-0.05,23.44,23.59,23.82
+PNLSN,40.14,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %1.33),30.51,11.88,-0.89,44.43,44.42,43.9
+PNSUT,11.36,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 SERT SIKIŞMA (Bant: %0.62),27.96,3.15,-0.94,12.58,12.58,12.51
+POLHO,21.12,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %9.17),56.75,48.82,0.77,20.56,19.8,18.62
+POLTK,5122.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.77),47.02,22.12,0.43,5246.88,5566.61,5952.47
+PRDGS,7.04,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.31),38.88,66.42,-0.04,7.52,7.42,7.29
+PRKAB,34.04,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.12),30.05,2.49,-0.92,38.88,39.6,39.21
+PRKME,20.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Daralıyor (Bant: %1.70),50.25,18.82,0.69,19.51,19.24,19.16
+PRZMA,71.9,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %23.19),67.87,71.91,0.92,48.78,37.95,32.1
+PSDTC,132.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.96),49.56,38.35,0.61,130.56,130.81,133.15
+PSGYO,3.25,🩸 SAT (Trend Kırıldı),⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.22),43.35,11.59,-0.78,3.3,3.08,3.0
+QNBFK,58.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.73),80.92,93.05,0.87,41.78,44.18,46.84
+QNBTR,219.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.29),49.56,82.37,0.46,227.36,244.35,258.65
+QUAGR,3.45,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.06),35.44,0.0,-0.77,3.81,3.83,4.29
+RALYH,205.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık (Bant: %4.62),48.35,97.16,0.57,223.25,223.63,214.13
+RAYSG,177.3,🟢 Yükseliş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %9.02),32.09,1.92,-0.93,192.55,200.16,208.54
+REEDR,6.43,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.91),37.22,28.24,-0.84,7.06,7.27,7.63
+RGYAS,194.3,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.56),49.76,49.58,-0.59,191.11,181.78,174.48
+RNPOL,2.64,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.36),56.65,100.0,0.27,2.54,2.48,2.4
+RODRG,24.98,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.73),44.18,69.82,0.46,26.04,24.99,24.36
+RTALB,3.51,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.93),47.41,56.62,0.07,3.62,3.67,3.69
+RUBNS,21.14,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.75),25.03,12.75,-0.98,28.38,30.02,29.37
+RUZYE,9.4,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.28),29.5,44.63,-0.87,10.99,11.47,11.58
+RYGYO,30.68,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.63),46.27,72.97,-0.28,31.25,30.46,29.21
+RYSAS,20.42,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.99),34.73,2.67,-0.91,22.13,21.0,20.09
+SAFKR,22.22,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.19),45.0,38.16,-0.87,23.74,24.44,24.3
+SAHOL,90.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.09),35.13,0.0,-0.91,95.53,94.91,93.65
+SAMAT,6.06,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.62),41.0,2.99,-0.63,6.52,6.3,6.3
+SANEL,73.5,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %17.24),57.97,6.34,0.4,57.26,48.94,44.59
+SANFM,9.87,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.50),59.69,86.74,0.4,8.86,8.39,8.12
+SANKO,20.94,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.52),37.6,4.96,-0.86,22.02,21.91,21.97
+SARKY,25.52,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.91),35.87,28.45,-0.71,28.14,27.95,26.13
+SASA,2.23,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.93),27.94,0.0,-0.97,2.61,2.68,2.79
+SAYAS,45.08,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.59),33.84,7.69,-0.74,51.28,49.47,49.21
+SDTTR,252.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.97),49.01,36.57,0.53,249.18,237.94,229.04
+SEGMN,53.15,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.12),46.48,72.46,0.24,55.07,51.88,47.57
+SEGYO,4.43,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),🟡 Daralıyor (Bant: %2.92),33.89,3.49,-0.84,4.81,4.9,4.94
+SEKFK,10.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %3.79),40.48,55.58,-0.27,10.43,10.28,10.04
+SEKUR,10.61,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %20.37),53.63,28.51,-0.07,9.26,7.98,7.1
+SELEC,203.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %17.67),63.4,0.24,0.48,147.88,123.06,112.0
+SELVA,1.9,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %10.85),34.04,1.68,-0.85,2.14,2.27,2.35
+SERNT,8.92,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.06),39.25,9.2,-0.73,9.68,9.35,9.32
+SEYKM,5.61,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.55),67.55,75.42,0.48,4.95,5.0,5.09
+SILVR,2.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.03),38.17,2.81,-0.63,2.64,2.65,2.67
+SISE,41.62,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.85),34.57,0.0,-0.87,45.12,44.58,43.52
+SKBNK,19.43,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %14.27),78.81,91.08,0.79,14.82,13.17,12.04
+SKTAS,3.5,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.78),45.36,18.41,-0.46,3.63,3.63,3.73
+SKYLP,250.0,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.17),37.14,24.23,-0.94,290.87,288.39,270.44
+SKYMD,14.69,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,🟡 Daralıyor (Bant: %2.66),53.55,56.0,0.7,13.88,13.5,13.49
+SMART,26.7,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %5.58),32.05,4.3,-0.82,32.87,32.31,31.38
+SMRTG,9.96,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %12.26),32.64,3.58,-0.94,11.01,10.12,9.79
+SMRVA,13.39,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %57.53),36.24,1.62,-0.92,15.54,18.11,23.25
+SNGYO,3.7,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.50),46.47,12.29,-0.22,3.78,3.93,4.06
+SNICA,4.3,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.88),49.67,12.46,0.27,4.24,4.21,4.25
+SNPAM,20.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.92),39.34,35.49,-0.77,21.72,22.21,22.73
+SODSN,8.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %14.95),40.98,42.76,0.06,9.28,9.93,10.56
+SOHOE,13.37,-,-,-,-,-,-,,,,,,
+SOKE,16.35,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.92),47.81,46.18,-0.55,16.8,16.21,15.51
+SOKM,43.82,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.59),31.78,5.41,-0.94,48.84,50.41,49.66
+SONME,125.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.37),43.16,50.19,-0.52,132.18,137.02,137.64
+SRVGY,2.64,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.39),23.28,6.49,-0.94,2.94,3.03,3.08
+SUMAS,329.75,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.47),41.41,32.08,-0.39,355.34,334.95,324.13
+SUNTK,30.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.65),49.79,68.28,-0.58,31.63,34.15,35.72
+SURGY,68.1,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %8.87),42.97,33.97,-0.54,69.75,66.25,63.7
+SUWEN,6.37,🔴 Düşüş Trendinde,⏳ BEKLE,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %17.01),26.05,7.82,-0.96,7.64,8.24,8.72
+SVGYO,17.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,-,33.16,0.0,-0.37,19.03,,
+TABGD,217.6,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %1.94),32.8,51.99,-0.68,249.15,249.7,245.49
+TARKM,480.75,🩸 SAT (Trend Kırıldı),🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.10),37.26,25.86,-0.61,506.13,472.77,452.75
+TATEN,12.03,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.98),31.34,0.0,-0.92,13.96,13.72,13.85
+TATGD,17.98,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %10.45),35.41,8.92,-0.23,19.18,18.19,17.3
+TAVHL,263.75,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.28),38.62,0.0,-0.9,280.4,286.41,284.42
+TBORG,130.8,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %9.16),41.46,44.06,-0.13,137.67,144.22,149.66
+TCELL,105.4,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.11),41.17,12.3,-0.91,109.67,109.32,107.44
+TCKRC,120.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %24.01),34.0,5.92,-0.44,135.43,119.72,106.57
+TDGYO,14.98,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %18.90),44.81,38.93,0.42,16.23,18.23,19.06
+TEHOL,39.7,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🟡 RİSKLİ AL (0 Üstü - Hacimsiz),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %11.25),89.36,100.0,0.99,31.87,28.24,27.4
+TEKTU,9.43,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %17.08),40.66,28.54,-0.88,10.31,10.77,11.92
+TERA,156.2,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.65),37.29,36.48,-0.33,202.49,223.45,223.81
+TEZOL,15.86,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.15),36.17,44.82,-0.84,17.36,16.86,16.38
+TGSAS,175.1,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.82),49.43,54.54,0.31,174.27,172.84,173.58
+THYAO,332.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,🟡 Daralıyor (Bant: %2.63),56.77,66.67,0.73,316.64,310.41,307.92
+TKFEN,131.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %14.17),44.12,37.13,0.21,133.1,121.72,114.53
+TKNSA,18.73,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.64),32.4,24.05,-0.75,20.61,21.55,22.23
+TLMAN,88.35,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %0.13),30.89,0.0,-0.97,95.66,95.68,95.78
+TMPOL,429.75,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.99),48.48,2.41,-0.72,435.95,431.33,401.63
+TMSN,85.6,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.45),35.24,37.68,-0.83,94.58,98.81,101.82
+TNZTP,23.34,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 SERT SIKIŞMA (Bant: %0.64),36.38,0.72,-0.93,25.07,24.93,24.92
+TOASO,297.75,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %7.17),41.27,0.0,-0.9,305.29,295.04,283.95
+TRALT,51.25,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %7.22),60.23,82.73,0.19,47.19,46.04,43.49
+TRCAS,40.96,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.07),37.16,11.7,-0.51,43.23,43.04,41.97
+TRENJ,92.85,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.76),56.07,90.34,0.54,90.18,91.35,88.79
+TRGYO,98.8,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.00),52.96,43.57,0.55,95.48,90.52,86.59
+TRHOL,1468.0,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %25.90),40.13,8.04,-0.42,1502.24,1298.59,1122.0
+TRILC,1.16,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %52.59),26.48,94.73,-0.52,1.86,2.25,2.47
+TRMET,116.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.80),52.27,87.84,0.58,117.31,119.56,116.29
+TSGYO,6.43,🩸 SAT (Trend Kırıldı),🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %3.55),35.89,13.41,-0.92,6.74,6.85,6.97
+TSKB,11.56,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %1.61),42.83,3.06,-0.82,11.89,11.98,12.08
+TSPOR,0.89,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.27),34.18,42.87,-0.67,0.95,0.98,1.02
+TTKOM,57.3,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.72),34.92,2.26,-0.8,61.92,61.84,60.93
+TTRAK,440.25,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.35),47.69,41.59,-0.13,449.38,468.44,486.13
+TUCLK,3.94,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %26.54),35.41,28.51,-0.73,4.22,4.58,5.27
+TUKAS,2.14,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %7.52),25.38,3.99,-0.96,2.38,2.46,2.54
+TUPRS,256.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %5.08),67.05,97.43,0.88,238.99,235.09,225.96
+TUREX,6.86,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.61),23.17,0.0,-0.96,7.92,8.01,8.16
+TURGG,27.22,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.26),37.59,28.4,-0.76,29.83,30.36,30.72
+TURSG,6.1,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %2.76),41.52,17.06,-0.92,6.4,6.39,6.23
+UCAYM,30.02,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,-,33.68,8.34,-0.85,33.37,31.27,
+UFUK,1532.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.50),45.19,3.02,-0.29,1545.03,1528.83,1491.42
+ULAS,24.58,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.09),34.8,64.33,-0.81,27.29,28.68,29.03
+ULKER,97.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Daralıyor (Bant: %2.58),29.22,18.19,-0.91,107.92,110.43,110.26
+ULUFA,1.72,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %1.23),27.98,0.0,-0.98,1.93,1.93,1.91
+ULUSE,283.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.69),42.86,29.22,-0.87,292.88,263.09,245.66
+ULUUN,8.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık (Bant: %6.28),48.79,26.49,-0.37,8.8,8.45,8.24
+UMPAS,9.3,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,🚨 SERT SIKIŞMA (Bant: %0.00),,,,9.3,9.3,9.3
+UNLU,12.39,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.32),39.3,8.55,-0.29,13.33,13.77,14.11
+USAK,1.41,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %37.88),32.81,0.0,-0.79,1.58,1.8,2.12
+VAKBN,30.92,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.06),39.76,6.65,-0.81,32.69,32.69,32.06
+VAKFA,11.65,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %3.59),35.06,11.93,-0.88,12.42,12.68,12.84
+VAKFN,1.54,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %7.35),25.86,0.0,-0.93,1.71,1.78,1.82
+VAKKO,70.5,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %6.46),36.84,6.1,-0.88,76.28,74.26,71.72
+VANGD,89.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %15.68),44.89,4.6,-0.91,89.72,82.47,75.77
+VBTYZ,29.66,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %11.52),56.27,52.27,0.21,27.33,25.07,23.91
+VERTU,37.34,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.09),39.17,0.0,-0.85,40.25,40.29,40.66
+VERUS,415.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %22.82),27.51,0.0,-0.61,562.56,505.99,467.67
+VESBE,6.04,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %15.09),40.3,24.55,-0.17,6.67,7.11,7.59
+VESTL,23.96,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.84),42.11,28.69,-0.05,26.11,27.54,28.95
+VKFYO,29.28,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.54),53.08,89.44,0.16,29.8,31.42,30.62
+VKGYO,2.63,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Daralıyor (Bant: %1.95),42.74,33.72,-0.21,2.68,2.66,2.63
+VKING,23.54,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.25),34.74,16.63,-0.8,25.56,26.97,28.2
+VRGYO,1.98,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %13.01),33.14,8.59,-0.88,2.18,2.29,2.44
+VSNMD,83.35,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %38.10),42.59,1.52,-0.49,88.87,96.75,120.63
+YAPRK,11.95,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %4.70),37.64,39.39,-0.89,12.94,13.35,13.51
+YATAS,38.82,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Daralıyor (Bant: %2.45),41.49,4.38,-0.53,41.3,41.55,40.6
+YAYLA,23.3,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %8.83),43.89,39.26,-0.32,25.01,25.92,27.07
+YBTAS,15.95,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %21.06),44.76,85.72,0.52,16.7,18.11,20.06
+YEOTK,85.5,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %27.68),33.34,7.52,-0.92,94.77,80.56,71.11
+YESIL,1.32,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %19.10),30.44,49.9,-0.91,1.47,1.6,1.73
+YGGYO,225.8,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %16.31),44.44,1.26,-0.91,227.66,208.44,190.82
+YIGIT,22.22,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 SERT SIKIŞMA (Bant: %1.43),30.56,0.0,-0.94,24.16,24.26,24.48
+YKBNK,36.22,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %3.59),38.72,0.74,-0.95,38.06,37.44,36.76
+YKSLN,3.11,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),⚪ Yelpaze Açık (Bant: %13.87),41.02,56.55,0.03,3.3,3.42,3.73
+YONGA,52.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %5.11),39.56,35.36,-0.74,55.83,56.84,58.53
+YUNSA,8.81,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %9.18),26.21,0.0,-0.98,9.62,9.19,8.81
+YYAPI,0.86,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %40.19),33.04,58.32,-0.78,1.02,1.2,1.36
+YYLGD,10.63,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 SERT SIKIŞMA (Bant: %0.90),33.51,34.56,-0.78,11.38,11.45,11.36
+ZEDUR,8.73,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık (Bant: %4.94),38.02,28.35,-0.57,9.65,9.39,9.22
+ZERGY,10.42,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,30.7,10.31,-0.91,14.65,15.39,
+ZGYO,37.36,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,-,-,47.7,38.39,-0.48,36.32,31.81,
+ZOREN,2.59,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %6.41),34.28,17.87,-0.78,2.92,3.01,3.09
+ZRGYO,17.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık (Bant: %11.40),46.08,27.67,-0.02,18.4,19.64,20.4
