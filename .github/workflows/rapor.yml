@@ -2,20 +2,23 @@ name: Otomatik Analiz Raporu
 
 on:
   schedule:
-    # Hafta içi (Pazartesi-Cuma), Türkiye saatiyle: 10:00, 11:00, 13:00, 15:00, 17:00, 20:00
-    # (Türkiye UTC+3, yaz-kış saati uygulaması yok, bu yüzden UTC karşılıkları sabit: 07,08,10,12,14,17)
-    - cron: '0 7,8,10,12,14,17 * * 1-5'
+    # Hafta ici (Pazartesi-Cuma), Turkiye saatiyle: 10:00, 12:00, 14:00, 16:00, 17:00, 20:00 -> GUNLUK (1d) analiz
+    # (Turkiye UTC+3, yaz-kis saati uygulamasi yok, bu yuzden UTC karsiliklari sabit)
+    - cron: '0 7,9,11,13,14,17 * * 1-5'
+    # Sadece Cuma, Turkiye saatiyle 20:10 -> HAFTALIK (1wk) analiz (gunluk 20:00 kosumundan 10 dk sonra)
+    - cron: '10 17 * * 5'
   workflow_dispatch:
     inputs:
       secim:
-        description: "Analiz Türü"
+        description: "Analiz Turu"
         required: true
-        default: "HER IKISI"
+        default: "HEPSI"
         type: choice
         options:
-          - "HER IKISI"
+          - "HEPSI"
           - "BIST"
           - "FON"
+          - "ABD"
       periyot:
         description: "Periyot"
         required: true
@@ -24,10 +27,6 @@ on:
         options:
           - "1d"
           - "1wk"
-          - "1mo"
-          - "1h"
-          - "2h"
-          - "4h"
 
 jobs:
   rapor-uret:
@@ -41,19 +40,21 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Gereksinimleri kur
         run: pip install -r requirements.txt
 
-      - name: Raporu üret
+      - name: Raporu uret
         env:
           SECIM: ${{ github.event.inputs.secim }}
           PERIYOT: ${{ github.event.inputs.periyot }}
+          GITHUB_SCHEDULE: ${{ github.event.schedule }}
           PYTHONUNBUFFERED: "1"
         run: python scheduled_run.py
 
-      - name: Değişiklikleri commit'le
+      - name: Degisiklikleri commit'le
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Otomatik rapor güncellendi"
+          commit_message: "Otomatik rapor guncellendi"
           file_pattern: "raporlar/*.csv"
