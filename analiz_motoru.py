@@ -313,9 +313,9 @@ def _period_hesapla(interval):
     için yetersiz kalır, o yüzden 1mo ve saatlik periyotlarda 'max' korunuyor
     (saatlik veride zaten Yahoo kendi üst sınırını uyguluyor, veri miktarı az).
     """
-    if interval is "1d":
+    if interval = "1d":
         return "2y"       # Günlük: ~1250 bar, Haftalık: ~260 bar — ikisi de 150 periyotluk EMA için yeterli
-    elif interval is "1wk":
+    elif interval = "1wk":
         return "5y"
     else:
         return "max"      # 1mo, 1h, 2h, 4h
