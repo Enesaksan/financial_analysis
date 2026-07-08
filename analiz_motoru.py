@@ -228,6 +228,19 @@ def hesapla_ssl_hybrid(df, base_len=60, exit_len=15):
 # =====================================================================
 # 2. VERİ İNDİRME VE İNDİKATÖR MOTORU
 # =====================================================================
+def _son_gecerli_satira_kirp(df):
+    """
+    Close değeri NaN olan sondaki satırları keser. Toplu indirmede (group_by='ticker')
+    ortak tarih indeksi kullanıldığı için, bir hisse o gün henüz işlem görmediyse
+    (özellikle düşük hacimli BIST hisselerinde), o günün satırı NaN olarak gelir.
+    Bu, o satırı atlayıp en son gerçek işlem gören güne döner.
+    """
+    if df is None or df.empty or 'Close' not in df.columns:
+        return df
+    while len(df) > 0 and pd.isna(df['Close'].iloc[-1]):
+        df = df.iloc[:-1]
+    return df
+
 def _indikatorler_ekle(df):
     """Ham OHLCV verisine tüm teknik indikatörleri ekler (indirme işleminden bağımsız)."""
     if df is None or df.empty:
@@ -235,6 +248,10 @@ def _indikatorler_ekle(df):
 
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.droplevel(1)
+
+    df = _son_gecerli_satira_kirp(df)
+    if df is None or df.empty:
+        return None
 
     df['RSI'] = ta.rsi(df['Close'], length=14)
 
