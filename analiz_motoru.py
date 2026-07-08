@@ -577,6 +577,7 @@ def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=20):
         return f"⚪ Yelpaze Açık"
 
 def bb_price_state(df):
+    bbands = ta.bbands(df['Close'], length=20, std=2)
     if bbands is not None and not bbands.empty:
         bb_alt = df['BB_ALT'].iloc[-1]
         bb_orta = df['BB_ORTA'].iloc[-1]
