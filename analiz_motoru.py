@@ -616,9 +616,6 @@ def _satir_olustur(isim, df):
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
         "TSI": sr(son.get('TSI')),
-        "ema50": sr(son.get('EMA_50')),
-        "ema100": sr(son.get('EMA_100')),
-        "ema150": sr(son.get('EMA_150')),
     }
 
 
