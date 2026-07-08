@@ -88,7 +88,7 @@ if df_goster is not None:
 
         sinyal_sutunlari = [
             "Supertrend_Sinyal", "Tilson_Sinyal", "Hacim_SMI",
-            "Kombine_Dip", "SSL&EMA_Sinyal", "BB_Sikisma",
+            "Kombine_Dip", "SSL&EMA_Sinyal", "BB_Sikisma","BB_Fiyat_Durum"
         ]
         secili_sutunlar = st.multiselect(
             "Filtrelemek istedigin sinyal sutunlari",
