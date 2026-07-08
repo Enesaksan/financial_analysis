@@ -246,8 +246,9 @@ def _indikatorler_ekle(df):
 
     if bbands is not None and not bbands.empty:
             df['BB_ALT'] = bbands.iloc[:, 0]
+            df['BB_ORTA'] = bbands.iloc[:, 1]
             df['BB_UST'] = bbands.iloc[:, 2]
-            df['BB_GENISLIK'] = bbands.iloc[:, 3]  # pandas_ta'nın hazır hesapladığı Bandwidth
+            df['BB_GENISLIK'] = bbands.iloc[:, 3]
 
     stoch = ta.stochrsi(df['Close'], length=14)
     if stoch is not None and not stoch.empty:
@@ -575,6 +576,12 @@ def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=20):
     else:
         return f"⚪ Yelpaze Açık"
 
+def bb_price_state(df):
+    bb_alt = df['BB_ALT'].iloc[-1]
+    bb_orta = df['BB_ORTA'].iloc[-1]
+    bb_üst = df['BB_UST'].iloc[-1]
+    return bb_alt
+
 
 # =====================================================================
 # 4. ORTAK SATIR OLUŞTURMA + ANA BİRLEŞTİRİCİ MOTOR
@@ -595,6 +602,7 @@ def _satir_olustur(isim, df):
         "Kombine_Dip": analiz_kombine_dip(df),
         "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
         "BB_Sikisma": analiz_bb_sikisma(df),
+        "BB_Fiyat_Durum": bb_price_state(df),
 
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
