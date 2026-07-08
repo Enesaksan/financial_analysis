@@ -371,7 +371,7 @@ def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=5
             try:
                 ham = yf.download(
                     semboller, period="max", interval=interval, group_by="ticker",
-                    auto_adjust=auto_adjust, threads=True, progress=False, timeout=30,
+                    auto_adjust=auto_adjust, threads=max_worker, progress=False, timeout=30,
                 )
             except Exception:
                 ham = None
@@ -586,13 +586,13 @@ def analiz_ema_sikisma(df, esik_orani=1.5):
 # 4. ANA BİRLEŞTİRİCİ MOTOR
 # =====================================================================
 def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = "data/hisse_senetleri.xlsx",
-                   parca_boyutu: int = 50, max_worker: int = 10):
+                   parca_boyutu: int = 50, max_worker: int = 20):
     """
     secim: "BIST" ya da "FON"
     period_selection: "1d", "1wk", "1mo", "1h", "2h", "4h" vb.
     parca_boyutu: Her toplu indirme isteğinde kaç varlığın birlikte indirileceği.
-    max_worker: Toplu indirmede eksik kalan varlıklar için tekil fallback denerken
-                aynı anda kaç tanesinin paralel indirileceği.
+    max_worker: Hem toplu indirmede hem de eksik kalan varlıkların tekil fallback'inde
+                kaç tanesinin aynı anda (paralel) indirileceği.
     """
     tickers, auto_adjust = get_tickers(secim, hisse_dosyasi)
     if not tickers:
