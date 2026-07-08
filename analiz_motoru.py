@@ -303,6 +303,22 @@ def _indikatorler_ekle(df):
     return df
 
 
+def _period_hesapla(interval):
+    """
+    'max' yerine, indikatörler için yeterli ama gereksiz büyük olmayan bir
+    period değeri döndürür. En uzun indikatör (EMA_150) için 150 periyot
+    yeterliyken, kat kat fazla veri (bazı BIST hisselerinde 20-30 yıl) indirmek
+    hem yavaşlatıyor hem gereksiz. Saatlik/gün içi verilerde Yahoo zaten kendi
+    üst sınırını uyguladığı için 'max' bırakılıyor.
+    """
+    if interval == "1d":
+        return "5y"       # ~1250 günlük bar — 150 periyotluk EMA için fazlasıyla yeterli
+    elif interval == "1wk":
+        return "10y"      # ~520 haftalık bar
+    else:
+        return "max"      # 1mo, 1h, 2h, 4h: Yahoo zaten doğal olarak sınırlıyor
+
+
 def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayisi=2, bekleme_sn=2):
     """
     Tek bir sembolü indirir ve indikatörleri ekler. Toplu indirmede eksik kalan
@@ -313,7 +329,7 @@ def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayi
     for deneme in range(1, deneme_sayisi + 1):
         try:
             df = yf.download(
-                ticker_symbol, period="max", interval=interval,
+                ticker_symbol, period=_period_hesapla(interval), interval=interval,
                 progress=False, auto_adjust=auto_adjust, timeout=15,
             )
         except Exception:
@@ -370,7 +386,7 @@ def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=5
         for deneme in range(1, 3):
             try:
                 ham = yf.download(
-                    semboller, period="max", interval=interval, group_by="ticker",
+                    semboller, period=_period_hesapla(interval), interval=interval, group_by="ticker",
                     auto_adjust=auto_adjust, threads=max_worker, progress=False, timeout=30,
                 )
             except Exception:
