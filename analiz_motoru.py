@@ -232,6 +232,11 @@ def _indikatorler_ekle(df):
     df['EMA_100'] = ta.ema(df['Close'], length=100)
     df['EMA_150'] = ta.ema(df['Close'], length=150)
 
+    df['EMA_5'] = ta.ema(df['Close'], length=5)
+    df['EMA_21'] = ta.ema(df['Close'], length=21)
+    df['EMA_55'] = ta.ema(df['Close'], length=55)
+    df['EMA_200'] = ta.ema(df['Close'], length=200)
+
     if bbands is not None and not bbands.empty:
             df['BB_ALT'] = bbands.iloc[:, 0]
             df['BB_ORTA'] = bbands.iloc[:, 1]
@@ -278,7 +283,7 @@ def _period_hesapla(interval):
     if interval == "1d":
         return "1y"
     elif interval =="1wk":
-        return "3y"        
+        return "5y"        
     else:
         return "max"
 
@@ -586,6 +591,48 @@ def bb_price_state(df):
         return "⚪Fiyat Alt_Orta Bant Aralığında"
     else:
         return "🚨Fiyat Bandın Altında!"
+
+def destek_direnc_ema(df):
+    """
+    EMA_5/21/55/100/200 seviyelerini fiyata göre destek/direnç olarak sınıflandırır.
+    Fiyatın altındaki en yakın EMA -> potansiyel destek
+    Fiyatın üstündeki en yakın EMA -> potansiyel direnç
+    """
+    if df is None or len(df) == 0:
+        return "-"
+
+    bugun = df.iloc[-1]
+    fiyat = bugun.get('Close')
+    emalar = {
+        'EMA5': bugun.get('EMA_5'),
+        'EMA21': bugun.get('EMA_21'),
+        'EMA55': bugun.get('EMA_55'),
+        'EMA100': bugun.get('EMA_100'),
+        'EMA200': bugun.get('EMA_200'),
+    }
+
+    if pd.isna(fiyat) or fiyat == 0:
+        return "-"
+
+    gecerli_emalar = {isim: deger for isim, deger in emalar.items() if pd.notna(deger)}
+    if not gecerli_emalar:
+        return "-"
+
+    destekler = {isim: deger for isim, deger in gecerli_emalar.items() if deger < fiyat}
+    direncler = {isim: deger for isim, deger in gecerli_emalar.items() if deger > fiyat}
+
+    parcalar = []
+    if destekler:
+        isim, deger = max(destekler.items(), key=lambda x: x[1])
+        uzaklik = (fiyat - deger) / fiyat * 100
+        parcalar.append(f"Destek: {isim}={deger:.2f} (%{uzaklik:.1f} altta)")
+    if direncler:
+        isim, deger = min(direncler.items(), key=lambda x: x[1])
+        uzaklik = (deger - fiyat) / fiyat * 100
+        parcalar.append(f"Direnç: {isim}={deger:.2f} (%{uzaklik:.1f} üstte)")
+
+    return " | ".join(parcalar) if parcalar else "-"
+
 
 
 # =====================================================================
