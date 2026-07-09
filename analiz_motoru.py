@@ -565,7 +565,7 @@ def analiz_ema_ssl_kombine(df):
     return "⚪ Karışık / Testere Piyasası"
 
 
-def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=20):
+def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=15):
     """
     Bollinger Bant genişliğini (Bandwidth), kendi son 'geriye_bakis' periyotluk
     tarihiyle kıyaslayarak gerçek bir sıkışma (squeeze) durumu tespit eder.
@@ -589,7 +589,9 @@ def analiz_bb_sikisma(df, geriye_bakis=120, esik_persentil=20):
     if persentil <= esik_persentil:
         return f"🚨 BB SIKIŞMA"
     elif persentil <= esik_persentil * 2:
-        return f"🟡 Daralıyor"
+        return f"🟠 Daralıyor"
+    elif persentil <= esik_persentil * 3:
+        return f"🟡 Normal Genişlik"
     else:
         return f"⚪ Yelpaze Açık"
 
