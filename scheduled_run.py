@@ -51,6 +51,14 @@ def kaydet_ve_gecmis(df, secim, period_secim):
     latest_yol = os.path.join(RAPOR_KLASORU, f"{isim_koku}_latest.csv")
     df.to_csv(latest_yol)
 
+    # Gerçek üretim zamanını AYRICA küçük bir dosyaya yaz. Dosyanın işletim
+    # sistemi seviyesindeki değiştirilme zamanına (mtime) güvenilemez, çünkü
+    # Streamlit Cloud repo'yu yeniden clone'ladığında mtime'lar clone anına
+    # sıfırlanıyor — gerçek üretim zamanını yansıtmıyor.
+    zaman_yolu = os.path.join(RAPOR_KLASORU, f"{isim_koku}_latest_zaman.txt")
+    with open(zaman_yolu, "w") as f:
+        f.write(tarih)
+
     df_yeni = df.reset_index().copy()
     df_yeni.insert(0, "Tarih", tarih)
 
