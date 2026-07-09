@@ -57,4 +57,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Otomatik rapor guncellendi"
-          file_pattern: "raporlar/*.csv"
+          file_pattern: "raporlar/*.csv raporlar/*.txt raporlar/gecmis/*.csv"
