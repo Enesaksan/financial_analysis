@@ -14,7 +14,7 @@ os.makedirs(RAPOR_KLASORU, exist_ok=True)
 os.makedirs(GECMIS_KLASORU, exist_ok=True)
 
 # Haftalık analizi tetikleyen cron ifadesi (workflow dosyasındaki ile birebir aynı olmalı)
-HAFTALIK_CRON = "0 18 * * 5"
+HAFTALIK_CRON = "30 17 * * 5"
 
 # Zamanlanmış (otomatik) çalışmalarda üretilecek raporlar
 GOREVLER_GUNLUK = [
