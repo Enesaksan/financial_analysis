@@ -19,13 +19,13 @@ st.title("Hisse & Fon Analiz Raporu")
 
 col1, col2 = st.columns(2)
 with col1:
-    secim = st.selectbox("Analiz Turu", ["BIST", "FON", "ABD"])
+    secim = st.selectbox("Analiz Edilecek Alan", ["BIST", "FON", "ABD"])
 with col2:
     period_secim = st.selectbox(
         "Periyot",
         ["1d", "1wk"],
         index=0,
-        help="1d: Gunluk, 1wk: Haftalik",
+        help="1d: Günlük, 1wk: Haftalık",
     )
 
 
@@ -38,19 +38,19 @@ def gun_ici_mi(saat_dt):
     return 10 <= saat_dt.hour < 18 and saat_dt.weekday() < 5
 
 
-manuel_uret = st.button("Raporu Simdi Uret (Canli Veri)", type="primary")
+manuel_uret = st.button("Raporu Üret", type="primary")
 
 if manuel_uret:
-    with st.spinner("Veriler Yahoo Finance'den cekiliyor, analiz yapiliyor... Bu biraz surebilir."):
+    with st.spinner("Rapor Hazırlanıyor... Bu biraz sürebilir."):
         df = rapor_olustur(secim, period_secim)
     if df is not None and not df.empty:
         simdi = datetime.now(TR_TZ)
-        st.success(f"Rapor uretildi - {simdi.strftime('%d.%m.%Y %H:%M')}")
+        st.success(f"Rapor üretildi - {simdi.strftime('%d.%m.%Y %H:%M')}")
         st.session_state["son_rapor"] = df
         st.session_state["son_rapor_secim"] = (secim, period_secim)
         st.session_state["son_rapor_zaman"] = simdi
     else:
-        st.error("Rapor uretilemedi. Excel dosyasini/ticker listesini ya da baglantiyi kontrol edin.")
+        st.error("Rapor üretilemedi. Excel dosyasını/ticker listesini ya da bağlantıyı kontrol edin.")
 
 df_goster = None
 kaynak = ""
@@ -59,7 +59,7 @@ zaman_dt = None
 if "son_rapor" in st.session_state and st.session_state.get("son_rapor_secim") == (secim, period_secim):
     df_goster = st.session_state["son_rapor"]
     zaman_dt = st.session_state["son_rapor_zaman"]
-    kaynak = "Canli (az once uretildi)"
+    kaynak = "Canlı (Az Önce üretildi)"
 else:
     dosya_yolu = rapor_dosya_yolu(secim, period_secim)
     if os.path.exists(dosya_yolu):
@@ -68,7 +68,7 @@ else:
         kaynak = f"Otomatik rapor ({zaman_dt.strftime('%d.%m.%Y %H:%M')})"
 
 if df_goster is not None:
-    st.caption(f"Gosterilen veri kaynagi: {kaynak}")
+    st.caption(f"Gösterilen veri kaynağı: {kaynak}")
 
     if period_secim == "1d" and zaman_dt is not None:
         if gun_ici_mi(zaman_dt):
