@@ -57,36 +57,7 @@ def abd_hisseleri_excel(dosya_adi="data/abd_hisseleri.xlsx"):
 
 
 def fon_hisseleri_excel(dosya_adi="data/fon_listesi.xlsx"):
-    """
-    Fon/emtia/döviz listesi İKİ sütunlu olmalı: 'Isim' (görünen ad, ör. 'Altın Spot')
-    ve 'Ticker' (Yahoo Finance'teki TAM sembol, ör. GC=F, QQQ, USDTRY=X, XU100.IS).
-    Bu varlıklarda tek bir sabit ek (.IS gibi) işe yaramıyor — hisse, emtia, döviz ve
-    endekslerin her birinin kendi sembol kuralı var — o yüzden kullanıcı tam sembolü
-    kendisi yazmalı.
-    """
-    print(f"'{dosya_adi}' dosyasından fon/emtia listesi okunuyor...\n")
-
-    try:
-        df = pd.read_excel(dosya_adi)
-    except FileNotFoundError:
-        print(f"HATA: Dosya bulunamadı. Yolu kontrol edin: {dosya_adi}")
-        return {}
-
-    if df.empty or len(df.columns) < 2:
-        print("HATA: Fon listesi en az 'Isim' ve 'Ticker' adında iki sütun içermeli.")
-        return {}
-
-    isim_sutunu = "Isim" if "Isim" in df.columns else df.columns[0]
-    ticker_sutunu = "Ticker" if "Ticker" in df.columns else df.columns[1]
-
-    sonuc = {}
-    for _, satir in df.iterrows():
-        isim, ticker = satir.get(isim_sutunu), satir.get(ticker_sutunu)
-        if pd.notna(isim) and pd.notna(ticker):
-            sonuc[str(isim).strip()] = str(ticker).strip().upper()
-
-    print(f"İşlem Başarılı! Toplam {len(sonuc)} adet fon/emtia/döviz analize hazır.\n")
-    return sonuc
+    return _kod_listesi_excel(dosya_adi, ek="")
 
 
 def get_tickers(secim: str, hisse_dosyasi: str = None):
