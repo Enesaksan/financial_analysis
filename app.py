@@ -64,7 +64,15 @@ else:
     dosya_yolu = rapor_dosya_yolu(secim, period_secim)
     if os.path.exists(dosya_yolu):
         df_goster = pd.read_csv(dosya_yolu, index_col=0)
-        zaman_dt = datetime.fromtimestamp(os.path.getmtime(dosya_yolu), tz=TR_TZ)
+
+        zaman_dosyasi = dosya_yolu.replace("_latest.csv", "_latest_zaman.txt")
+        if os.path.exists(zaman_dosyasi):
+            with open(zaman_dosyasi) as f:
+                zaman_metni = f.read().strip()
+            zaman_dt = datetime.strptime(zaman_metni, "%Y-%m-%d %H:%M").replace(tzinfo=TR_TZ)
+        else:
+            zaman_dt = datetime.fromtimestamp(os.path.getmtime(dosya_yolu), tz=TR_TZ)
+
         kaynak = f"Otomatik rapor ({zaman_dt.strftime('%d.%m.%Y %H:%M')})"
 
 if df_goster is not None:
