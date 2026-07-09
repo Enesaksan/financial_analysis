@@ -1230,3 +1230,619 @@ Tarih,Varlık,Fiyat,Supertrend_Sinyal,Tilson_Sinyal,Hacim_SMI,Kombine_Dip,SSL&EM
 2026-07-09 13:33,ZGYO,36.84,🟢 Yükseliş Trendinde,🔴 SAT,-,-,-,,45.98,32.62,-0.54,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
 2026-07-09 13:33,ZOREN,2.63,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.32,15.71,-0.79,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
 2026-07-09 13:33,ZRGYO,17.82,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,50.74,30.2,-0.04,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,A1CAP,10.13,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.79,18.53,-0.43,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,A1YEN,2.83,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,28.75,0.0,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AAGYO,14.77,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,,26.93,13.35,-0.85,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ACSEL,131.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.35,16.51,-0.67,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ADEL,29.96,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.76,10.4,-0.87,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ADESE,0.93,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,33.68,7.53,-0.96,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ADGYO,50.55,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,34.12,1.4,-0.89,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,AEFES,19.7,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.35,6.89,-0.68,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,AFYON,12.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.58,2.46,-0.9,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AGESA,237.3,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.2,2.29,-0.91,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AGHOL,31.94,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.33,14.8,-0.16,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,AGROT,2.5,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,23.38,3.09,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AGYO,7.83,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.66,27.39,-0.67,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AHGAZ,36.96,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,59.23,10.11,-0.23,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AHSGY,20.34,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,50.96,78.62,0.73,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AKBNK,70.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.91,0.38,-0.93,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AKCNS,231.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,58.46,86.34,0.88,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AKENR,10.42,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,30.69,0.0,-0.96,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,AKFGY,2.67,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.31,6.74,-0.86,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AKFIS,88.25,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,,68.28,92.64,0.92,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AKFYE,24.0,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,50.82,69.4,0.49,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AKGRT,7.15,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,48.78,34.4,-0.51,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AKHAN,35.46,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,-,,64.61,59.2,0.62,,,,-,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AKMGY,242.5,🟢 Yükseliş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.37,56.52,-0.09,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AKSA,11.69,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,51.36,17.91,-0.18,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AKSEN,89.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,64.5,93.79,0.51,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AKSGY,9.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,48.94,9.8,-0.21,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AKSUE,45.08,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,68.34,81.62,0.91,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AKYHO,2.48,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.96,46.09,-0.01,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ALARK,97.95,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.03,0.3,-0.18,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ALBRK,7.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.74,3.2,-0.91,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ALCAR,815.5,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,56.2,73.32,0.82,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ALCTL,138.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.68,1.03,-0.86,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ALFAS,44.86,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.35,4.97,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ALGYO,3.47,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,21.91,4.39,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ALKA,8.84,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,25.95,6.14,-0.94,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ALKIM,17.24,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.54,7.24,-0.94,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ALKLC,381.25,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,66.7,98.88,0.75,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,ALTNY,15.67,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.48,42.29,0.49,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ALVES,2.47,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,33.04,2.74,-0.91,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ANELE,98.4,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.89,20.56,-0.63,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ANGEN,10.33,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.63,19.74,-0.49,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ANHYT,98.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,34.78,0.0,-0.8,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ANSGR,27.26,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.22,19.41,-0.88,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ARASE,117.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,53.4,41.41,0.77,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ARCLK,96.55,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.7,6.23,-0.81,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ARDYZ,65.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,59.13,76.99,0.87,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ARENA,26.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.87,44.91,-0.41,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ARFYE,30.28,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,49.39,41.31,0.41,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ARMGD,174.7,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,57.36,34.93,0.66,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ARSAN,3.08,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.99,12.49,-0.23,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ARTMS,42.46,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,50.62,13.2,0.31,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ARZUM,2.01,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),,41.82,57.06,-0.66,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ASELS,361.25,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.33,50.91,0.02,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ASGYO,12.44,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),,54.38,12.67,-0.49,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ASTOR,306.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,,51.63,78.18,0.43,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ASUZU,53.85,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.47,13.79,-0.9,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ATAGY,11.88,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,41.95,51.61,0.03,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ATAKP,50.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,37.95,4.03,-0.55,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ATATP,215.3,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,50.74,40.52,0.03,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ATATR,15.04,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,38.17,17.27,-0.77,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ATEKS,126.6,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,55.45,28.08,0.43,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ATLAS,7.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.03,19.02,-0.06,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ATSYH,103.5,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,55.58,34.25,0.69,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AVGYO,15.64,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,58.28,37.29,-0.38,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AVHOL,38.62,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.86,38.24,-0.71,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AVOD,4.3,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,50.12,78.22,0.22,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AVPGY,54.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.4,41.02,-0.36,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AVTUR,15.85,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.28,10.68,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AYCES,534.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,36.82,5.79,-0.89,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,AYDEM,25.62,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,47.91,66.93,0.22,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AYEN,33.86,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.32,21.16,-0.85,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AYES,32.8,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.64,33.13,0.34,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,AYGAZ,230.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,54.6,97.25,0.69,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,AZTEK,4.73,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.36,18.9,-0.58,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BAGFS,24.4,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.92,13.97,-0.93,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BAHKM,121.5,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),📈 TREND DEVAMI (0 Üstü + Hacim),-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),,56.36,33.33,0.14,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BAKAB,53.15,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,,54.29,39.09,0.36,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BALAT,69.95,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,54.46,91.22,0.55,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BALSU,13.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.73,0.0,-0.54,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BANVT,167.3,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,49.77,6.22,0.08,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BARMA,69.3,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,51.69,27.9,-0.47,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BASCM,14.19,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.38,45.45,-0.65,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BASGZ,46.32,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.99,11.54,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BAYRK,4.54,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.1,48.11,-0.84,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BEGYO,3.93,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.76,0.0,-0.86,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BERA,14.74,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,29.3,0.0,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BESLR,13.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,33.01,0.0,-0.95,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BESTE,30.74,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,-,,39.51,9.95,-0.78,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BETAE,77.8,🟢 Yükseliş Trendinde,-,-,-,-,,,,,,,,-,-
+2026-07-09 17:00,BEYAZ,24.08,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,29.2,12.39,-0.89,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BFREN,132.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,36.78,9.52,-0.8,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BIENY,21.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.21,0.0,-0.91,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BIGCH,6.47,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.27,4.47,-0.94,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BIGEN,88.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,69.69,31.3,0.69,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BIGTK,338.75,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),,78.21,94.53,0.93,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,BIMAS,365.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.22,71.43,-0.49,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BINBN,181.5,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,54.54,65.68,0.59,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BINHO,10.15,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,53.58,22.1,0.58,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BIOEN,17.02,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.3,10.36,-0.32,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BIZIM,25.62,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.41,45.7,-0.14,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BJKAS,1.66,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,52.04,43.75,0.39,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BLCYT,21.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,31.03,51.31,-0.78,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BLUME,34.58,🟢 Yükseliş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),,47.37,67.92,0.81,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,BMSCH,13.62,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,30.24,38.64,-0.88,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BMSTL,42.64,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.5,4.22,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BNTAS,6.04,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.78,6.52,-0.98,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BOBET,18.84,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.35,18.16,-0.35,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BORLS,6.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,48.65,4.86,-0.83,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BORSK,5.77,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.15,21.58,-0.84,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BOSSA,6.28,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.28,54.35,-0.75,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BRISA,79.7,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,29.45,6.07,-0.94,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BRKO,12.99,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,46.09,18.15,-0.37,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BRKSN,7.89,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.67,91.79,0.09,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BRKVY,82.3,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.41,0.0,-0.89,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BRLSM,16.77,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.42,0.0,-0.83,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BRMEN,16.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,50.27,0.0,-0.58,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BRSAN,526.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.66,4.74,-0.76,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BRYAT,1817.0,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.24,13.05,-0.74,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BSOKE,34.14,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.34,21.26,-0.43,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BTCIM,5.38,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,30.64,3.07,-0.82,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BUCIM,5.35,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,22.37,0.0,-0.94,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,BULGS,37.66,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.08,1.68,-0.92,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BURCE,39.68,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,35.24,36.37,-0.42,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BURVA,908.0,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.36,64.52,-0.18,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BVSAN,119.0,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.29,67.99,-0.59,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,BYDNR,36.76,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.34,50.11,-0.18,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CANTE,1.26,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,23.68,4.45,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CASA,72.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.4,31.02,-0.53,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CATES,40.24,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,48.52,47.37,-0.06,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CCOLA,81.55,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,50.34,60.92,0.79,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,CELHA,22.38,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,67.19,79.91,0.34,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,CEMAS,4.18,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,32.71,2.64,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CEMTS,9.52,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.59,5.73,-0.86,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,CEMZY,12.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.98,0.0,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CEOEM,27.78,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,54.85,49.81,0.65,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,CGCAM,44.88,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,49.84,38.03,0.02,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CIMSA,45.7,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,34.23,31.54,-0.81,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,CLEBI,1522.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.37,9.03,-0.87,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CMBTN,1628.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,49.16,48.53,0.73,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,CMENT,288.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,46.83,46.79,0.41,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CONSE,2.52,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,26.46,4.03,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,COSMO,140.2,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.7,79.2,-0.08,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CRDFA,35.9,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.05,6.29,-0.8,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CRFSA,139.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.12,5.47,-0.77,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,CUSAN,22.58,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,36.24,9.87,-0.74,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,CVKMD,39.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.28,22.96,-0.72,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,CWENE,40.04,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,,53.44,84.57,0.56,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,DAGI,9.56,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,62.59,16.0,0.83,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,DAPGM,9.05,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,33.53,1.99,-0.94,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DARDL,1.92,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,32.78,20.24,-0.86,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DCTTR,12.99,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,54.4,50.04,0.8,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,DENGE,2.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,52.84,41.23,0.15,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,DERHL,11.47,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,25.44,0.0,-0.93,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,DERIM,37.72,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,46.24,44.97,-0.33,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DESA,10.36,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,33.8,52.29,-0.81,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DESPC,40.64,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.66,33.33,-0.71,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,DEVA,67.95,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.77,0.0,-0.37,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DGATE,104.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.04,5.43,-0.67,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DGGYO,38.36,🟢 Yükseliş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,50.86,20.53,-0.77,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DGNMO,7.99,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.6,4.05,-0.89,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DIRIT,21.2,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.13,11.48,-0.91,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,DITAS,28.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,33.53,9.93,-0.84,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DMRGD,12.91,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,73.88,100.0,0.9,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,DMSAS,8.49,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,39.13,5.07,-0.78,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DNISI,20.28,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.67,0.0,-0.59,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,DOAS,182.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.72,30.53,-0.61,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DOCO,11235.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,51.7,3.24,-0.36,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DOFER,30.4,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,33.03,38.09,-0.9,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DOFRB,171.8,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,51.26,9.19,0.2,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,DOGUB,80.1,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.02,8.89,-0.93,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DOHOL,20.22,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.75,13.69,-0.82,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DOKTA,23.62,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.66,4.87,-0.92,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DSTKF,3860.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,74.35,17.51,0.92,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,DUNYH,140.9,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🩸 SAT (Zirveden Dönüş),🔴 ZİRVEDE,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),,100.0,33.33,0.45,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,DURDO,5.02,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.49,2.53,-0.82,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DURKN,20.24,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,46.02,48.47,0.67,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DYOBY,13.46,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,29.45,0.0,-0.95,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,DZGYO,8.08,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.95,8.96,-0.2,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,EBEBK,76.85,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.72,59.78,-0.24,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ECILC,72.95,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,34.63,17.33,-0.83,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ECOGR,37.8,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.41,19.69,-0.48,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ECZYT,327.25,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,46.66,87.58,-0.19,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EDATA,18.23,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚪ Karışık / Testere Piyasası,,47.96,22.12,0.2,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EDIP,37.42,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,,50.29,43.48,0.65,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,EFOR,14.86,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,53.75,3.44,-0.77,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EGEEN,5427.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,41.34,41.29,0.17,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EGEGY,29.62,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,55.39,79.64,0.89,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,EGEPO,19.36,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,58.69,45.93,-0.44,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,EGGUB,97.65,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.01,24.63,-0.52,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EGPRO,36.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.49,1.36,-0.72,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EGSER,2.97,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.57,0.0,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EKDMR,55.85,🟢 Yükseliş Trendinde,🔴 SAT,-,-,-,,47.41,0.89,-0.05,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EKGYO,20.38,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,48.98,7.2,-0.36,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EKIM,28.62,-,-,-,-,-,,,,,,,,-,-
+2026-07-09 17:00,EKIZ,70.9,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,27.86,5.38,-0.87,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,EKOS,6.22,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.46,0.0,-0.95,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,EKSUN,6.43,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.91,20.35,-0.65,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ELITE,31.04,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,24.72,3.41,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EMKEL,19.27,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.94,84.84,0.19,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EMNIS,150.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,36.11,6.68,-0.71,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EMPAE,73.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,41.6,48.4,-0.21,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ENDAE,16.99,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.99,21.8,-0.86,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ENERY,9.51,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,49.66,5.12,-0.26,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ENJSA,103.4,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,42.56,62.38,-0.49,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ENKAI,88.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,38.49,41.38,-0.07,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ENPRA,62.0,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,-,,32.17,39.01,-0.16,,,,-,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ENSRI,5.91,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,30.7,31.54,-0.82,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ENTRA,4.54,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.43,1.97,-0.92,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EPLAS,5.51,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.88,45.97,-0.16,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ERBOS,168.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,39.86,42.98,-0.32,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ERCB,47.42,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,33.4,42.57,-0.77,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EREGL,39.3,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,46.89,12.15,-0.04,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ERSU,22.86,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.6,18.91,-0.78,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ESCAR,48.28,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,49.78,59.25,-0.05,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ESCOM,5.96,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,53.01,21.03,-0.36,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ESEN,3.51,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.7,4.1,-0.87,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ETILR,5.97,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,60.8,100.0,0.17,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ETYAT,13.86,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,67.56,48.55,0.85,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,EUHOL,10.1,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.89,0.0,-0.96,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EUKYO,12.18,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,76.23,29.11,0.92,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,EUPWR,87.65,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,54.68,48.31,-0.16,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,EUREN,4.13,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,23.32,3.96,-0.89,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,EUYO,4.99,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,26.44,0.0,-0.94,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,EYGYO,2.4,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.35,44.21,-0.79,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,FADE,15.54,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,46.53,51.08,-0.57,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,FENER,3.15,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,46.47,93.61,-0.19,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,FLAP,10.87,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.89,17.92,-0.86,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,FMIZP,294.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,46.03,30.31,0.38,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,FONET,4.84,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.14,0.0,-0.96,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,FORMT,2.05,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,29.03,2.96,-0.73,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,FORTE,93.2,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,49.12,52.93,0.53,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,FRIGO,1.98,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.93,100.0,-0.07,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,FRMPL,33.24,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,35.54,2.82,-0.87,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,FROTO,80.65,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.96,6.21,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,FZLGY,13.09,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.72,5.25,-0.8,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GARAN,129.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.31,3.04,-0.92,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,GARFA,27.1,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,31.68,1.46,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GATEG,298.0,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,56.7,92.76,0.08,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,GEDIK,7.2,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,53.72,24.08,0.34,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,GEDZA,29.06,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.02,0.02,-0.87,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GENIL,9.04,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,49.25,18.07,-0.67,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GENKM,12.91,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,34.36,0.0,-0.93,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GENTS,5.93,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,29.28,9.87,-0.92,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GEREL,29.92,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,28.75,0.0,-0.85,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,GESAN,79.95,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,57.01,95.25,0.37,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,GIPTA,65.95,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.91,8.36,-0.81,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GLBMD,14.4,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,60.1,17.41,0.43,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,GLCVY,54.5,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.83,0.79,-0.94,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,GLRMK,157.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,29.09,0.69,-0.96,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,GLRYH,3.27,🔴 Düşüş Trendinde,🔴 SAT,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.34,72.47,0.59,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GLYHO,17.56,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,52.74,0.0,-0.33,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GMTAS,45.48,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,50.04,29.9,-0.46,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GOKNR,22.82,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.27,8.54,-0.82,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GOLDA,11.13,-,-,-,-,-,,,,,,,,-,-
+2026-07-09 17:00,GOLTS,316.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,33.41,25.47,-0.09,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,GOODY,2.92,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,46.51,5.46,-0.85,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GOZDE,22.34,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.13,2.36,-0.22,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GRNYO,16.25,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,30.93,7.17,-0.81,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,GRSEL,297.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.35,12.52,-0.58,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GRTHO,240.4,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,51.45,13.44,-0.61,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GSDDE,13.04,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,48.44,56.46,0.62,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GSDHO,5.31,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.9,16.92,0.06,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,GSRAY,1.0,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.63,14.04,-0.94,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GUBRF,434.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.94,16.67,-0.79,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GUNDG,1960.0,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,,80.86,93.31,0.99,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,GWIND,23.94,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,28.86,0.0,-0.99,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,GZNMI,55.15,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,29.18,0.0,-0.86,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,HALKB,41.38,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.18,3.25,-0.63,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HATEK,16.08,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,47.49,42.83,0.6,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HATSN,53.55,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,45.9,10.79,-0.86,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HDFGS,2.63,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,46.2,48.52,0.39,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HEDEF,185.9,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,92.63,78.42,0.94,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,HEKTS,2.99,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,31.05,0.0,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HKTM,10.55,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,32.16,33.95,-0.78,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HLGYO,5.35,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.33,7.94,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HOROZ,63.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,42.48,18.61,-0.92,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HRKET,101.1,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.04,7.89,-0.87,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HTTBT,37.82,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,35.13,21.72,-0.85,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,HUBVC,2.92,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,43.63,78.18,-0.28,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,HUNER,3.41,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.76,2.28,-0.64,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,HURGZ,6.19,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.89,28.91,-0.74,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ICBCT,20.58,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.47,21.72,0.27,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ICUGS,5.72,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,53.57,57.16,0.42,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,IDGYO,4.38,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.03,4.43,-0.46,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IEYHO,158.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,85.76,19.14,0.97,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,IHAAS,60.65,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.32,84.61,-0.58,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IHEVA,2.03,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.15,10.32,-0.79,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IHGZT,1.31,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.01,22.95,-0.72,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IHLAS,1.12,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,28.4,46.8,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IHLGM,1.72,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,33.67,3.82,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IHYAY,1.38,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,25.2,0.0,-0.98,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IMASM,2.86,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,29.23,11.84,-0.91,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,INDES,10.52,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.62,8.49,-0.64,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,INFO,7.64,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,65.06,25.43,0.7,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,INGRM,406.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.97,25.64,0.34,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,INTEK,235.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.31,37.71,0.53,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,INTEM,263.5,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,47.81,61.38,0.45,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,INVEO,8.3,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,50.21,49.39,0.58,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,INVES,602.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.7,4.74,-0.56,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISATR,4950000.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,56.62,60.4,,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ISBIR,65.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,27.45,26.73,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISBTR,514997.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,60.47,29.02,0.77,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ISCTR,13.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.36,5.54,-0.88,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISDMR,53.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.49,0.0,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISFIN,19.25,🩸 SAT (Trend Kırıldı),🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.29,0.0,-0.97,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISGSY,18.96,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.58,0.5,-0.86,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISGYO,27.24,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,71.98,44.8,0.77,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ISKPL,6.51,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,30.66,90.83,-0.66,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISKUR,4125000.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,-,,71.71,100.0,0.81,,,,-,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,ISMEN,34.74,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.09,10.09,-0.95,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,ISSEN,7.13,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.05,0.4,-0.95,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ISYAT,7.87,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,41.51,3.74,-0.3,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IZENR,8.98,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,31.62,0.0,-0.48,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,IZFAS,61.45,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.52,4.62,-0.26,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IZINV,62.35,🟢 Yükseliş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),,41.89,8.01,-0.95,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,IZMDC,9.65,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,67.72,81.18,0.79,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,JANTS,16.92,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,52.89,82.0,0.28,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KAPLM,504.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.73,22.1,-0.88,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KAREL,10.05,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.17,27.44,0.18,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KARSN,11.62,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.91,0.0,-0.84,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KARTN,164.2,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,63.76,36.11,0.88,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KATMR,2.54,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.72,5.68,-0.7,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KAYSE,4.16,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,28.47,24.36,-0.74,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KBORU,26.16,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,53.14,19.14,0.43,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KCAER,13.37,🩸 SAT (Trend Kırıldı),🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.23,0.0,-0.61,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KCHOL,183.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.04,4.21,-0.79,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KENT,355.25,🔴 Düşüş Trendinde,⏳ BEKLE,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,33.26,60.04,-0.81,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KERVN,6.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.94,3.56,-0.88,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KFEIN,8.71,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.76,2.54,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KGYO,8.15,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,19.99,0.0,-0.78,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KIMMR,14.83,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,26.81,0.0,-0.96,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KLGYO,4.99,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.57,8.4,-0.24,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KLKIM,27.08,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,21.64,1.05,-0.98,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KLMSN,30.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.93,33.39,0.24,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KLNMA,9.91,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,56.62,44.43,0.74,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KLRHO,85.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.27,16.31,-0.51,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KLSER,25.24,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.4,2.62,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KLSYN,14.26,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,53.61,43.76,0.75,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KLYPV,58.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.2,6.71,-0.92,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KMPUR,17.85,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,32.53,6.53,-0.85,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KNFRT,12.01,🔴 Düşüş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,37.86,2.28,-0.95,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KOCMT,4.15,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,63.75,41.75,0.88,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KONKA,13.39,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.76,18.15,-0.45,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KONTR,4.93,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,47.42,100.0,-0.02,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KONYA,3872.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,47.81,32.61,0.54,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KOPOL,6.25,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,45.48,13.33,-0.75,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KORDS,82.4,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,59.74,96.41,0.33,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KOTON,14.37,🟢 Yükseliş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,45.53,53.05,0.32,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KRDMA,37.82,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.61,0.0,-0.71,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KRDMB,134.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,67.92,20.88,0.72,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KRDMD,36.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.94,0.93,-0.89,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KRGYO,2.51,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.12,6.25,-0.53,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KRONT,23.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,54.06,35.67,0.76,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KRPLS,9.09,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,46.35,33.46,-0.4,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KRSTL,10.22,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.78,0.0,-0.7,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KRTEK,22.44,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,36.16,23.18,-0.76,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KRVGD,2.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.08,14.94,-0.89,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KSTUR,2832.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.91,29.9,0.16,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KTLEV,196.6,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,72.99,29.39,0.58,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,KTSKR,97.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,43.7,27.81,0.23,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KUTPO,83.6,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.12,6.78,-0.89,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,KUVVA,131.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.59,48.75,-0.28,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KUYAS,72.25,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,45.68,65.26,0.48,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,KZBGY,2.24,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,23.69,1.67,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,KZGYO,21.32,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.79,19.43,-0.63,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,LIDER,94.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,44.37,79.17,0.34,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,LIDFA,2.82,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.88,3.59,-0.95,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,LILAK,32.48,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.55,0.0,-0.56,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,LINK,6.86,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,45.03,1.56,-0.16,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,LKMNH,14.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.33,18.27,-0.34,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,LMKDC,24.72,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,17.91,9.11,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,LOGO,136.3,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,43.12,59.95,-0.41,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,LRSHO,3.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,28.48,0.0,-0.89,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,LUKSK,100.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.98,4.98,-0.76,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,LXGYO,13.36,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,-,,25.42,0.0,-0.95,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,LYDHO,185.0,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,49.01,39.09,0.61,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,LYDYE,13600.0,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.12,76.78,0.14,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MAALT,1097.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.56,0.0,-0.57,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MACKO,33.06,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,27.94,38.36,-0.87,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MAGEN,33.96,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,35.87,97.09,-0.3,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MAKIM,18.99,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,53.56,63.34,0.06,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,MAKTK,11.85,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.34,27.38,-0.57,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,MANAS,29.84,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,59.35,23.86,0.66,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,MARBL,12.85,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.69,27.93,-0.46,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MARKA,84.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,58.62,1.92,-0.69,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MARMR,2.19,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.91,32.01,-0.29,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,MARTI,1.58,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.29,4.55,-0.95,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MAVI,38.02,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.29,59.46,-0.65,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MCARD,144.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,,28.39,0.0,-0.95,,,,-,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,MEDTR,28.08,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,38.39,57.68,-0.62,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MEGAP,2.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,28.22,35.98,-0.88,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MEGMT,70.85,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.31,3.46,-0.95,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MEKAG,3.51,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.64,78.11,-0.74,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MEPET,20.88,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.3,26.36,-0.75,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MERCN,23.72,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,45.02,0.6,-0.77,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MERIT,17.91,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,55.07,41.89,-0.17,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,MERKO,1.57,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,26.06,79.41,-0.59,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,METRO,8.45,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,49.13,11.64,-0.13,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MEYSU,12.72,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,22.96,0.0,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MGROS,624.0,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.51,22.04,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MHRGY,3.59,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.91,0.0,-0.86,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MIATK,30.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,21.61,0.67,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MMCAS,56.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,36.85,5.34,-0.8,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MNDRS,10.87,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.24,2.55,-0.95,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,MNDTR,5.44,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.02,0.0,-0.96,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,MOBTL,15.04,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,60.55,97.38,0.73,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,MOGAN,15.49,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,,60.32,71.59,0.61,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,MOPAS,31.02,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.03,19.73,-0.79,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MPARK,411.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.63,8.85,-0.88,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MRGYO,1.39,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,28.58,0.0,-0.98,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,MRSHL,1939.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,52.9,5.65,0.69,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,MSGYO,6.13,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.18,28.38,-0.76,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MTRKS,29.52,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,53.4,10.75,-0.49,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MTRYO,10.25,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.74,5.13,-0.48,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,MZHLD,5.59,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,27.04,5.17,-0.95,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,NATEN,6.24,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,35.56,50.35,-0.78,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,NETAS,60.4,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.61,0.0,-0.9,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,NETCD,144.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,40.01,42.88,-0.19,,,,-,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,NIBAS,4.19,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,33.48,67.19,-0.54,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,NTGAZ,11.87,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,51.55,99.23,0.33,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,NTHOL,45.84,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,57.67,45.54,0.15,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,NUGYO,9.15,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,34.76,2.49,-0.89,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,NUHCM,220.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.47,41.18,0.17,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OBAMS,5.34,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,17.66,0.89,-0.98,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OBASE,38.44,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,47.53,71.63,-0.09,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ODAS,8.06,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,48.7,2.67,-0.83,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ODINE,1985.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🟡 RİSKLİ AL (0 Üstü - Hacimsiz),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,70.7,35.26,0.69,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,OFSYM,55.15,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,41.18,28.47,-0.61,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ONCSM,243.9,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,32.74,21.58,-0.88,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ONRYT,62.95,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,43.44,34.99,0.21,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ORCAY,4.16,🔴 Düşüş Trendinde,⏳ BEKLE,🟡 RİSKLİ AL (0 Üstü - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,48.16,72.65,-0.01,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ORGE,105.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.61,3.99,-0.89,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ORMA,175.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.97,32.44,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ORZAX,79.45,-,-,-,-,-,,,,,,,,-,-
+2026-07-09 17:00,OSMEN,8.77,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,58.44,32.8,0.68,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,OSTIM,1.79,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.85,0.0,-0.81,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OTKAR,337.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,36.69,14.49,-0.03,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OTTO,188.6,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.02,87.57,-0.4,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,OYAKC,19.85,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.53,11.23,-0.72,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OYAYO,47.14,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,39.46,0.21,-0.85,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OYLUM,8.35,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,53.01,89.73,0.52,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,OYYAT,39.86,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,33.96,10.2,-0.92,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OZATD,1936.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,68.41,52.13,0.94,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,OZGYO,2.08,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.31,16.34,-0.12,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OZKGY,13.96,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,45.42,4.08,-0.74,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OZRDN,31.18,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,53.65,97.25,-0.09,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,OZSUB,30.36,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,51.44,3.34,-0.83,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,OZYSR,12.78,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,,56.17,63.64,0.85,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,PAGYO,159.6,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,63.42,81.05,0.88,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,PAHOL,1.43,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,31.35,6.75,-0.81,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PAMEL,82.8,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.0,1.85,-0.81,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PAPIL,14.37,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.34,0.32,-0.48,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PARSN,81.05,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.51,3.02,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PASEU,89.65,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,36.41,23.97,-0.89,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PATEK,21.84,🔴 Düşüş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,43.58,30.15,0.21,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PCILT,31.9,🔴 Düşüş Trendinde,⏳ BEKLE,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,45.56,32.0,-0.88,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PEKGY,14.69,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,66.32,94.28,0.97,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,PENGD,10.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,30.05,59.09,-0.76,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PENTA,13.13,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,31.52,0.0,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PETKM,19.24,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,39.19,74.06,-0.72,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PETUN,11.28,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,29.53,0.0,-0.9,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,PGSUS,166.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.18,1.56,-0.85,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,PINSU,10.28,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,29.72,3.22,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PKART,126.0,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.43,36.17,-0.54,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PKENT,136.8,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,27.61,0.69,-0.9,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,PLTUR,22.06,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.5,30.67,-0.23,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,PNLSN,44.14,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,52.11,40.71,-0.5,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,PNSUT,11.19,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,25.83,3.15,-0.93,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,POLHO,22.14,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),,67.69,74.41,0.81,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,POLTK,5060.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.0,10.66,0.23,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PRDGS,7.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.02,34.51,-0.29,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PRKAB,34.08,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,30.35,0.69,-0.93,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PRKME,19.68,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,48.69,11.96,0.53,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PRZMA,69.2,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,63.8,66.21,0.9,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,PSDTC,128.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,47.04,22.44,0.36,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,PSGYO,3.18,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,41.28,4.51,-0.77,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,QNBFK,56.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),,75.03,94.47,0.92,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,QNBTR,218.8,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,🔴 Ayı Piyasası (EMA 50 En Altta),,49.44,70.88,0.49,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,QUAGR,3.48,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,36.82,2.63,-0.8,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,RALYH,201.5,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,46.74,92.67,0.74,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,RAYSG,177.5,🟢 Yükseliş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.49,0.94,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,REEDR,6.34,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.38,25.8,-0.84,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,RGYAS,197.8,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,55.95,71.06,-0.2,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,RNPOL,2.59,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,53.48,93.67,0.64,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,RODRG,25.36,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,45.99,47.67,0.3,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,RTALB,3.49,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,46.67,54.18,-0.04,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,RUBNS,20.96,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,24.56,0.0,-0.98,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,RUZYE,9.21,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,27.42,23.29,-0.87,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,RYGYO,30.24,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.35,60.49,-0.21,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,RYSAS,20.56,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.14,3.98,-0.92,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SAFKR,21.28,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.29,54.13,-0.85,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SAHOL,89.05,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.47,0.0,-0.92,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,SAMAT,6.13,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.15,1.45,-0.84,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SANEL,80.85,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),,63.17,15.57,0.4,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SANFM,9.83,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,59.04,88.38,0.5,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SANKO,20.44,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.64,1.13,-0.88,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,SARKY,25.76,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.8,17.43,-0.75,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SASA,2.25,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,🔴 Ayı Piyasası (EMA 50 En Altta),,29.97,2.88,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SAYAS,45.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.24,1.04,-0.75,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,SDTTR,248.1,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,46.9,22.86,0.37,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SEGMN,52.35,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,44.95,57.97,0.08,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SEGYO,4.4,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.85,2.9,-0.86,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SEKFK,9.97,🔴 Düşüş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,36.43,27.79,-0.54,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,SEKUR,10.9,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,55.4,26.05,-0.34,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SELEC,199.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,61.7,0.24,0.12,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SELVA,1.88,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,32.71,0.84,-0.88,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SERNT,8.81,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.32,1.2,-0.86,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SEYKM,6.02,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🔴 Ayı Piyasası (EMA 50 En Altta),,73.18,100.0,0.59,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,SILVR,2.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.17,2.81,-0.84,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SISE,42.2,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.09,6.72,-0.88,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SKBNK,17.74,🟢 Yükseliş Trendinde,⏳ BEKLE,🩸 SAT (Zirveden Dönüş),-,⚪ Karışık / Testere Piyasası,,61.31,65.43,0.74,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SKTAS,3.52,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.89,19.68,-0.33,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SKYLP,237.8,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.36,46.12,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SKYMD,14.5,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,52.02,34.09,0.53,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SMART,24.74,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,28.25,4.3,-0.86,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,SMRTG,10.58,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.97,9.62,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SMRVA,13.02,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.13,0.0,-0.95,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SNGYO,3.69,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.99,8.16,-0.33,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SNICA,4.24,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"⚡ Yükseliş Hazırlığı (50>100 Kesti, 150 Bekleniyor)",,48.25,7.9,0.03,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SNPAM,20.48,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.15,25.51,-0.75,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SODSN,8.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.98,41.07,-0.03,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SOHOE,13.07,-,-,-,-,-,,,,,,,,-,-
+2026-07-09 17:00,SOKE,16.57,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,49.81,49.9,-0.47,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SOKM,44.26,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,34.68,8.84,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SONME,124.5,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.44,48.93,-0.54,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SRVGY,2.68,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,30.13,13.21,-0.94,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SUMAS,327.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.83,15.66,-0.33,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SUNTK,29.88,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,49.09,90.68,-0.22,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,SURGY,68.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.74,27.3,-0.51,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,SUWEN,6.18,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,23.6,7.82,-0.95,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,SVGYO,15.39,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,,28.34,0.0,-0.53,,,,-,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TABGD,220.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,35.04,41.82,-0.63,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TARKM,487.25,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.84,11.81,-0.64,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TATEN,11.96,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,30.88,0.0,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TATGD,17.82,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,34.25,0.0,-0.54,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TAVHL,261.75,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,37.41,0.0,-0.89,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TBORG,126.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.51,23.5,-0.27,,,,🟡 Normal Genişlik,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TCELL,104.9,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,40.23,5.24,-0.91,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TCKRC,119.0,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.41,0.75,-0.65,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TDGYO,14.99,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.88,5.73,0.17,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TEHOL,40.18,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,90.16,100.0,0.99,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,TEKTU,9.38,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.02,38.38,-0.82,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TERA,152.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.94,45.51,-0.37,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TEZOL,15.72,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.04,41.69,-0.81,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TGSAS,176.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,50.82,47.24,0.34,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,THYAO,338.25,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,60.68,40.6,0.75,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,TKFEN,124.3,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,38.66,21.17,-0.04,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TKNSA,18.67,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.87,11.39,-0.77,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TLMAN,86.5,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,27.96,0.0,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TMPOL,442.75,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,52.11,10.9,-0.72,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TMSN,83.2,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,31.39,21.71,-0.83,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TNZTP,23.28,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,36.05,0.0,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TOASO,294.5,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.35,0.0,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TRALT,53.3,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,64.81,89.67,0.5,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,TRCAS,40.54,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.02,6.96,-0.67,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TRENJ,96.1,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,60.62,88.09,0.7,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,TRGYO,101.8,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,60.23,65.16,0.65,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,TRHOL,1518.0,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,45.04,11.93,-0.47,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TRILC,1.15,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,26.12,88.13,-0.56,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TRMET,119.2,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,54.83,81.44,0.72,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,TSGYO,6.38,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.19,8.93,-0.92,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TSKB,11.52,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.13,3.06,-0.83,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TSPOR,0.9,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.49,40.64,-0.66,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TTKOM,56.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,33.59,0.0,-0.82,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TTRAK,435.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,43.34,29.44,0.13,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TUCLK,3.93,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.91,14.26,-0.73,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TUKAS,2.13,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,24.71,0.0,-0.95,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,TUPRS,263.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,🔴 ZİRVEDE,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,70.47,98.41,0.95,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!
+2026-07-09 17:00,TUREX,6.88,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,24.11,1.48,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TURGG,27.02,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,36.52,22.0,-0.76,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,TURSG,6.19,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),,45.89,44.03,-0.8,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,UCAYM,28.72,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,-,,30.31,0.05,-0.84,,,,-,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,UFUK,1685.0,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,58.49,17.71,-0.37,,,,⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,ULAS,24.1,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,31.76,54.76,-0.81,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ULKER,96.95,🔴 Düşüş Trendinde,🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,28.75,13.59,-0.9,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ULUFA,1.75,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,33.65,10.09,-0.98,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ULUSE,305.25,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,50.13,52.62,-0.8,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ULUUN,8.67,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,44.61,13.79,-0.74,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,UMPAS,9.3,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚪ Karışık / Testere Piyasası,,,,,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,UNLU,12.29,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.26,0.73,-0.56,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,USAK,1.41,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,32.81,0.0,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VAKBN,30.7,🔴 Düşüş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,38.75,6.01,-0.81,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VAKFA,11.63,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,34.69,11.93,-0.88,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VAKFN,1.53,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,24.87,0.0,-0.92,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,VAKKO,69.8,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,35.57,2.84,-0.88,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VANGD,96.2,🟢 Yükseliş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),,56.15,19.94,-0.69,,,,🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,VBTYZ,30.34,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,59.61,72.24,0.73,,,,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,VERTU,37.26,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,38.94,0.0,-0.9,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VERUS,416.75,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,27.71,0.18,-0.69,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,VESBE,6.04,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,40.3,21.77,-0.34,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VESTL,23.92,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,41.93,25.65,-0.24,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VKFYO,27.52,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,45.91,72.06,0.17,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VKGYO,2.63,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,42.74,15.25,-0.32,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VKING,23.38,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,33.55,6.02,-0.8,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,VRGYO,1.98,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),🚀 KUSURSUZ DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,33.14,0.0,-0.91,,,,🟠 Daralıyor,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,VSNMD,83.1,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,42.36,0.0,-0.66,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YAPRK,11.49,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,30.93,39.73,-0.88,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YATAS,38.62,🟢 Yükseliş Trendinde,🔴 SAT,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,40.72,3.45,-0.51,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YAYLA,23.24,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,43.63,28.86,-0.29,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YBTAS,15.95,🔴 Düşüş Trendinde,⏳ BEKLE,🔴 ZAYIFLAMA (Zaten Dipte),-,🔴 Ayı Piyasası (EMA 50 En Altta),,44.76,71.44,0.58,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
+2026-07-09 17:00,YEOTK,88.75,🔴 Düşüş Trendinde,🔴 SAT,🚀 KUSURSUZ DÖNÜŞ (0 Altı + Hacim),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.84,9.06,-0.93,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YESIL,1.3,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,28.08,27.65,-0.9,,,,🚨 BB SIKIŞMA,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,YGGYO,223.8,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,43.14,1.26,-0.9,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YIGIT,21.94,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,🔴 Ayı Piyasası (EMA 50 En Altta),,28.81,0.0,-0.96,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,YKBNK,35.78,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,37.22,0.74,-0.96,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YKSLN,3.08,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.67,40.92,-0.05,,,,🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YONGA,52.6,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,🔴 Ayı Piyasası (EMA 50 En Altta),,39.23,24.11,-0.77,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YUNSA,9.03,🔴 Düşüş Trendinde,🔴 SAT,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,33.69,8.65,-0.97,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,YYAPI,0.78,🩸 SAT (Trend Kırıldı),🔴 SAT,🔴 ZAYIFLAMA (Zaten Dipte),🟢 POTANSİYEL DİP,🩸 ASIL SİNYAL: GÜÇLÜ SAT (EMA Çöktü + SSL Onay),,24.7,37.79,-0.76,,,,⚪ Yelpaze Açık,🚨Fiyat Bandın Altında!
+2026-07-09 17:00,YYLGD,10.65,🔴 Düşüş Trendinde,🔴 SAT,-,🟢 POTANSİYEL DİP,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",,34.24,16.21,-0.79,,,,🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ZEDUR,8.82,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),,39.4,21.23,-0.64,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ZERGY,10.53,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,,31.78,8.38,-0.91,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ZGYO,37.62,🟢 Yükseliş Trendinde,🔴 SAT,🟡 RİSKLİ AL (0 Üstü - Hacimsiz),-,-,,48.66,37.5,-0.49,,,,🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ZOREN,2.6,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,35.06,11.99,-0.8,,,,⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında
+2026-07-09 17:00,ZRGYO,17.78,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),,50.2,28.1,-0.06,,,,🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında
