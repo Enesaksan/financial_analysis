@@ -655,6 +655,7 @@ def _satir_olustur(isim, df):
         "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
         "BB_Sikisma": analiz_bb_sikisma(df),
         "BB_Fiyat_Durum": bb_price_state(df),
+        "Destek_Direnc": destek_direnc_ema(df),
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
         "TSI": sr(son.get('TSI'))
