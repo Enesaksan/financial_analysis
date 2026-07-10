@@ -1,7 +1,7 @@
-Varlık,Fiyat,Supertrend_Sinyal,Tilson_Sinyal,Hacim_SMI,Kombine_Dip,SSL&EMA_Sinyal,BB_Sikisma,BB_Fiyat_Durum,RSI,StochRSI,TSI
-COHR,330.23,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,42.35,7.4,-0.87
-DLR,179.12,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,43.04,21.89,-0.84
-EQIX,1032.49,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,43.76,28.22,-0.87
-ETN,409.47,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında,51.06,11.77,-0.51
-GLW,195.28,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,48.94,5.23,-0.23
-VRT,327.06,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında,52.91,28.21,-0.42
+Varlık,Fiyat,Supertrend_Sinyal,Tilson_Sinyal,Hacim_SMI,Kombine_Dip,SSL&EMA_Sinyal,BB_Sikisma,BB_Fiyat_Durum,Destek_Direnc,RSI,StochRSI,TSI
+COHR,327.24,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 321.45 (%1.8 altta) | Direnç: 331.83 (%1.4 üstte),41.63,6.28,-0.87
+DLR,179.33,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 177.65 (%0.9 altta) | Direnç: 182.78 (%1.9 üstte),43.36,22.29,-0.83
+EQIX,1034.87,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 1025.75 (%0.9 altta) | Direnç: 1048.20 (%1.3 üstte),44.47,28.91,-0.86
+ETN,405.83,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 404.30 (%0.4 altta) | Direnç: 406.60 (%0.2 üstte),49.91,9.46,-0.55
+GLW,192.38,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 187.02 (%2.8 altta) | Direnç: 195.10 (%1.4 üstte),48.02,3.95,-0.25
+VRT,323.92,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 316.94 (%2.2 altta),52.12,26.74,-0.45
