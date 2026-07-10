@@ -1,30 +1,30 @@
 Varlık,Fiyat,Supertrend_Sinyal,Tilson_Sinyal,Hacim_SMI,Kombine_Dip,SSL&EMA_Sinyal,BB_Sikisma,BB_Fiyat_Durum,Destek_Direnc,RSI,StochRSI,TSI
 AIQ,63.83,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 63.75 (%0.1 altta),50.7,21.98,-0.62
-ALUM.L,4.22,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 4.22 (%0.1 altta) | Direnç: 4.32 (%2.5 üstte),38.45,81.75,-0.13
-BZ=F,76.24,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 75.57 (%0.9 altta) | Direnç: 78.94 (%3.5 üstte),40.13,90.02,-0.02
+ALUM.L,4.24,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 4.22 (%0.3 altta) | Direnç: 4.33 (%2.1 üstte),39.44,83.55,-0.09
+BZ=F,76.36,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 75.61 (%1.0 altta) | Direnç: 78.95 (%3.4 üstte),40.36,90.45,-0.01
 CCJ,95.74,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Direnç: 96.36 (%0.6 üstte),37.6,4.97,-0.95
 CGW,64.67,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 64.44 (%0.4 altta) | Direnç: 65.00 (%0.5 üstte),53.01,36.14,0.58
 COPA,47.23,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 47.06 (%0.4 altta) | Direnç: 48.09 (%1.8 üstte),44.16,13.85,-0.71
 COPX,75.4,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 75.31 (%0.1 altta) | Direnç: 78.95 (%4.7 üstte),42.19,15.38,-0.73
 EEM,66.78,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 66.60 (%0.3 altta) | Direnç: 67.22 (%0.7 üstte),48.74,14.16,-0.72
 EWZ,34.96,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 34.70 (%0.7 altta) | Direnç: 35.72 (%2.2 üstte),50.7,83.64,0.75
-GC=F,4116.5,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 4113.02 (%0.1 altta) | Direnç: 4168.21 (%1.3 üstte),43.36,84.49,0.22
+GC=F,4112.4,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 4111.66 (%0.0 altta) | Direnç: 4167.84 (%1.3 üstte),43.11,83.94,0.21
 GLTR,185.19,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 184.70 (%0.3 altta) | Direnç: 189.85 (%2.5 üstte),41.34,76.09,-0.26
-HG=F,6.26,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 6.21 (%0.8 altta),52.07,73.55,0.14
+HG=F,6.28,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 6.21 (%1.1 altta),52.7,73.55,0.15
 IBB,197.34,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 195.67 (%0.8 altta),76.87,87.01,0.97
 ICLN,19.33,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 18.42 (%4.7 altta) | Direnç: 19.49 (%0.8 üstte),40.63,14.17,-0.84
 INDA,49.02,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 48.98 (%0.1 altta) | Direnç: 49.06 (%0.1 üstte),50.29,7.26,-0.46
 IWM,297.24,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 296.67 (%0.2 altta),55.83,13.92,-0.06
 MARS,28.54,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,⚪Fiyat Alt_Orta Bant Aralığında,Direnç: 29.39 (%3.0 üstte),38.09,40.23,-0.25
 NASA,26.69,🔴 Düşüş Trendinde,🔴 SAT,-,-,-,-,⚪Fiyat Alt_Orta Bant Aralığında,Direnç: 27.39 (%2.6 üstte),37.3,32.83,-0.44
-PA=F,1272.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 1259.20 (%1.0 altta) | Direnç: 1340.91 (%5.4 üstte),49.86,80.12,0.49
+PA=F,1276.5,🔥 AL (Taze Kırılım),🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 1259.60 (%1.3 altta) | Direnç: 1341.07 (%5.1 üstte),50.44,80.12,0.5
 PHO,68.53,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 68.40 (%0.2 altta) | Direnç: 68.79 (%0.4 üstte),53.73,39.17,0.62
-PL=F,1628.6,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 1617.45 (%0.7 altta) | Direnç: 1667.98 (%2.4 üstte),42.86,83.14,-0.14
+PL=F,1629.7,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 1617.82 (%0.7 altta) | Direnç: 1668.08 (%2.4 üstte),42.99,83.14,-0.13
 QQQ,723.28,🔴 Düşüş Trendinde,⏳ BEKLE,🟢 POTANSİYEL DİP (0 Altı - Hacimsiz),-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 719.34 (%0.5 altta),52.06,20.26,-0.34
-SI=F,59.92,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Direnç: 60.02 (%0.2 üstte),39.3,74.09,-0.23
+SI=F,60.21,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 60.11 (%0.2 altta) | Direnç: 63.00 (%4.6 üstte),39.82,75.45,-0.21
 SOXX,581.7,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 576.02 (%1.0 altta) | Direnç: 585.55 (%0.7 üstte),50.27,10.52,-0.77
 VNM,18.09,🟢 Yükseliş Trendinde,🔴 SAT,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında,Direnç: 18.18 (%0.5 üstte),45.06,26.7,-0.42
 WQTM,35.31,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 34.96 (%1.0 altta) | Direnç: 35.42 (%0.3 üstte),45.83,8.01,-0.81
 XBI,164.28,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),🩸 SAT (Zirveden Dönüş),-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 162.14 (%1.3 altta),77.77,93.38,0.96
 XLV,162.17,🟢 Yükseliş Trendinde,⏳ BEKLE,-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,Destek: 162.11 (%0.0 altta),63.9,74.73,0.91
-XU100.IS,14165.07,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 14130.42 (%0.2 altta) | Direnç: 14231.78 (%0.5 üstte),47.1,5.7,-0.27
+XU100.IS,14298.25,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında,Destek: 14293.49 (%0.0 altta),50.61,16.25,-0.17
