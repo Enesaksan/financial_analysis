@@ -813,7 +813,7 @@ def tekil_analiz(kod: str, market_tipi: str = "BIST", period_selection: str = "1
 
 
 def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = None,
-                   parca_boyutu: int = 50, max_worker: int = 20):
+                   parca_boyutu: int = 50, max_worker: int = 5):
     """
     secim: "BIST", "FON" ya da "ABD"
     period_selection: "1d" ya da "1wk"
