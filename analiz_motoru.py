@@ -625,11 +625,11 @@ def destek_direnc_ema(df):
     if destekler:
         isim, deger = max(destekler.items(), key=lambda x: x[1])
         uzaklik = (fiyat - deger) / fiyat * 100
-        parcalar.append(f"Destek: {deger:.2f} (%{uzaklik:.1f} altta)")
+        parcalar.append(f"{isim} Destek: {deger:.2f} (%{uzaklik:.1f} altta)")
     if direncler:
         isim, deger = min(direncler.items(), key=lambda x: x[1])
         uzaklik = (deger - fiyat) / fiyat * 100
-        parcalar.append(f"Direnç: {deger:.2f} (%{uzaklik:.1f} üstte)")
+        parcalar.append(f"{isim} Direnç: {deger:.2f} (%{uzaklik:.1f} üstte)")
 
     return " | ".join(parcalar) if parcalar else "-"
 
