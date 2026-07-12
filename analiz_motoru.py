@@ -633,7 +633,129 @@ def destek_direnc_ema(df):
 
     return " | ".join(parcalar) if parcalar else "-"
 
+def _zigzag_noktalari(df, uzunluk=9):
+    """ZigZag dönüş noktalarını (tepe/dip) tespit eder."""
+    high = df['High'].values
+    low = df['Low'].values
+    n = len(df)
 
+    en_yuksek = pd.Series(high).rolling(uzunluk).max().values
+    en_dusuk = pd.Series(low).rolling(uzunluk).min().values
+
+    to_up = high >= en_yuksek
+    to_down = low <= en_dusuk
+
+    trend = 1
+    pivotlar = []
+
+    for i in range(n):
+        onceki_trend = trend
+        if trend == 1 and to_down[i]:
+            trend = -1
+        elif trend == -1 and to_up[i]:
+            trend = 1
+
+        if trend != onceki_trend:
+            pencere_basi = max(0, i - uzunluk + 1)
+            if trend == 1:
+                alt_pencere = low[pencere_basi:i + 1]
+                yerel_idx = pencere_basi + int(np.argmin(alt_pencere))
+                pivotlar.append((yerel_idx, low[yerel_idx], 'L'))
+            else:
+                ust_pencere = high[pencere_basi:i + 1]
+                yerel_idx = pencere_basi + int(np.argmax(ust_pencere))
+                pivotlar.append((yerel_idx, high[yerel_idx], 'H'))
+
+    return pivotlar
+
+
+def _piyasa_yapisi_ve_bloklar(df, uzunluk=9, fib_orani=0.33):
+    """
+    Pivot noktalarından piyasa yapısı kırılımlarını (Market Structure Break) ve
+    oluşan order block'ları (alım/satım bandı adayları) bulur.
+    """
+    pivotlar = _zigzag_noktalari(df, uzunluk)
+    yuksekler, dusukler = [], []
+    piyasa = 1
+    bloklar = []
+
+    for idx, deger, tip in pivotlar:
+        if tip == 'H':
+            yuksekler.append((idx, deger))
+        else:
+            dusukler.append((idx, deger))
+
+        if len(yuksekler) >= 2 and len(dusukler) >= 2:
+            h0_idx, h0 = yuksekler[-1]
+            h1_idx, h1 = yuksekler[-2]
+            l0_idx, l0 = dusukler[-1]
+            l1_idx, l1 = dusukler[-2]
+
+            if piyasa == 1 and l0 < l1 and l0 < l1 - abs(h0 - l1) * fib_orani:
+                piyasa = -1
+                bas, son = sorted([l1_idx, h0_idx])
+                segment = df.iloc[bas:son + 1]
+                yukselen = segment[segment['Close'] > segment['Open']]
+                if not yukselen.empty:
+                    son_mum = yukselen.iloc[-1]
+                    bloklar.append({'tip': 'SATIM', 'ust': son_mum['High'], 'alt': son_mum['Low'], 'idx': son_mum.name})
+
+            elif piyasa == -1 and h0 > h1 and h0 > h1 + abs(h1 - l0) * fib_orani:
+                piyasa = 1
+                bas, son = sorted([h1_idx, l0_idx])
+                segment = df.iloc[bas:son + 1]
+                dusen = segment[segment['Close'] < segment['Open']]
+                if not dusen.empty:
+                    son_mum = dusen.iloc[-1]
+                    bloklar.append({'tip': 'ALIM', 'ust': son_mum['High'], 'alt': son_mum['Low'], 'idx': son_mum.name})
+
+    return bloklar
+
+
+def alim_satim_bantlari(df, zigzag_uzunluk=9, fib_orani=0.33):
+    """
+    TradingView 'MSB-OB' indikatörünün mantığını taklit eder: piyasa yapısı
+    kırılımlarına göre alım (bullish order block) ve satım (bearish order block)
+    bantları belirler. Bant, fiyat onu belirgin şekilde kırana kadar geçerli sayılır.
+    Döner: (alim_bandi_metni, satim_bandi_metni)
+    """
+    if df is None or len(df) < zigzag_uzunluk * 3:
+        return "-", "-"
+
+    fiyat = df['Close'].iloc[-1]
+    if pd.isna(fiyat):
+        return "-", "-"
+
+    bloklar = _piyasa_yapisi_ve_bloklar(df, zigzag_uzunluk, fib_orani)
+
+    gecerli_alim, gecerli_satim = None, None
+    for blok in bloklar:
+        idx = blok['idx']
+        konum = df.index.get_loc(idx)
+        sonraki = df.iloc[konum + 1:]
+        if blok['tip'] == 'ALIM':
+            ihlal = (sonraki['Close'] < blok['alt']).any()
+            if not ihlal:
+                gecerli_alim = blok
+        else:
+            ihlal = (sonraki['Close'] > blok['ust']).any()
+            if not ihlal:
+                gecerli_satim = blok
+
+    def bant_metni(blok):
+        if blok is None:
+            return "-"
+        ust, alt = blok['ust'], blok['alt']
+        if fiyat > ust:
+            uzaklik = (fiyat - ust) / fiyat * 100
+            return f"{alt:.2f}-{ust:.2f} (%{uzaklik:.1f} altta)"
+        elif fiyat < alt:
+            uzaklik = (alt - fiyat) / fiyat * 100
+            return f"{alt:.2f}-{ust:.2f} (%{uzaklik:.1f} üstte)"
+        else:
+            return f"{alt:.2f}-{ust:.2f} (fiyat bandın içinde!)"
+
+    return bant_metni(gecerli_alim), bant_metni(gecerli_satim)
 
 # =====================================================================
 # 4. ORTAK SATIR OLUŞTURMA + ANA BİRLEŞTİRİCİ MOTOR
@@ -644,6 +766,7 @@ def _satir_olustur(isim, df):
         return round(val, 2) if pd.notna(val) else None
 
     son = df.iloc[-1]
+    alim_bandi, satim_bandi = alim_satim_bantlari(df)
     return {
         "Varlık": isim,
         "Fiyat": sr(son.get('Close')),
@@ -656,6 +779,8 @@ def _satir_olustur(isim, df):
         "BB_Sikisma": analiz_bb_sikisma(df),
         "BB_Fiyat_Durum": bb_price_state(df),
         "Destek_Direnc": destek_direnc_ema(df),
+        "Alim_Bandi": alim_bandi,
+        "Satim_Bandi": satim_bandi,
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
         "TSI": sr(son.get('TSI'))
