@@ -1,7 +1,7 @@
-streamlit
-yfinance
-pandas
-pandas-ta-classic
-numpy
-openpyxl
+streamlit==1.59.1
+yfinance==1.5.1
+pandas==3.0.2
+pandas-ta-classic==0.6.52
+numpy==2.4.4
+openpyxl==3.1.5
 tzdata
