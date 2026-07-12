@@ -356,7 +356,7 @@ def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=5
             try:
                 ham = yf.download(
                     semboller, period=_period_hesapla(interval), interval=interval, group_by="ticker",
-                    auto_adjust=auto_adjust, threads=max_worker, progress=False, timeout=30,
+                    auto_adjust=auto_adjust, progress=False, timeout=30,
                 )
             except Exception:
                 ham = None
