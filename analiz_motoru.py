@@ -299,7 +299,7 @@ def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayi
         try:
             df = yf.download(
                 ticker_symbol, period=_period_hesapla(interval), interval=interval,
-                progress=False,threads=False auto_adjust=auto_adjust, timeout=10,
+                progress=False,threads=2 auto_adjust=auto_adjust, timeout=10,
             )
         except Exception:
             df = None
@@ -334,7 +334,7 @@ def _ticker_ayikla(ham, sembol, tek_sembol_mu):
         return None
 
 
-def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=50, max_worker=10):
+def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=50):
     """
     Hisseleri gruplar halinde TEK istekte indirir (yfinance'in kendi paralel
     indirme mekanizmasını kullanarak — tekil tekil indirmekten çok daha hızlı).
@@ -375,7 +375,7 @@ def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=5
     eksikler = [(isim, sembol) for isim, sembol in tickers.items() if isim not in sonuc]
     if eksikler:
         print(f"Toplu indirmede {len(eksikler)} varlık eksik kaldı, tekil olarak tekrar deneniyor...", flush=True)
-        with ThreadPoolExecutor(max_workers=max_worker) as havuz:
+        with ThreadPoolExecutor() as havuz:
             gelecekler = {
                 havuz.submit(verileri_hazirla, sembol, interval, auto_adjust): isim
                 for isim, sembol in eksikler
@@ -813,7 +813,7 @@ def tekil_analiz(kod: str, market_tipi: str = "BIST", period_selection: str = "1
 
 
 def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = None,
-                   parca_boyutu: int = 50, max_worker: int = 5):
+                   parca_boyutu: int = 50):
     """
     secim: "BIST", "FON" ya da "ABD"
     period_selection: "1d" ya da "1wk"
@@ -829,7 +829,7 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
     toplam = len(tickers)
     print(f"Modüler Analiz Motoru Çalışıyor... {toplam} varlık gruplar halinde indiriliyor.\n", flush=True)
 
-    veri_sozlugu = _toplu_indir_ve_hazirla(tickers, period_selection, auto_adjust, parca_boyutu, max_worker)
+    veri_sozlugu = _toplu_indir_ve_hazirla(tickers, period_selection, auto_adjust, parca_boyutu)
 
     satirlar = []
     basarisiz_tickerlar = []
