@@ -375,7 +375,7 @@ def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=5
     eksikler = [(isim, sembol) for isim, sembol in tickers.items() if isim not in sonuc]
     if eksikler:
         print(f"Toplu indirmede {len(eksikler)} varlık eksik kaldı, tekil olarak tekrar deneniyor...", flush=True)
-        with ThreadPoolExecutor(max_workers=4) as havuz:
+        with ThreadPoolExecutor(max_workers=8) as havuz:
             gelecekler = {
                 havuz.submit(verileri_hazirla, sembol, interval, auto_adjust): isim
                 for isim, sembol in eksikler
