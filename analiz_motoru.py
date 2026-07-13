@@ -299,7 +299,7 @@ def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayi
         try:
             df = yf.download(
                 ticker_symbol, period=_period_hesapla(interval), interval=interval,
-                progress=False,threads=2 auto_adjust=auto_adjust, timeout=10,
+                progress=False,threads=2, auto_adjust=auto_adjust, timeout=10,
             )
         except Exception:
             df = None
