@@ -13,14 +13,10 @@ logging.getLogger('yfinance').setLevel(logging.CRITICAL)
 # =====================================================================
 # 0. HİSSE / FON / ABD LİSTELERİ
 # =====================================================================
-# Not: FON ve ABD listeleri artık hardcoded değil, Excel dosyalarından okunuyor.
-# Aşağıdaki fonksiyonlara bakınız: bist_hisseleri_excel, fon_hisseleri_excel, abd_hisseleri_excel
-
 
 def _kod_listesi_excel(dosya_adi, ek="", sutun_adi_varsayilan="Sirket"):
     """
-    Tek sütunlu (kod listesi) bir Excel dosyasını okuyup, her koda bir ek
-    (.IS gibi) ekleyerek Yahoo Finance sembolüne çevirir.
+    Excelden kodları çekip gerekli taraflara ek uzantı ekler ve tüm kodları YahooFinance ile uyumlu hale getirir.
     """
     print(f"'{dosya_adi}' dosyasından kodlar okunuyor...\n")
     gecici_liste = []
@@ -57,6 +53,7 @@ def abd_hisseleri_excel(dosya_adi="data/abd_hisseleri.xlsx"):
 
 
 def fon_hisseleri_excel(dosya_adi="data/fon_listesi.xlsx"):
+    """Fon tarafı için ekler değişebildiği için ilgili ekler excel içerisinde verilmelidir."""
     return _kod_listesi_excel(dosya_adi, ek="")
 
 
@@ -200,12 +197,6 @@ def hesapla_ssl_hybrid(df, base_len=60, exit_len=15):
 # 2. VERİ İNDİRME VE İNDİKATÖR MOTORU
 # =====================================================================
 def _son_gecerli_satira_kirp(df):
-    """
-    Close değeri NaN olan sondaki satırları keser. Toplu indirmede (group_by='ticker')
-    ortak tarih indeksi kullanıldığı için, bir hisse o gün henüz işlem görmediyse
-    (özellikle düşük hacimli BIST hisselerinde), o günün satırı NaN olarak gelir.
-    Bu, o satırı atlayıp en son gerçek işlem gören güne döner.
-    """
     if df is None or df.empty or 'Close' not in df.columns:
         return df
     while len(df) > 0 and pd.isna(df['Close'].iloc[-1]):
@@ -213,7 +204,6 @@ def _son_gecerli_satira_kirp(df):
     return df
 
 def _indikatorler_ekle(df):
-    """Ham OHLCV verisine tüm teknik indikatörleri ekler (indirme işleminden bağımsız)."""
     if df is None or df.empty:
         return None
 
@@ -254,7 +244,7 @@ def _indikatorler_ekle(df):
         df['FISHER'] = fisher.iloc[:, 0]
         df['FISHER_SINYAL'] = fisher.iloc[:, 1]
 
-    st = ta.supertrend(df['High'], df['Low'], df['Close'], length=7, multiplier=3.0)
+    st = ta.supertrend(df['High'], df['Low'], df['Close'], length=10, multiplier=3.0)
     if st is not None and not st.empty:
         yon_sutunu = [col for col in st.columns if 'SUPERTd' in col][0]
         cizgi_sutunu = [col for col in st.columns if 'SUPERT_' in col][0]
@@ -271,15 +261,6 @@ def _indikatorler_ekle(df):
 
 
 def _period_hesapla(interval):
-    """
-    'max' yerine, indikatörler için yeterli ama gereksiz büyük olmayan bir
-    period değeri döndürür. En uzun indikatör (EMA_150) için 150 periyot
-    yeterliyken, kat kat fazla veri (bazı BIST hisselerinde 20-30 yıl) indirmek
-    hem yavaşlatıyor hem gereksiz.
-    Not: Aylık (1mo) periyotta 5 yıl sadece ~60 bar eder — 150 periyotluk EMA
-    için yetersiz kalır, o yüzden 1mo ve saatlik periyotlarda 'max' korunuyor
-    (saatlik veride zaten Yahoo kendi üst sınırını uyguluyor, veri miktarı az).
-    """
     if interval == "1d":
         return "1y"
     elif interval =="1wk":
@@ -314,7 +295,7 @@ def verileri_hazirla(ticker_symbol, interval="1d", auto_adjust=True, deneme_sayi
 
 
 def _ticker_ayikla(ham, sembol, tek_sembol_mu):
-    """Toplu (çoklu ticker) indirilen veriden tek bir sembolün OHLCV verisini çıkarır."""
+
     if ham is None or ham.empty:
         return None
     try:
@@ -335,11 +316,6 @@ def _ticker_ayikla(ham, sembol, tek_sembol_mu):
 
 
 def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=50):
-    """
-    Hisseleri gruplar halinde TEK istekte indirir (yfinance'in kendi paralel
-    indirme mekanizmasını kullanarak — tekil tekil indirmekten çok daha hızlı).
-    Toplu indirmede eksik/boş kalan semboller için tekil (fallback) indirme dener.
-    """
     sonuc = {}
     isim_sembol_liste = list(tickers.items())
     toplam_parca = (len(isim_sembol_liste) + parca_boyutu - 1) // parca_boyutu
