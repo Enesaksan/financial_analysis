@@ -4,7 +4,7 @@ on:
   schedule:
     # Hafta ici (Pazartesi-Cuma), Turkiye saatiyle: 10:00, 12:00, 14:00, 16:00, 17:00, 20:00 -> GUNLUK (1d) analiz
     # (Turkiye UTC+3, yaz-kis saati uygulamasi yok, bu yuzden UTC karsiliklari sabit)
-    - cron: '15 7,9,11,13,14,17 * * 1-5'
+    - cron: '15 10,14,17 * * 1-5'
     # Sadece Cuma, Turkiye saatiyle 20:30 -> HAFTALIK (1wk) analiz (gunluk 20:15 kosumundan 15 dk sonra)
     - cron: '30 17 * * 5'
   workflow_dispatch:
