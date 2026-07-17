@@ -578,7 +578,7 @@ def ema200_state(df):
     fiyat = df["Close"].iloc[-1]
 
     if pd.isna(ema200) or pd.isna(fiyat) or ema200 == 0:
-    return "-"
+        return "-"
 
     fiyat_ema200_state = fiyat / ema200 - 1
     fiyat_ema200_state = fiyat_ema200_state * 100
