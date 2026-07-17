@@ -108,7 +108,7 @@ if df_goster is not None:
             if secim_degerleri:
                 df_filtreli = df_filtreli[df_filtreli[sutun].isin(secim_degerleri)]
 
-        sayisal_sutunlar = [c for c in ["RSI", "StochRSI", "TSI"] if c in df_filtreli.columns]
+        sayisal_sutunlar = [c for c in ["EMA_200_Durumu", "RSI", "StochRSI", "TSI"] if c in df_filtreli.columns]
         secili_sayisal = st.multiselect("Aralik ile filtrelemek istedigin sayisal sutunlar", sayisal_sutunlar)
         for sutun in secili_sayisal:
             min_deger = float(df_goster[sutun].min())

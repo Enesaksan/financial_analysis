@@ -568,21 +568,35 @@ def bb_price_state(df):
         return "🚨Fiyat Bandın Altında!"
 
 
-def ema200_state(df):
-    if len(df) < 200:
-        return "-"
-    bugun = df.iloc[-1]
-    ema200 = bugun.get('EMA_200')
-    fiyat = df["Close"].iloc[-1]
-    if pd.isna(ema200) or pd.isna(fiyat) or ema200 == 0:
-        return "-"
-    fark = (fiyat / ema200 - 1) * 100
-    if fark > 5:
-        return f"⚠️ Fiyat EMA 200 Üzerinde! Uzaklık: %{fark:.2f}"
-    elif fark > 0:
-        return f"⚡ Fiyat EMA 200'e Yaklaşıyor! Uzaklık: %{fark:.2f}"
+def ema200_state(df, type):
+    if type == "Durum":
+        if len(df) < 200:
+            return "-"
+        bugun = df.iloc[-1]
+        ema200 = bugun.get('EMA_200')
+        fiyat = df["Close"].iloc[-1]
+        if pd.isna(ema200) or pd.isna(fiyat) or ema200 == 0:
+            return "-"
+        fark = (fiyat / ema200 - 1) * 100
+        if fark > 5:
+            return f"⚠️ Fiyat EMA 200 Üzerinde!"
+        elif fark > 0:
+            return f"⚡ Fiyat EMA 200'e Yaklaşıyor!"
+        else:
+            return f"🟢 Fiyat EMA 200 Altında!"
+    elif type == "Oran":
+        if len(df) < 200:
+            return "-"
+        bugun = df.iloc[-1]
+        ema200 = bugun.get('EMA_200')
+        fiyat = df["Close"].iloc[-1]
+        if pd.isna(ema200) or pd.isna(fiyat) or ema200 == 0:
+            return "-"
+        fark = (fiyat / ema200 - 1) * 100
+        return round(fark,2)
     else:
-        return f"🟢 Fiyat EMA 200 Altında! Uzaklık: %{fark:.2f}"
+        return "-"
+
 
 def destek_direnc_ema(df):
     """
@@ -773,7 +787,8 @@ def _satir_olustur(isim, df):
         "Destek_Direnc": destek_direnc_ema(df),
         "Alim_Bandi": alim_bandi,
         "Satim_Bandi": satim_bandi,
-        "EMA_200_Durumu": ema200_state(df),
+        "EMA_200_Durumu": ema200_state(df,"Durum"),
+        "EMA_200_Durumu_Oran": ema200_state(df,"Oran"),
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
         "TSI": sr(son.get('TSI'))
