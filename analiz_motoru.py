@@ -347,7 +347,6 @@ def _toplu_indir_ve_hazirla(tickers: dict, interval, auto_adjust, parca_boyutu=5
             if df is not None:
                 sonuc[isim] = df
 
-    # Toplu indirmede eksik kalanlar için tekil (paralel) fallback dene
     eksikler = [(isim, sembol) for isim, sembol in tickers.items() if isim not in sonuc]
     if eksikler:
         print(f"Toplu indirmede {len(eksikler)} varlık eksik kaldı, tekil olarak tekrar deneniyor...", flush=True)
@@ -568,6 +567,26 @@ def bb_price_state(df):
     else:
         return "🚨Fiyat Bandın Altında!"
 
+
+def ema200_state(df):
+    if len(df) < 200:
+        return "-"
+
+    bugun = df.iloc[-1]
+
+    ema200 = bugun.get('EMA_200')
+    fiyat = df["Close"].iloc[-1]
+
+    fiyat_ema200_state = fiyat / ema200 - 1
+
+    if fiyat_ema200_state > 0:
+        if fiyat_ema200_state > 0.05:
+            return f"⚠️Fiyat EMA 200 Üzerinde! Uzaklık: {fiyat_ema200_state * 100}"
+        else:
+            return f"⚡Fiyat EMA 200'e Yaklaşıyor! Uzaklık: {fiyat_ema200_state * 100}"
+    else:
+        return f"🟢Fiyat EMA 200 altında! Uzaklık: {fiyat_ema200_state * 100}"
+
 def destek_direnc_ema(df):
     """
     EMA_5/21/55/100/200 seviyelerini fiyata göre destek/direnç olarak sınıflandırır.
@@ -757,6 +776,7 @@ def _satir_olustur(isim, df):
         "Destek_Direnc": destek_direnc_ema(df),
         "Alim_Bandi": alim_bandi,
         "Satim_Bandi": satim_bandi,
+        "EMA_200_Durumu": ema200_state(df),
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
         "TSI": sr(son.get('TSI'))
