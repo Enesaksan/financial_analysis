@@ -577,15 +577,19 @@ def ema200_state(df):
     ema200 = bugun.get('EMA_200')
     fiyat = df["Close"].iloc[-1]
 
+    if pd.isna(ema200) or pd.isna(fiyat) or ema200 == 0:
+    return "-"
+
     fiyat_ema200_state = fiyat / ema200 - 1
+    fiyat_ema200_state = fiyat_ema200_state * 100
 
     if fiyat_ema200_state > 0:
-        if fiyat_ema200_state > 0.05:
-            return f"⚠️Fiyat EMA 200 Üzerinde! Uzaklık: {fiyat_ema200_state * 100}"
+        if fiyat_ema200_state > 5:
+            return f"⚠️Fiyat EMA 200 Üzerinde! Uzaklık: %{fiyat_ema200_state.2f}"
         else:
-            return f"⚡Fiyat EMA 200'e Yaklaşıyor! Uzaklık: {fiyat_ema200_state * 100}"
+            return f"⚡Fiyat EMA 200'e Yaklaşıyor! Uzaklık: {fiyat_ema200_state.2f}"
     else:
-        return f"🟢Fiyat EMA 200 altında! Uzaklık: {fiyat_ema200_state * 100}"
+        return f"🟢Fiyat EMA 200 altında! Uzaklık: {fiyat_ema200_state.2f}"
 
 def destek_direnc_ema(df):
     """
