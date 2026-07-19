@@ -25,12 +25,16 @@ with col2:
         "Periyot",
         ["1d", "1wk"],
         index=0,
-        help="1d: Günlük, 1wk: Haftalık",
-    )
+        help="1d: Günlük, 1wk: Haftalık")
+
+endeks_secim="BIST_TUM"
+if secim=="BIST":
+    endeks_secim = st.selectbox("Endeks", ["BIST_30", "BIST_100", "BIST_TUM"], index=2)    
 
 
-def rapor_dosya_yolu(secim, period_secim):
-    return os.path.join(RAPOR_KLASORU, f"{secim}_{period_transformer(period_secim)}_latest.csv")
+def rapor_dosya_yolu(secim, period_secim, endeks_secim="BIST_TUM"):
+    ek = f"_{endeks_secim}" if secim == "BIST" else ""
+    return os.path.join(RAPOR_KLASORU, f"{secim}{ek}_{period_transformer(period_secim)}_latest.csv")
 
 
 def gun_ici_mi(saat_dt):
@@ -42,12 +46,12 @@ manuel_uret = st.button("Raporu Üret", type="primary")
 
 if manuel_uret:
     with st.spinner("Rapor Hazırlanıyor... Bu biraz sürebilir."):
-        df = rapor_olustur(secim, period_secim)
+        df = rapor_olustur(secim, period_secim,endeks=endeks_secim)
     if df is not None and not df.empty:
         simdi = datetime.now(TR_TZ)
         st.success(f"Rapor üretildi - {simdi.strftime('%d.%m.%Y %H:%M')}")
         st.session_state["son_rapor"] = df
-        st.session_state["son_rapor_secim"] = (secim, period_secim)
+        st.session_state["son_rapor_secim"] = (secim, period_secim,endeks_secim)
         st.session_state["son_rapor_zaman"] = simdi
     else:
         st.error("Rapor üretilemedi. Excel dosyasını/ticker listesini ya da bağlantıyı kontrol edin.")
@@ -56,12 +60,12 @@ df_goster = None
 kaynak = ""
 zaman_dt = None
 
-if "son_rapor" in st.session_state and st.session_state.get("son_rapor_secim") == (secim, period_secim):
+if "son_rapor" in st.session_state and st.session_state.get("son_rapor_secim") == (secim, period_secim,endeks_secim):
     df_goster = st.session_state["son_rapor"]
     zaman_dt = st.session_state["son_rapor_zaman"]
     kaynak = "Canlı (Az Önce üretildi)"
 else:
-    dosya_yolu = rapor_dosya_yolu(secim, period_secim)
+    dosya_yolu = rapor_dosya_yolu(secim, period_secim,endeks_secim)
     if os.path.exists(dosya_yolu):
         df_goster = pd.read_csv(dosya_yolu, index_col=0)
 

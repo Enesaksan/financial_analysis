@@ -14,7 +14,7 @@ logging.getLogger('yfinance').setLevel(logging.CRITICAL)
 # 0. HİSSE / FON / ABD LİSTELERİ
 # =====================================================================
 
-def _kod_listesi_excel(dosya_adi, ek="", sutun_adi_varsayilan="Sirket"):
+def _kod_listesi_excel(dosya_adi, ek="", sutun_adi_varsayilan="Sirket", endeks=""):
     """
     Excelden kodları çekip gerekli taraflara ek uzantı ekler ve tüm kodları YahooFinance ile uyumlu hale getirir.
     """
@@ -29,6 +29,12 @@ def _kod_listesi_excel(dosya_adi, ek="", sutun_adi_varsayilan="Sirket"):
 
     kod_sutunu = sutun_adi_varsayilan if sutun_adi_varsayilan in df.columns else df.columns[0]
 
+    if endeks != "":
+        if endeks not in df.columns:
+            print(f"UYARI: '{endeks}' sütunu bulunamadı, filtre uygulanmadı.")
+        else:
+            df = df[df[endeks]==1]
+
     for kod in df[kod_sutunu]:
         if pd.notna(kod):
             kod = str(kod).strip().upper()
@@ -42,9 +48,9 @@ def _kod_listesi_excel(dosya_adi, ek="", sutun_adi_varsayilan="Sirket"):
     return sonuc
 
 
-def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx"):
+def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx",endeks="BIST_TUM"):
     """BIST hisseleri: Yahoo Finance'te '.IS' eki gerekiyor (örn: ASELS -> ASELS.IS)."""
-    return _kod_listesi_excel(dosya_adi, ek=".IS")
+    return _kod_listesi_excel(dosya_adi, ek=".IS",endeks=endeks)
 
 def fav_bist_hisseleri_excel(dosya_adi="data/fav_hisse_senetleri.xlsx"):
     """BIST hisseleri: Yahoo Finance'te '.IS' eki gerekiyor (örn: ASELS -> ASELS.IS)."""
@@ -61,21 +67,21 @@ def fon_hisseleri_excel(dosya_adi="data/fon_listesi.xlsx"):
     return _kod_listesi_excel(dosya_adi, ek="")
 
 
-def get_tickers(secim: str, hisse_dosyasi: str = None):
+def get_tickers(secim: str, hisse_dosyasi: str = None, endeks: str = "BIST_TUM"):
     """
     secim: "BIST", "FON" ya da "ABD"
     hisse_dosyasi: Verilmezse her seçim için varsayılan yol kullanılır:
         BIST -> data/hisse_senetleri.xlsx
         FON  -> data/fon_listesi.xlsx
         ABD  -> data/abd_hisseleri.xlsx
-        Favoriler -> data/fav_hisse_senetleri.xlsx
+        BIST FAVORILER -> data/fav_hisse_senetleri.xlsx
     return: (tickers_dict, auto_adjust_bool)
     """
     secim = secim.upper().strip()
     if secim == "BIST":
-        return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx"), True
+        return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx",endeks=endeks), True
     elif secim == "BIST FAVORILER":
-        return bist_hisseleri_excel(hisse_dosyasi or "data/fav_hisse_senetleri.xlsx"), True
+        return fav_bist_hisseleri_excel(hisse_dosyasi or "data/fav_hisse_senetleri.xlsx"), True
     elif secim == "FON":
         return fon_hisseleri_excel(hisse_dosyasi or "data/fon_listesi.xlsx"), False
     elif secim == "ABD":
@@ -828,7 +834,7 @@ def tekil_analiz(kod: str, market_tipi: str = "BIST", period_selection: str = "1
 
 
 def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = None,
-                   parca_boyutu: int = 25):
+                   parca_boyutu: int = 25, endeks: str = "BIST_TUM"):
     """
     secim: "BIST","BIST FAVORILER", "FON" ya da "ABD"
     period_selection: "1d" ya da "1wk"
@@ -837,7 +843,7 @@ def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str =
     max_worker: Hem toplu indirmede hem de eksik kalan varlıkların tekil fallback'inde
                 kaç tanesinin aynı anda (paralel) indirileceği.
     """
-    tickers, auto_adjust = get_tickers(secim, hisse_dosyasi)
+    tickers, auto_adjust = get_tickers(secim, hisse_dosyasi,endeks=endeks)
     if not tickers:
         return None
 
