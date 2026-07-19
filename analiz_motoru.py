@@ -46,6 +46,10 @@ def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx"):
     """BIST hisseleri: Yahoo Finance'te '.IS' eki gerekiyor (örn: ASELS -> ASELS.IS)."""
     return _kod_listesi_excel(dosya_adi, ek=".IS")
 
+def fav_bist_hisseleri_excel(dosya_adi="data/fav_hisse_senetleri.xlsx"):
+    """BIST hisseleri: Yahoo Finance'te '.IS' eki gerekiyor (örn: ASELS -> ASELS.IS)."""
+    return _kod_listesi_excel(dosya_adi, ek=".IS")
+
 
 def abd_hisseleri_excel(dosya_adi="data/abd_hisseleri.xlsx"):
     """ABD hisseleri: Yahoo Finance'te ek gerekmiyor (örn: AAPL -> AAPL)."""
@@ -64,17 +68,20 @@ def get_tickers(secim: str, hisse_dosyasi: str = None):
         BIST -> data/hisse_senetleri.xlsx
         FON  -> data/fon_listesi.xlsx
         ABD  -> data/abd_hisseleri.xlsx
+        Favoriler -> data/fav_hisse_senetleri.xlsx
     return: (tickers_dict, auto_adjust_bool)
     """
     secim = secim.upper().strip()
     if secim == "BIST":
+        return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx"), True
+    elif secim == "BIST FAVORILER":
         return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx"), True
     elif secim == "FON":
         return fon_hisseleri_excel(hisse_dosyasi or "data/fon_listesi.xlsx"), False
     elif secim == "ABD":
         return abd_hisseleri_excel(hisse_dosyasi or "data/abd_hisseleri.xlsx"), True
     else:
-        raise ValueError("Seçim 'BIST', 'FON' ya da 'ABD' olmalı.")
+        raise ValueError("Seçim 'BIST', 'BIST FAVORILER', 'FON' ya da 'ABD' olmalı.")
 
 
 def period_transformer(period_selection):
@@ -823,7 +830,7 @@ def tekil_analiz(kod: str, market_tipi: str = "BIST", period_selection: str = "1
 def rapor_olustur(secim: str, period_selection: str = "1d", hisse_dosyasi: str = None,
                    parca_boyutu: int = 25):
     """
-    secim: "BIST", "FON" ya da "ABD"
+    secim: "BIST","BIST FAVORILER", "FON" ya da "ABD"
     period_selection: "1d" ya da "1wk"
     hisse_dosyasi: Verilmezse get_tickers()'ın varsayılan yolları kullanılır.
     parca_boyutu: Her toplu indirme isteğinde kaç varlığın birlikte indirileceği.

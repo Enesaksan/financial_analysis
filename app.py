@@ -19,7 +19,7 @@ st.title("Hisse & Fon Analiz Raporu")
 
 col1, col2 = st.columns(2)
 with col1:
-    secim = st.selectbox("Analiz Edilecek Alan", ["BIST", "FON", "ABD"])
+    secim = st.selectbox("Analiz Edilecek Alan", ["BIST","BIST FAVORILER", "FON", "ABD"])
 with col2:
     period_secim = st.selectbox(
         "Periyot",
