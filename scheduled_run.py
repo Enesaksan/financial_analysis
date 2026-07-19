@@ -19,11 +19,13 @@ HAFTALIK_CRON = "30 17 * * 5"
 # Zamanlanmış (otomatik) çalışmalarda üretilecek raporlar
 GOREVLER_GUNLUK = [
     ("BIST", "1d"),
+    ("BIST FAVORILER","1d")
     ("FON", "1d"),
     ("ABD", "1d"),
 ]
 GOREVLER_HAFTALIK = [
     ("BIST", "1wk"),
+    ("BIST FAVORILER","1wk")
     ("FON", "1wk"),
     ("ABD", "1wk"),
 ]
@@ -35,7 +37,7 @@ def gorevleri_belirle():
 
     if secim and periyot:
         if secim == "HEPSI":
-            return [("BIST", periyot), ("FON", periyot), ("ABD", periyot)]
+            return [("BIST", periyot),("BIST FAVORILER", periyot), ("FON", periyot), ("ABD", periyot)]
         return [(secim, periyot)]
 
     cron_ifadesi = os.environ.get("GITHUB_SCHEDULE", "").strip()
@@ -45,7 +47,8 @@ def gorevleri_belirle():
 
 
 def kaydet_ve_gecmis(df, secim, period_secim):
-    isim_koku = f"{secim}_{period_transformer(period_secim)}"
+    ek="_BIST_TUM" if secim=="BIST" else ""
+    isim_koku = f"{secim}{ek}_{period_transformer(period_secim)}"
     tarih = datetime.now(TR_TZ).strftime("%Y-%m-%d %H:%M")
 
     latest_yol = os.path.join(RAPOR_KLASORU, f"{isim_koku}_latest.csv")
