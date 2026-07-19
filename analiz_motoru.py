@@ -42,9 +42,9 @@ def _kod_listesi_excel(dosya_adi, ek="", sutun_adi_varsayilan="Sirket"):
     return sonuc
 
 
-def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx",sutun_adi="Sirket"):
+def bist_hisseleri_excel(dosya_adi="data/hisse_senetleri.xlsx"):
     """BIST hisseleri: Yahoo Finance'te '.IS' eki gerekiyor (örn: ASELS -> ASELS.IS)."""
-    return _kod_listesi_excel(dosya_adi, ek=".IS",sutun_adi="Sirket")
+    return _kod_listesi_excel(dosya_adi, ek=".IS")
 
 def fav_bist_hisseleri_excel(dosya_adi="data/fav_hisse_senetleri.xlsx"):
     """BIST hisseleri: Yahoo Finance'te '.IS' eki gerekiyor (örn: ASELS -> ASELS.IS)."""
