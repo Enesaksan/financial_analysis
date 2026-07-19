@@ -68,14 +68,14 @@ def get_tickers(secim: str, hisse_dosyasi: str = None):
         BIST -> data/hisse_senetleri.xlsx
         FON  -> data/fon_listesi.xlsx
         ABD  -> data/abd_hisseleri.xlsx
-        Favoriler -> data/fav_hisse_senetleri.xlsx
+        BIST FAVORILER -> data/fav_hisse_senetleri.xlsx
     return: (tickers_dict, auto_adjust_bool)
     """
     secim = secim.upper().strip()
     if secim == "BIST":
         return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx"), True
     elif secim == "BIST FAVORILER":
-        return bist_hisseleri_excel(hisse_dosyasi or "data/fav_hisse_senetleri.xlsx"), True
+        return fav_bist_hisseleri_excel(hisse_dosyasi or "data/fav_hisse_senetleri.xlsx"), True
     elif secim == "FON":
         return fon_hisseleri_excel(hisse_dosyasi or "data/fon_listesi.xlsx"), False
     elif secim == "ABD":
