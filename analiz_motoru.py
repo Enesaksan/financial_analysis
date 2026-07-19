@@ -75,7 +75,7 @@ def get_tickers(secim: str, hisse_dosyasi: str = None):
     if secim == "BIST":
         return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx"), True
     elif secim == "BIST FAVORILER":
-        return bist_hisseleri_excel(hisse_dosyasi or "data/hisse_senetleri.xlsx"), True
+        return bist_hisseleri_excel(hisse_dosyasi or "data/fav_hisse_senetleri.xlsx"), True
     elif secim == "FON":
         return fon_hisseleri_excel(hisse_dosyasi or "data/fon_listesi.xlsx"), False
     elif secim == "ABD":
