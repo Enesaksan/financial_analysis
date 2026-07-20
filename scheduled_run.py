@@ -21,13 +21,13 @@ GOREVLER_GUNLUK = [
     ("BIST", "1d"),
     ("BIST FAVORILER","1d"),
     ("FON", "1d"),
-    ("ABD", "1d"),
+    ("ABD", "1d")
 ]
 GOREVLER_HAFTALIK = [
     ("BIST", "1wk"),
     ("BIST FAVORILER","1wk"),
     ("FON", "1wk"),
-    ("ABD", "1wk"),
+    ("ABD", "1wk")
 ]
 
 
