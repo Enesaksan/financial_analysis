@@ -126,7 +126,7 @@ if df_goster is not None:
             ]
 
     st.caption(f"Gosterilen satir sayisi: {len(df_filtreli)} / {len(df_goster)}")
-    st.dataframe(df_filtreli, use_container_width=True)
+    st.dataframe(df_filtreli, use_container_width=True, column_config={"EMA_200_Durumu": st.column_config.NumberColumn(format="%.2f%%")})
 
     buffer = io.BytesIO()
     df_filtreli.to_excel(buffer)
