@@ -592,7 +592,7 @@ def ema200_state(df):
     if pd.isna(ema200) or pd.isna(fiyat) or ema200 == 0:
         return "-"
         
-    return round((fiyat / ema200 - 1) * 100,2)
+    return format((fiyat / ema200 - 1) * 100, ".0%")
 
 def destek_direnc_ema(df):
     """
