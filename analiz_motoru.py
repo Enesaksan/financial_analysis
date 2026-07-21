@@ -636,19 +636,18 @@ def destek_direnc_ema(df):
     return " | ".join(parcalar) if parcalar else "-"
 
 def _zigzag_noktalari(df, uzunluk=9):
-    """ZigZag dönüş noktalarını (tepe/dip) tespit eder."""
     high = df['High'].values
     low = df['Low'].values
     n = len(df)
-
     en_yuksek = pd.Series(high).rolling(uzunluk).max().values
     en_dusuk = pd.Series(low).rolling(uzunluk).min().values
-
     to_up = high >= en_yuksek
     to_down = low <= en_dusuk
 
     trend = 1
     pivotlar = []
+    son_to_up_idx = -1    # en son to_up=True olan bar index'i
+    son_to_down_idx = -1  # en son to_down=True olan bar index'i
 
     for i in range(n):
         onceki_trend = trend
@@ -658,15 +657,22 @@ def _zigzag_noktalari(df, uzunluk=9):
             trend = 1
 
         if trend != onceki_trend:
-            pencere_basi = max(0, i - uzunluk + 1)
             if trend == 1:
+                pencere_basi = son_to_up_idx + 1 if son_to_up_idx >= 0 else max(0, i - uzunluk + 1)
                 alt_pencere = low[pencere_basi:i + 1]
                 yerel_idx = pencere_basi + int(np.argmin(alt_pencere))
                 pivotlar.append((yerel_idx, low[yerel_idx], 'L'))
             else:
+                pencere_basi = son_to_down_idx + 1 if son_to_down_idx >= 0 else max(0, i - uzunluk + 1)
                 ust_pencere = high[pencere_basi:i + 1]
                 yerel_idx = pencere_basi + int(np.argmax(ust_pencere))
                 pivotlar.append((yerel_idx, high[yerel_idx], 'H'))
+
+        # Pine'daki [1] kaymasini taklit ediyoruz: bu barin degil, bir onceki barin durumuna bakiyoruz
+        if i > 0 and to_up[i - 1]:
+            son_to_up_idx = i - 1
+        if i > 0 and to_down[i - 1]:
+            son_to_down_idx = i - 1
 
     return pivotlar
 
