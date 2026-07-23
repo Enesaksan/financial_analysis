@@ -40,7 +40,7 @@ ALKLC,401.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yüks
 ALTNY,17.0,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,EMA5 Destek: 16.70 (%1.8 altta),14.21-14.53 (%14.5 altta),-,3.38,55.41,55.9,-0.19
 ALVES,2.48,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟠 Daralıyor,⚪Fiyat Alt_Orta Bant Aralığında,EMA5 Destek: 2.46 (%1.0 altta) | EMA21 Direnç: 2.54 (%2.5 üstte),2.36-2.40 (%3.2 altta),3.72-4.08 (%50.0 üstte),-16.49,40.08,54.75,-0.71
 ANELE,124.5,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yükselişte (SSL Ok Bekleniyor),⚪ Yelpaze Açık,🚨Fiyat Bandın Üzerinde!,EMA5 Destek: 114.89 (%7.7 altta),-,-,137.11,65.34,91.0,0.73
-ANGEN,10.2,-,-,-,-,-,-,-,-,-,-,-,,,
+ANGEN,10.2,🔴 Düşüş Trendinde,🔴 SAT,-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında,EMA5 Direnç: 10.22 (%0.2 üstte),10.11-10.36 (fiyat bandın içinde!),-,-9.65,42.19,22.28,-0.7
 ANHYT,104.0,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,"📉 Düşüş Hazırlığı (50<100 Kesti, 150 Bekleniyor)",🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında,EMA100 Destek: 103.92 (%0.1 altta),73.39-82.77 (%20.4 altta),115.40-120.20 (%11.0 üstte),5.14,55.86,93.88,0.51
 ANSGR,27.14,🔴 Düşüş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🚨 BB SIKIŞMA,⚪Fiyat Alt_Orta Bant Aralığında,EMA200 Destek: 25.39 (%6.5 altta) | EMA100 Direnç: 27.25 (%0.4 üstte),19.30-19.79 (%27.1 altta),-,6.91,41.05,46.76,0.5
 ARASE,121.6,🟢 Yükseliş Trendinde,🔴 SAT,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Normal Genişlik,🟡Fiyat Orta-Üst Bant Aralığında,EMA21 Destek: 120.66 (%0.8 altta) | EMA5 Direnç: 123.15 (%1.3 üstte),48.94-50.81 (%58.2 altta),-,36.21,54.35,20.74,0.65
@@ -147,7 +147,7 @@ CRFSA,160.1,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🟢 EMA Yüks
 CUSAN,26.22,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🟡 Normal Genişlik,🚨Fiyat Bandın Üzerinde!,EMA200 Destek: 25.39 (%3.2 altta),20.50-21.34 (%18.6 altta),36.60-40.84 (%39.6 üstte),3.27,63.14,77.47,0.72
 CVKMD,39.48,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🚀 ASIL SİNYAL: GÜÇLÜ AL (EMA Sıralı + SSL Onay),🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında,EMA21 Destek: 39.19 (%0.7 altta) | EMA55 Direnç: 39.55 (%0.2 üstte),-,-,24.87,49.95,74.23,-0.53
 CWENE,39.44,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,⚪ Karışık / Testere Piyasası,🟠 Daralıyor,🟡Fiyat Orta-Üst Bant Aralığında,EMA55 Destek: 38.27 (%3.0 altta) | EMA21 Direnç: 39.46 (%0.1 üstte),-,-,25.31,50.61,59.89,-0.17
-DAGI,9.7,🟢 Yükseliş Trendinde,🟢 AL (Trend Onaylı),-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),⚪ Yelpaze Açık,🟡Fiyat Orta-Üst Bant Aralığında,EMA5 Destek: 9.58 (%1.2 altta),5.36-5.64 (%41.9 altta),-,29.36,60.55,17.11,-0.37
+DAGI,9.7,-,-,-,-,-,-,-,-,-,-,-,,,
 DAPGM,9.87,🔴 Düşüş Trendinde,🟢 AL (Trend Onaylı),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında,EMA5 Destek: 9.72 (%1.5 altta) | EMA55 Direnç: 10.16 (%2.9 üstte),-,-,-16.58,52.39,94.12,0.59
 DARDL,1.96,🔴 Düşüş Trendinde,🔥 GÜÇLÜ AL (Taze Kırılım),-,-,🔴 Ayı Piyasası (EMA 50 En Altta),🚨 BB SIKIŞMA,🟡Fiyat Orta-Üst Bant Aralığında,EMA5 Destek: 1.94 (%1.2 altta) | EMA21 Direnç: 1.97 (%0.6 üstte),-,2.46-2.54 (%25.5 üstte),-12.73,46.09,84.04,-0.24
 DCTTR,11.9,🔴 Düşüş Trendinde,⏳ BEKLE,-,-,⚠️ Yükseliş Trendinde Düzeltme (SSL Negatif),🟡 Normal Genişlik,⚪Fiyat Alt_Orta Bant Aralığında,EMA100 Destek: 11.68 (%1.9 altta) | EMA5 Direnç: 12.03 (%1.1 üstte),8.33-8.51 (%28.5 altta),-,7.43,42.75,26.38,-0.82
