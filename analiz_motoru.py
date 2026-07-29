@@ -597,7 +597,7 @@ def bb_price_state_ratio(df):
     elif fiyat > bb_alt:
         return 0
     else:
-        return round((fiyat/bb_alt -1)*-100,2)
+        return round((fiyat/bb_alt -1)*100,2)
 
 def ema200_state(df):
     if len(df) < 200:
