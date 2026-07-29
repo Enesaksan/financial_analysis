@@ -572,14 +572,32 @@ def bb_price_state(df):
         return "-"
 
     if fiyat > bb_üst:
-        return f"🚨Fiyat Bandın %{(fiyat/bb_üst -1)*100:.2f} Üzerinde!"
+        return f"🚨Fiyat Bandın Üzerinde!"
     elif fiyat > bb_orta:
         return "🟡Fiyat Orta-Üst Bant Aralığında"
     elif fiyat > bb_alt:
         return "⚪Fiyat Alt_Orta Bant Aralığında"
     else:
-        return f"🚨Fiyat Bandın %{(fiyat/bb_alt -1)*-100:.2f} Altında!"
+        return f"🚨Fiyat Bandın Altında!"
 
+def bb_price_state_ratio(df):
+    if not all(x in df.columns for x in ["BB_ALT","BB_ORTA","BB_UST"]):
+        return "-"
+    
+    bb_alt = df['BB_ALT'].iloc[-1]
+    bb_orta = df['BB_ORTA'].iloc[-1]
+    bb_üst = df['BB_UST'].iloc[-1]
+    fiyat = df["Close"].iloc[-1]
+
+    if pd.isna(bb_alt) or pd.isna(bb_orta) or pd.isna(bb_üst) or pd.isna(fiyat):
+        return "-"
+
+    if fiyat > bb_üst:
+        return round((fiyat/bb_üst -1)*100,2)
+    elif fiyat > bb_alt:
+        return 0
+    else:
+        return round((fiyat/bb_alt -1)*-100,2)
 
 def ema200_state(df):
     if len(df) < 200:
@@ -786,6 +804,7 @@ def _satir_olustur(isim, df):
         "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
         "BB_Sikisma": analiz_bb_sikisma(df),
         "BB_Fiyat_Durum": bb_price_state(df),
+        "BB_Bant_Durum": bb_price_state_ratio(df),
         "Destek_Direnc": destek_direnc_ema(df),
         "Alim_Bandi": alim_bandi,
         "Satim_Bandi": satim_bandi,

@@ -112,7 +112,7 @@ if df_goster is not None:
             if secim_degerleri:
                 df_filtreli = df_filtreli[df_filtreli[sutun].isin(secim_degerleri)]
 
-        sayisal_sutunlar = [c for c in ["EMA_200_Durumu", "RSI", "StochRSI", "TSI"] if c in df_filtreli.columns]
+        sayisal_sutunlar = [c for c in ["BB_Bant_Durumu","EMA_200_Durumu", "RSI", "StochRSI", "TSI"] if c in df_filtreli.columns]
         secili_sayisal = st.multiselect("Aralik ile filtrelemek istedigin sayisal sutunlar", sayisal_sutunlar)
         for sutun in secili_sayisal:
             min_deger = float(df_goster[sutun].min())
@@ -127,6 +127,7 @@ if df_goster is not None:
 
     st.caption(f"Gosterilen satir sayisi: {len(df_filtreli)} / {len(df_goster)}")
     st.dataframe(df_filtreli, use_container_width=True, column_config={"EMA_200_Durumu": st.column_config.NumberColumn(format="%.2f%%")})
+    st.dataframe(df_filtreli, use_container_width=True, column_config={"BB_Bant_Durum": st.column_config.NumberColumn(format="%.2f%%")})
 
     buffer = io.BytesIO()
     df_filtreli.to_excel(buffer)
