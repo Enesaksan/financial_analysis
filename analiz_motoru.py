@@ -572,13 +572,13 @@ def bb_price_state(df):
         return "-"
 
     if fiyat > bb_üst:
-        return f"🚨Fiyat Bandın Üzerinde! Oran: %{((fiyat/bb_üst -1)*100).2f}"
+        return f"🚨Fiyat Bandın Üzerinde! Oran: %{(fiyat/bb_üst -1)*100:.2f}"
     elif fiyat > bb_orta:
         return "🟡Fiyat Orta-Üst Bant Aralığında"
     elif fiyat > bb_alt:
         return "⚪Fiyat Alt_Orta Bant Aralığında"
     else:
-        return f"🚨Fiyat Bandın Altında! Oran: %{((fiyat/bb_alt -1)*-100).2f}"
+        return f"🚨Fiyat Bandın Altında! Oran: %{(fiyat/bb_alt -1)*-100:.2f}"
 
 
 def ema200_state(df):
