@@ -818,7 +818,7 @@ def _satir_olustur(isim, df):
         "Destek_Direnc": destek_direnc_ema(df),
         "Alim_Bandi": alim_bandi,
         "Satim_Bandi": satim_bandi,
-        "EMA_200_Durumu": ema_state(df),
+        "EMAAA": ema_state(df),
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
         "TSI": sr(son.get('TSI'))
