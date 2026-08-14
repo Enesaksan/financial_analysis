@@ -599,7 +599,7 @@ def bb_price_state_ratio(df):
     else:
         return round((fiyat/bb_alt -1)*100,2)
 
-def ema200_state(df):
+def ema_state(df):
     if len(df) < 200:
         return "999"
 
@@ -818,7 +818,7 @@ def _satir_olustur(isim, df):
         "Destek_Direnc": destek_direnc_ema(df),
         "Alim_Bandi": alim_bandi,
         "Satim_Bandi": satim_bandi,
-        "EMA_200_Durumu": ema200_state(df),
+        "EMA_200_Durumu": ema_state(df),
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
         "TSI": sr(son.get('TSI'))
