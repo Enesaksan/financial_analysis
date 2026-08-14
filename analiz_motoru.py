@@ -601,16 +601,26 @@ def bb_price_state_ratio(df):
 
 def ema200_state(df):
     if len(df) < 200:
-        return "-"
+        return "999"
 
     bugun = df.iloc[-1]
-    ema200 = bugun.get('EMA_200')
+    emalar = {
+        'EMA5': bugun.get('EMA_5'),
+        'EMA21': bugun.get('EMA_21'),
+        'EMA55': bugun.get('EMA_55'),
+        'EMA100': bugun.get('EMA_100'),
+        'EMA200': bugun.get('EMA_200'),
+    }
+
+    gecerli_emalar = {isim: deger for isim, deger in emalar.items() if pd.notna(deger)}
+    if not gecerli_emalar:
+        return "999"
+
     fiyat = df["Close"].iloc[-1]
 
-    if pd.isna(ema200) or pd.isna(fiyat) or ema200 == 0:
-        return "-"
+    min_ema = min(gecerli_emalar.values())
         
-    return round((fiyat / ema200 - 1)*100, 2)
+    return round((fiyat / min_ema - 1)*100, 2)
 
 def destek_direnc_ema(df):
     """
