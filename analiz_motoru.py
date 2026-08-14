@@ -807,21 +807,21 @@ def _satir_olustur(isim, df):
         "Varlık": isim,
         "Fiyat": sr(son.get('Close')),
 
-        "Supertrend_Sinyal": analiz_supertrend(df),
-        "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
-        "Hacim_SMI": analiz_hacim_smi(df),
-        "Kombine_Dip": analiz_kombine_dip(df),
-        "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
-        "BB_Sikisma": analiz_bb_sikisma(df),
-        "BB_Fiyat_Durum": bb_price_state(df),
-        "BB_Bant_Durum": bb_price_state_ratio(df),
-        "Destek_Direnc": destek_direnc_ema(df),
-        "Alim_Bandi": alim_bandi,
-        "Satim_Bandi": satim_bandi,
         "EMA_Durumu": ema_state(df),
         "RSI": sr(son.get('RSI')),
         "StochRSI": sr(son.get('STOCH_RSI')),
-        "TSI": sr(son.get('TSI'))
+        "TSI": sr(son.get('TSI')),
+        "SSL&EMA_Sinyal": analiz_ema_ssl_kombine(df),
+        "Tilson_Sinyal": analiz_tilson_alma_fisher(df),
+        "Hacim_SMI": analiz_hacim_smi(df),
+        "Kombine_Dip": analiz_kombine_dip(df),
+        "Supertrend_Sinyal": analiz_supertrend(df),
+        "Alim_Bandi": alim_bandi,
+        "Satim_Bandi": satim_bandi,
+        "BB_Fiyat_Durum": bb_price_state(df),
+        "BB_Sikisma": analiz_bb_sikisma(df),
+        "BB_Bant_Durum": bb_price_state_ratio(df),
+        "Destek_Direnc": destek_direnc_ema(df)
     }
 
 
