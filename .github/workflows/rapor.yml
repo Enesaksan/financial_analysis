@@ -44,9 +44,6 @@ jobs:
 
       - name: Gereksinimleri kur
         run: pip install -r requirements.txt
-        
-      - name: Gereksinimleri kur
-        run: pip install --upgrade --no-cache-dir -r requirements_2.txt
 
       - name: Raporu uret
         env:
