@@ -6,6 +6,9 @@ import numpy as np
 import logging
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from tvDatafeed import TvDatafeed, Interval
+import statistics as stats
+
 
 warnings.filterwarnings('ignore')
 logging.getLogger('yfinance').setLevel(logging.CRITICAL)
@@ -153,6 +156,15 @@ def hesapla_trend_strength_index(df, length=14):
         pass
     return df
 
+def tv_bb_data(df):
+
+    tv = TvDatafeed()
+
+    df_2 = tv.get_hist(df, exchange='BIST', interval=Interval.in_daily, n_bars=20)
+
+    return round(df_2["close"].mean()-2*stats.pstdev(df_2["close"]),2)    
+
+
 
 def hesapla_ssl_hybrid(df, base_len=60, exit_len=15):
     try:
@@ -268,6 +280,7 @@ def _indikatorler_ekle(df):
     df = hesapla_tilson_t3(df, length=4, b=0.7)
     df = hesapla_ssl_hybrid(df, base_len=60, exit_len=15)
     df = hesapla_trend_strength_index(df, length=14)
+    df = tv_bb_data(df)
     df['Vol_SMA_20'] = df['Volume'].rolling(window=20).mean()
 
     return df
@@ -582,13 +595,6 @@ def bb_price_state(df):
 
 
 def tv(df):
-    from tvDatafeed import TvDatafeed, Interval
-    import statistics as stats
-
-    tv = TvDatafeed()
-
-    df = tv.get_hist(df, exchange='BIST', interval=Interval.in_daily, n_bars=20)
-
     return round(df["close"].mean()-2*stats.pstdev(df["close"]),2)    
 
 def bb_price_state_ratio(df):
