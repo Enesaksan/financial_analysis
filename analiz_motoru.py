@@ -585,13 +585,11 @@ def tv(df):
     from tvDatafeed import TvDatafeed, Interval
     import statistics as stats
 
-    # Giriş yapmadan anonim olarak kullanabilirsiniz
     tv = TvDatafeed()
 
-    # BIST'ten THYAO'nun son 30 günlük gerçek verisini çekelim
-    df_gercek = tv.get_hist(symbol='MEGMT', exchange='BIST', interval=Interval.in_daily, n_bars=20)
+    df = tv.get_hist(df, exchange='BIST', interval=Interval.in_daily, n_bars=20)
 
-    print(round(df_gercek["close"].mean()-2*stats.pstdev(df_gercek["close"]),2))        
+    return round(df["close"].mean()-2*stats.pstdev(df["close"]),2)    
 
 def bb_price_state_ratio(df):
     if not all(x in df.columns for x in ["BB_ALT","BB_ORTA","BB_UST"]):
