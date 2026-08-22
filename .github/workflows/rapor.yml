@@ -43,7 +43,7 @@ jobs:
           cache: 'pip'
 
       - name: Gereksinimleri kur
-        run: pip install requirements.txt
+        run: pip install -r requirements.txt
 
       - name: Raporu uret
         env:
