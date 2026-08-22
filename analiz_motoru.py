@@ -6,7 +6,7 @@ import numpy as np
 import logging
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from tvDatafeed import TvDatafeed, Interval
+import tvDatafeed
 import statistics as stats
 
 
