@@ -1,8 +1,8 @@
--r streamlit
--r yfinance
--r pandas
--r pandas-ta-classic
--r numpy
--r openpyxl
--r tzdata
---upgrade --no-cache-dir git+https://github.com/rongardF/tvdatafeed.git
+streamlit
+yfinance
+pandas
+pandas-ta-classic
+numpy
+openpyxl
+tzdata
+tvDatafeed
